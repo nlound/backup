@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Sensor: Temperatura</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <script src='http://localhost:3000/socket.io/socket.io.js' type="text/javascript" charset="utf-8"></script>
+    <script src='libs/jquery-1.11.1.min.js' type="text/javascript" charset="utf-8"></script>
+    <script src='libs/d3.v3.min.js' type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="css/presentacion.css?v=0.1">
+</head>
+
+<body>
+<div id="wrapper">
+        <div id="contentliquid">
+            <div id="content">
+                <div id="fiebre" class="fiebre"></div>
+                <div id="fiebre-sonido" class="fiebre"></div>
+            </div>
+        </div>
+        <div id="leftcolumn">
+            <div id="arcHum" class="arco">Dashboard</div>
+            <div id="arcTemp" class="arco"></div>
+        </div>
+</div>
+<script src='js/temperatura.js' type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

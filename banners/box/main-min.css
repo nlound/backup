@@ -1,0 +1,222 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+html {
+  font-size: 1em; }
+
+body {
+  font-size: 100%; }
+
+a img, :link img, :visited img {
+  border: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+.alpha-0 {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; }
+
+.invisible {
+  visibility: hidden; }
+
+.none {
+  display: none; }
+
+.offstage {
+  position: absolute;
+  left: -4000px;
+  top: -4000px; }
+
+.gpu {
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0); }
+
+.smooth-animation {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateZ(0) rotate(0.1deg);
+          transform: translateZ(0) rotate(0.1deg); }
+
+.transform-reset {
+  -webkit-transform: none !important;
+          transform: none !important; }
+
+/* Utilities
+ * -------------------------------------------------------
+ */
+/* Ad content
+ * -------------------------------------------------------
+ */
+#ad_content {
+  background: black;
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  width: 970px;
+  height: 415px; }
+  #ad_content div, #ad_content img, #ad_content p, #ad_content svg {
+    position: absolute;
+    zoom: 1; }
+
+#blackCover {
+  width: 970px;
+  height: 415px;
+  background: black; }
+
+#hollo {
+  right: 0; }
+
+#legal {
+  left: 15px;
+  top: 395px; }
+
+#aldovs {
+  left: 318px;
+  top: 171px;
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1); }
+  #aldovs #vs {
+    left: 50px;
+    top: 5px; }
+  #aldovs #vshollo {
+    left: 69px; }
+
+#unframed {
+  left: 373px;
+  top: 214px; }
+
+#streaming {
+  left: 270px;
+  top: 267px; }
+
+#samsung_vr_logo {
+  left: 568px;
+  top: 255px; }
+
+#device {
+  left: 313px;
+  top: 126px; }
+
+#cta {
+  width: 88px;
+  height: 21px;
+  left: 438px;
+  top: 340px;
+  border: 1px solid #ccb54c;
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7); }
+  #cta #cta_txt {
+    -webkit-transform: translate(8px, 6px);
+            transform: translate(8px, 6px); }
+
+.backup {
+  position: absolute;
+  background: url("backup.jpg") no-repeat;
+  left: 0;
+  top: 0;
+  width: 970px;
+  height: 415px; }
+
+.sprite-png{
+  background-image: url('spritesheet.png');
+}
+
+.aldo {
+  background-position: 0px -421px;
+  width: 248px;
+  height: 415px;
+}
+.close {
+  background-position: -943px -421px;
+  width: 20px;
+  height: 20px;
+}
+.device {
+  background-position: -508px -421px;
+  width: 342px;
+  height: 154px;
+}
+.fighters_grad {
+  background-position: 0px 0px;
+  width: 970px;
+  height: 415px;
+}
+.gear_vr_logo {
+  background-position: -856px -421px;
+  width: 81px;
+  height: 41px;
+}
+.hollo {
+  background-position: -254px -421px;
+  width: 248px;
+  height: 415px;
+}
+.samsung_vr_logo {
+  background-position: -508px -627px;
+  width: 136px;
+  height: 45px;
+}
+.unframed {
+  background-position: -508px -581px;
+  width: 238px;
+  height: 40px;
+}
+
+
+.sprite-svg {
+	background: url("svgsprite.svg") no-repeat;
+}
+
+.legal {
+	background-position: 0 35.95156783607575%;
+	width: 240.58px;
+	height: 10.58px;
+}
+
+.on {
+	background-position: 51.836298670202964% 52.81778334376956%;
+	width: 20.53px;
+	height: 11.12px;
+}
+
+.streaming {
+	background-position: 0 0;
+	width: 291.03px;
+	height: 23.16px;
+}
+
+.ufc_logo {
+	background-position: 0 99.7897151596253%;
+	width: 31px;
+	height: 22.69px;
+}
+
+.vs {
+	background-position: 11.120677285119816% 83.54673495518566%;
+	width: 13.24px;
+	height: 12.52px;
+}
+
+.vsaldo {
+	background-position: 38.735674077673835% 59.67456667845773%;
+	width: 45.07px;
+	height: 18.46px;
+}
+
+.vshollo {
+	background-position: 0 59.67456667845773%;
+	width: 95.65px;
+	height: 18.46px;
+}
+

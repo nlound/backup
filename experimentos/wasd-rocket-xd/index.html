@@ -1,0 +1,298 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>WASD Rocket</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <style>
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        border: 1px solid red;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* ELEMENTOS */
+
+    #rocket {
+        width: 17px;
+        height: 49px;
+        background-image: url("rocket.png");
+        z-index: 999;
+        -webkit-animation: rocket .3s steps(4) infinite;
+        -moz-animation: rocket .3s steps(4) infinite;
+        -ms-animation: rocket .3s steps(4) infinite;
+        -o-animation: rocket .3s steps(4) infinite;
+        animation: rocket .3s steps(4) infinite;
+        transition: transform 230ms ease-in-out;
+    }
+    
+    #stars,
+    #twinkling {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    #stars {
+        background: #000 url(stars.png) repeat top center;
+        z-index: 0;
+    }
+    
+    #twinkling {
+        background: transparent url(twinkling.png) repeat top center;
+        z-index: 1;
+        -moz-animation: twink 1200s linear infinite;
+        -ms-animation: twink 1200s linear infinite;
+        -o-animation: twink 1200s linear infinite;
+        -webkit-animation: twink 1200s linear infinite;
+        animation: twink 1200s linear infinite;
+    }
+
+    /* clases */
+
+
+
+    .left {
+        -moz-transform: rotate(-90deg);
+        transform: rotate(-90);
+    }
+    
+    .right {
+        -moz-transform: rotate(90deg);
+        transform: rotate(90);
+    }
+    
+    .up {
+        -moz-transform: rotate(0deg);
+        transform: rotate(0);
+    }
+    
+    .down {
+        -moz-transform: rotate(180deg);
+        transform: rotate(180);
+    }
+
+    .starsUp{
+        -moz-animation: starsUp 200s linear infinite;
+        -ms-animation: starsUp 200s linear infinite;
+        -o-animation: starsUp 200s linear infinite;
+        -webkit-animation: starsUp 200s linear infinite;
+        animation: starsUp 200s linear infinite;        
+    }
+    .starsRight{
+        -moz-animation: starsRight 200s linear infinite;
+        -ms-animation: starsRight 200s linear infinite;
+        -o-animation: starsRight 200s linear infinite;
+        -webkit-animation: starsRight 200s linear infinite;
+        animation: starsRight 200s linear infinite;        
+
+    }
+    .starsDown{
+        -moz-animation: starsDown 200s linear infinite;
+        -ms-animation: starsDown 200s linear infinite;
+        -o-animation: starsDown 200s linear infinite;
+        -webkit-animation: starsDown 200s linear infinite;
+        animation: starsDown 200s linear infinite;        
+    }
+    .starsLeft{
+        -moz-animation: starsLeft 200s linear infinite;
+        -ms-animation: starsLeft 200s linear infinite;
+        -o-animation: starsLeft 200s linear infinite;
+        -webkit-animation: starsLeft 200s linear infinite;
+        animation: starsLeft 200s linear infinite;        
+    }
+
+ 
+    
+
+    /*
+    *  Keyframes 
+    */
+
+    @-webkit-keyframes rocket {
+        from { background-position: 0px; }
+        to { background-position: -76px; }
+    }
+    
+    @-moz-keyframes rocket {
+        from { background-position: 0px; }
+        to { background-position: -76px; }
+    }
+    
+    @-ms-keyframes rocket {
+        from { background-position: 0px; }
+        to { background-position: -76px; }
+    }
+    
+    @-o-keyframes rocket {
+        from { background-position: 0px; }
+        to { background-position: -76px; }
+    }
+    
+    @keyframes rocket {
+        from { background-position: 0px; }
+        to { background-position: -76px; }
+    }
+
+    
+    @keyframes starsUp {
+        from { background-position: 0 0; }
+        to { background-position: 0px 10000px; }
+    }
+    
+    @-webkit-keyframes starsUp {
+        from { background-position: 0 0; }
+        to { background-position: 0px 10000px; }
+    }
+    
+    @-moz-keyframes starsUp {
+        from { background-position: 0 0; }
+        to { background-position: 0px 10000px; }
+    }
+    
+    @-ms-keyframes starsUp {
+        from { background-position: 0 0; }
+        to { background-position: 0px 10000px;}
+    }
+
+    @keyframes starsDown {
+        from { background-position: 0 0; }
+        to { background-position: 0px -10000px; }
+    }
+    
+    @-webkit-keyframes starsDown {
+        from { background-position: 0 0; }
+        to { background-position: 0px -10000px; }
+    }
+    
+    @-moz-keyframes starsDown {
+        from { background-position: 0 0; }
+        to { background-position: 0px -10000px; }
+    }
+    
+    @-ms-keyframes starsDown {
+        from { background-position: 0 0; }
+        to { background-position: 0px -10000px; }
+    }
+
+
+    @keyframes starsRight {
+        from { background-position: 0 0; }
+        to { background-position: -10000px 0px; }
+    }
+    
+    @-webkit-keyframes starsRight {
+        from { background-position: 0 0; }
+        to { background-position: -10000px 0px; }
+    }
+    
+    @-moz-keyframes starsRight {
+        from { background-position: 0 0; }
+        to { background-position: -10000px 0px; }
+    }
+    
+    @-ms-keyframes starsRight {
+        from { background-position: 0 0; }
+        to { background-position: -10000px 0px; }
+    }
+
+
+
+
+    @keyframes starsLeft {
+        from { background-position: 0 0; }
+        to { background-position: 10000px 0px; }
+    }
+    
+    @-webkit-keyframes starsLeft {
+        from { background-position: 0 0; }
+        to { background-position: 10000px 0px; }
+    }
+    
+    @-moz-keyframes starsLeft {
+        from { background-position: 0 0; }
+        to { background-position: 10000px 0px; }
+    }
+    
+    @-ms-keyframes starsLeft {
+        from { background-position: 0 0; }
+        to { background-position: 10000px 0px; }
+    }
+
+
+    
+    @keyframes twink {
+        from { background-position: 0 0; }
+        to { background-position: 100000px 0px; }
+    }
+    
+    @-webkit-keyframes twink {
+        from { background-position: 0 0; }
+        to { background-position: 100000px 0px; }
+    }
+    
+    @-moz-keyframes twink {
+        from { background-position: 0 0; }
+        to { background-position: 100000px 0px; }
+    }
+    
+    @-ms-keyframes twink {
+        from { background-position: 0 0; }
+        to { background-position: 100000px 0px; }
+    }
+    </style>
+</head>
+
+<body>
+    <div id="stars" class="starsUp"></div>
+    <div id="twinkling"></div>
+    <div id="rocket"> </div>
+</body>
+<script>
+
+
+
+document.onkeypress = callKey;
+
+
+function callKey(e) {
+    var rocket = document.getElementById("rocket");
+    var stars = document.getElementById("stars");
+
+    e = e || window.event;
+    var charCode = (typeof e.which != "number") ? e.which : e.keyCode;
+    console.log (charCode);
+    switch (charCode) {
+        case 119:
+            rocket.className = "up";
+            stars.className = "starsUp"
+            break;
+        case 100:
+            rocket.className = "right";
+            stars.className = "starsRight"
+            break;
+        case 115:
+            rocket.className = "down";
+            stars.className = "starsDown"
+            break;
+        case 97:
+            rocket.className = "left";
+            stars.className = "starsLeft"
+            break;
+    }
+};
+</script>

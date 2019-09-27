@@ -1,0 +1,38 @@
+extends ../templates/layout.pug
+
+block includes
+  include ../components/header/header.pug
+  include ../components/userInfo/userInfo.pug
+  include ../components/animation/animation.pug
+  include ../components/playlist/playlist.pug
+  include ../components/footer/footer.pug
+  include ../components/errorScreens/errorScreens.pug
+  include ../components/tooltip/tooltip.pug
+  include ../components/ogcards/ogcards.pug
+  include ../components/analytics/analytics.pug
+
+
+
+block title
+  title Verizon
+  script(src="https://platform.twitter.com/widgets.js" )
+  +ogCards()
+
+block styles
+  link(rel="stylesheet" type="text/css" href="assets/css/styles.css")
+
+block components
+  +errorScreens()
+  #app.vzn-tbny.alpha-0
+    +header()
+    +userInfo()
+    .content
+      +animation()
+      +playlist()
+      +tooltip()
+      +footer()
+
+block scripts
+  +analytics()
+  script(src="assets/js/libs.js")
+  script(src="assets/js/tbnyapp.min.js")

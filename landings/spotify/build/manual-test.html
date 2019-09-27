@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://respframework.verizon.com/vzrf/2-16-0/stylesheets/complete/vzrf.min-blessed1.css?z=1450274510218" rel="stylesheet" type="text/css">
+    <title>Verizon</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <style>body, html { overflow: scroll !important; }</style>
+  </head>
+  <body>
+    <div class="vzn-tbny manual-test">
+      <div class="header">
+        <div class="logo" id="logo-track"><a href="https://www.verizonwireless.com/" target="_blank"><img src="assets/svg/logo.svg"/></a></div>
+        <div class="share-bar none">
+          <div id="fb-root"></div>
+          <div id="url-text-share">Copied</div>
+          <div class="url-share" id="url-share" data-clipboard-text="http://vzw.com/streamline"></div><a id="twitter-share" href="https://twitter.com/intent/tweet?text=Turn%20wait%20time%20into%20stream%20time.%20Discover%20the%20mood%20of%20the%20city%20with%20dynamic%20playlists%20created%20in%20real-time.%20&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.verizonwireless.com%2Fstreamline" data-size="small"></a>
+          <div id="facebook-share"></div>
+        </div>
+      </div>
+      <div class="title test">TBNY Manual Test</div>
+      <div class="user-info playlist">
+        <p>
+          <label for="borough">Borough:</label>
+          <select name="borough" id="borough">
+            <option value="MT">Manhattan</option>
+            <option value="BK">Brooklyn</option>
+            <option value="QU">Queens</option>
+            <option value="BX">The Bronx</option>
+            <option value="SI">Staten Island</option>
+          </select>
+        </p>
+        <p>
+          <label for="day">Day:</label>
+          <select name="day" id="day">
+            <option value="WD">Weekday</option>
+            <option value="WE">Weekend</option>
+          </select>
+        </p>
+        <p>
+          <label for="time">Time:</label>
+          <select name="time" id="time">
+            <option value="Day">Day</option>
+            <option value="Eve">Evening</option>
+            <option value="Late">Late Night</option>
+          </select>
+        </p>
+        <p>
+          <label for="weather">Weather:</label>
+          <select name="weather" id="weather">
+            <option value="Sun">Sunny</option>
+            <option value="Clear">Clear</option>
+            <option value="Dreary">Dreary</option>
+          </select>
+        </p>
+        <p>Test Name: <span id="testName">-</span></p>
+        <p>Playlist URL: <span id="playlist">-</span><br><br>
+          <button class="testBtn getplaylist" type="button" id="getPlaylist">Get Playlist</button>
+        </p>
+      </div>
+      <div class="status none"><div class="lds-facebook"><div></div><div></div><div></div></div>
+        <div class="status-text"><span id="status">Requesting Playlist URL, please wait ...</span></div>
+      </div>
+      <div class="alpha-0" id="footer">
+        <div class="bottom-title-area"><span>NY living demands the best network.</span></div>
+        <div class="cta-area">
+          <div class="cta-text">Mix and match the perfect<br>unlimited family plan</div>
+          <div class="cta" id="cta-track"><a href="https://www.verizonwireless.com/plans" target="_blank">
+              <div class="cta-button">Learn More </div></a></div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/manual-test.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <style>
+
+    html,
+    body {
+        background-color: #000000;
+    }
+
+    html,
+    body,
+    #trazados{
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        top: 0; 
+        left: 0;
+        position: absolute;
+    }
+    
+    .wave {
+        top: 0px;
+        height: 100%;
+        position: fixed;
+        pointer-events: none;
+        transform: translateX(-50%);
+        animation: grow 1000ms ease-out;
+    }
+
+    @keyframes grow {
+        from {
+            width: 1px;
+        }
+        to {
+            width: 50px;
+            opacity: 0;
+        }
+    }
+
+    </style>
+</head>
+
+<body>
+    <div id="trazados"> </div>
+    <script>
+    var colores = [Math.round( Math.random()*256),Math.round( Math.random()*256),Math.round( Math.random()*256)];  
+
+    document.addEventListener("mousemove", function(event) {
+
+        var back = ""; 
+        var innerDiv = document.createElement('div');
+
+        for (var i = 0; i < colores.length; i++){
+                var color = colores[i];
+                color ++;
+                if (color > 256){
+                    color = 0; 
+                }
+                colores[i] = color;
+        }
+
+        for (var i = 0; i < colores.length; i++){
+            back += colores[i] +",";
+        }
+        
+        innerDiv.className = 'wave';
+        innerDiv.setAttribute("style", "left:" + (event.clientX) + "px; background-color: rgba("+ back +"1);");
+        document.getElementById('trazados').appendChild(innerDiv);
+
+        innerDiv.addEventListener("animationend" , function(event){
+            innerDiv.remove();
+        })
+    });
+
+    </script>
+</body>

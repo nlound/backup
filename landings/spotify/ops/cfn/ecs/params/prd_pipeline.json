@@ -1,0 +1,17 @@
+{
+    "ec2_key_pair_name": "vz-tbny-spotify-prd",
+    "image_name": "vz/vz-tbny-spotify",
+    "aws_accountid": "004218698793",
+    "repository_create": "no",
+    "environment": "prd",
+    "aws_region": "us-east-1",
+    "stack_name": "vz-tbny-spotify",
+    "ecsify_root": "/home/keith/repos/gitlab/aws/ecs-ify/ecsify",
+    "cwd": "/home/keith/repos/gitlab/group5/vz-tbny-spotify",
+    "ecs_repository": "004218698793.dkr.ecr.us-east-1.amazonaws.com",
+    "image_version": "0.01",
+    "ec2_key_pair_create": "yes",
+    "aws_profile": "verizon",
+    "production_ready": "",
+    "image_version_create": "no"
+}

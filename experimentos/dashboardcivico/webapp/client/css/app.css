@@ -1,0 +1,339 @@
+@import url(bootstrap.min.css);
+@font-face {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/gotham.eot?#iefix") format("embedded-opentype"), url("/fonts/gotham.woff2") format("woff2"), url("/fonts/gotham.woff") format("woff"), url("/fonts/gotham.ttf") format("truetype"), url("/fonts/gotham.svg#Gotham") format("svg"); }
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/OpenSans.eot?#iefix") format("embedded-opentype"), url("/fonts/OpenSans.woff2") format("woff2"), url("/fonts/OpenSans.woff") format("woff"), url("/fonts/OpenSans.ttf") format("truetype"), url("/fonts/OpenSans.svg#Open Sans") format("svg"); }
+@font-face {
+  font-family: "PFDinTextCondPro-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/PFDinTextCondPro-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/PFDinTextCondPro-Medium.woff2") format("woff2"), url("/fonts/PFDinTextCondPro-Medium.woff") format("woff"), url("/fonts/PFDinTextCondPro-Medium.ttf") format("truetype"), url("/fonts/PFDinTextCondPro-Medium.svg#PFDinTextCondPro-Medium") format("svg"); }
+@font-face {
+  font-family: "PFDinDisplayPro-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/PFDinDisplayPro-Black.eot?#iefix") format("embedded-opentype"), url("/fonts/PFDinDisplayPro-Black.woff2") format("woff2"), url("/fonts/PFDinDisplayPro-Black.woff") format("woff"), url("/fonts/PFDinDisplayPro-Black.ttf") format("truetype"), url("/fonts/PFDinDisplayPro-Black.svg#PFDinDisplayPro-Black") format("svg"); }
+@font-face {
+  font-family: "PFDinDisplayPro-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/PFDinDisplayPro-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/PFDinDisplayPro-Medium.woff2") format("woff2"), url("/fonts/PFDinDisplayPro-Medium.woff") format("woff"), url("/fonts/PFDinDisplayPro-Medium.ttf") format("truetype"), url("/fonts/PFDinDisplayPro-Medium.svg#PFDinDisplayPro-Medium") format("svg"); }
+@keyframes dataScrollSmall {
+  0% {
+    top: 200px; }
+  1% {
+    top: 200px; }
+  10% {
+    top: 0; }
+  20% {
+    top: 0; }
+  40% {
+    top: -200px; }
+  50% {
+    top: -200px; }
+  70% {
+    top: -400px; }
+  80% {
+    top: -400px; }
+  100% {
+    top: -600px; } }
+@keyframes dataScrollBig {
+  0% {
+    top: 136px; }
+  1% {
+    top: 136px; }
+  10% {
+    top: 0; }
+  20% {
+    top: 0; }
+  40% {
+    top: -136px; }
+  50% {
+    top: -136px; }
+  70% {
+    top: -272px; }
+  80% {
+    top: -272px; }
+  100% {
+    top: -408px; } }
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  background: url("/images/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #ffffff;
+  font-size: 1em;
+  display: table-cell;
+  vertical-align: bottom;
+  font-family: "PFDinDisplayPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1; }
+
+#controles {
+  color: #000000;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  opacity: 0.2; }
+  #controles div {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    cursor: pointer; }
+  #controles div:hover {
+    background-color: rgba(255, 255, 255, 0.5); }
+  #controles .play {
+    background: url("/images/icons/play.svg") no-repeat center; }
+  #controles .pause {
+    background: url("/images/icons/pause.svg") no-repeat center; }
+  #controles .next {
+    background: url("/images/icons/next.svg") no-repeat center; }
+
+#dashboard {
+  opacity: 0.8;
+  position: absolute;
+  bottom: 20px;
+  left: 20px; }
+  #dashboard .cajaAnimacion {
+    position: relative;
+    top: 10px;
+    overflow: hidden; }
+  #dashboard .animadoSmall {
+    -webkit-animation: dataScrollSmall 9s infinite ease-in-out;
+    animation: dataScrollSmall 9s infinite ease-in-out;
+    position: relative; }
+  #dashboard .animadoBig {
+    -webkit-animation: dataScrollBig 9s infinite ease-in-out;
+    animation: dataScrollBig 9s infinite ease-in-out;
+    position: relative; }
+  #dashboard .dato {
+    font-family: "PFDinTextCondPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  #dashboard .good, #dashboard .green, #dashboard .fluido {
+    color: #40ff89; }
+  #dashboard .bad, #dashboard .lento, #dashboard .demorado, #dashboard .congestionado {
+    color: #ff4040; }
+  #dashboard .fila {
+    height: 170px;
+    display: table;
+    border-spacing: 10px; }
+  #dashboard .caja {
+    display: table-cell;
+    padding-right: 30px; }
+  #dashboard .larga {
+    width: 300px; }
+  #dashboard .item {
+    width: 95vw; }
+  #dashboard #horalugar .hora {
+    font-size: 1.5em;
+    text-align: right; }
+  #dashboard #horalugar .titulo {
+    font-family: "PFDinDisplayPro-Black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 8em;
+    padding: 5px; }
+  #dashboard #horalugar .descripcion {
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 1em;
+    padding: 5px; }
+  #dashboard #climaExterno .dato {
+    padding-right: 30px; }
+  #dashboard #climaExterno,
+  #dashboard #climaInterno,
+  #dashboard #calidadAire {
+    max-height: 120px;
+    display: block;
+    overflow: hidden; }
+    #dashboard #climaExterno .etiqueta,
+    #dashboard #climaInterno .etiqueta,
+    #dashboard #calidadAire .etiqueta {
+      font-size: 1em; }
+    #dashboard #climaExterno .dato,
+    #dashboard #climaInterno .dato,
+    #dashboard #calidadAire .dato {
+      font-size: 7em; }
+    #dashboard #climaExterno .sup,
+    #dashboard #climaInterno .sup,
+    #dashboard #calidadAire .sup {
+      font-size: 0.3em;
+      position: relative;
+      top: -56px; }
+    #dashboard #climaExterno #icono,
+    #dashboard #climaInterno #icono,
+    #dashboard #calidadAire #icono {
+      text-align: center;
+      height: 70px;
+      width: 80px; }
+    #dashboard #climaExterno .arriba,
+    #dashboard #climaInterno .arriba,
+    #dashboard #calidadAire .arriba {
+      vertical-align: top; }
+    #dashboard #climaExterno #cielo,
+    #dashboard #climaInterno #cielo,
+    #dashboard #calidadAire #cielo {
+      text-align: center;
+      font-size: 1.5em; }
+    #dashboard #climaExterno .diadespejado,
+    #dashboard #climaInterno .diadespejado,
+    #dashboard #calidadAire .diadespejado {
+      background: url("/images/icons/dia_despejado.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .nochedespejada,
+    #dashboard #climaInterno .nochedespejada,
+    #dashboard #calidadAire .nochedespejada {
+      background: url("/images/icons/noche_despejado.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .lluvia,
+    #dashboard #climaInterno .lluvia,
+    #dashboard #calidadAire .lluvia {
+      background: url("/images/icons/lluvia.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .nieve,
+    #dashboard #climaInterno .nieve,
+    #dashboard #calidadAire .nieve {
+      background: url("/images/icons/nieve.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .aguanieve,
+    #dashboard #climaInterno .aguanieve,
+    #dashboard #calidadAire .aguanieve {
+      background: url("/images/icons/aguanieve.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .viento,
+    #dashboard #climaInterno .viento,
+    #dashboard #calidadAire .viento {
+      background: url("/images/icons/viento.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .niebla,
+    #dashboard #climaInterno .niebla,
+    #dashboard #calidadAire .niebla {
+      background: url("/images/icons/niebla.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .nublado,
+    #dashboard #climaInterno .nublado,
+    #dashboard #calidadAire .nublado {
+      background: url("/images/icons/nublado.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .diaparcialmentenublado,
+    #dashboard #climaInterno .diaparcialmentenublado,
+    #dashboard #calidadAire .diaparcialmentenublado {
+      background: url("/images/icons/parcialmente_nublado.svg") no-repeat center;
+      background-size: cover; }
+    #dashboard #climaExterno .nocheparcialmentenublada,
+    #dashboard #climaInterno .nocheparcialmentenublada,
+    #dashboard #calidadAire .nocheparcialmentenublada {
+      background: url("/images/icons/parcialmente_nublado_noche.svg") no-repeat center;
+      background-size: cover; }
+  #dashboard #consumoenergetico .big {
+    float: left; }
+  #dashboard #consumoenergetico .small {
+    left: 40px;
+    float: left; }
+  #dashboard #consumoenergetico .etiquetaTipoDeDato {
+    opacity: 0.8;
+    font-size: 0.2em;
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    top: 10px; }
+    #dashboard #consumoenergetico .etiquetaTipoDeDato .label {
+      color: #000000;
+      background-color: #ffffff; }
+  #dashboard #consumoenergetico .datoGrande {
+    font-size: 8em;
+    padding-right: 30px; }
+  #dashboard #consumoenergetico .datoChico {
+    font-size: 3.7em; }
+  #dashboard #subtesChico {
+    max-height: 150px;
+    display: block;
+    overflow: hidden;
+    width: 440px; }
+    #dashboard #subtesChico .cajaSubte {
+      width: 180px;
+      display: flex;
+      max-height: 30px; }
+    #dashboard #subtesChico .cajaSubte:nth-child(n+5) {
+      position: relative;
+      top: -118px;
+      left: 180px; }
+    #dashboard #subtesChico .mensaje {
+      display: block;
+      margin-top: 10px; }
+    #dashboard #subtesChico .mensajeSubte {
+      display: inline-block;
+      font-size: 0.9em; }
+    #dashboard #subtesChico .linea {
+      font-size: 1.7em;
+      width: 20px; }
+    #dashboard #subtesChico .estado {
+      display: table;
+      font-size: 0.8em;
+      position: relative;
+      left: 10px;
+      width: 100%;
+      top: -3px;
+      height: 30px; }
+  #dashboard #estacionbici .etiqueta {
+    font-size: 1em; }
+  #dashboard #estacionbici .dato {
+    text-align: center;
+    font-size: 7em; }
+  #dashboard #estacionbici .estacion {
+    font-size: 0.8em;
+    text-align: center; }
+  #dashboard #estacionbici .referencia {
+    background-color: #fff;
+    bottom: 30px;
+    color: #000;
+    font-size: 0.2em;
+    opacity: 0.8;
+    position: relative;
+    text-align: center; }
+  #dashboard #distancias {
+    max-height: 150px;
+    display: block;
+    overflow: hidden; }
+    #dashboard #distancias .etiqueta {
+      font-size: 1em; }
+    #dashboard #distancias .dato {
+      font-size: 7em;
+      padding-bottom: 20px; }
+    #dashboard #distancias .referencia {
+      background-color: #fff;
+      bottom: 30px;
+      color: #000;
+      font-size: 0.2em;
+      opacity: 0.8;
+      position: relative;
+      text-align: center; }
+  #dashboard #ausa, #dashboard #trafico_avIndep {
+    max-height: 150px;
+    display: block;
+    overflow: hidden; }
+    #dashboard #ausa .cajaDato, #dashboard #trafico_avIndep .cajaDato {
+      height: 150px;
+      overflow: hidden;
+      margin: 3em auto; }
+    #dashboard #ausa .etiqueta, #dashboard #trafico_avIndep .etiqueta {
+      font-size: 1em; }
+    #dashboard #ausa .dato, #dashboard #trafico_avIndep .dato {
+      background-color: #fff;
+      color: #000;
+      font-size: 1em;
+      opacity: 0.8;
+      text-align: center; }
+    #dashboard #ausa .referencia, #dashboard #trafico_avIndep .referencia {
+      font-size: 1em;
+      padding-bottom: 20px;
+      text-align: center; }
+
+/*# sourceMappingURL=app.css.map */

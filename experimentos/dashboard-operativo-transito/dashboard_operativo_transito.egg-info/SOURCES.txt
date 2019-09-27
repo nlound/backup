@@ -1,0 +1,7 @@
+setup.py
+dashboard_operativo_transito.egg-info/PKG-INFO
+dashboard_operativo_transito.egg-info/SOURCES.txt
+dashboard_operativo_transito.egg-info/dependency_links.txt
+dashboard_operativo_transito.egg-info/pbr.json
+dashboard_operativo_transito.egg-info/requires.txt
+dashboard_operativo_transito.egg-info/top_level.txt

@@ -1,0 +1,118 @@
+[
+    {
+        "ParameterKey": "ContainerTargetPathPattern",
+        "ParameterValue": "/*"
+    },
+    {
+        "ParameterKey": "BuildDate",
+        "ParameterValue": "20180702141611"
+    },
+    {
+        "ParameterKey": "BuildVersion",
+        "ParameterValue": "0.01"
+    },
+    {
+        "ParameterKey": "ClusterDesiredSize",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "AllowHTTP",
+        "ParameterValue": "170.200.72.4/32"
+    },
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": "vz-tbny-spotify-dev"
+    },
+    {
+        "ParameterKey": "SSLCertificateId",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ContainerHealthCheckPath",
+        "ParameterValue": "/status"
+    },
+    {
+        "ParameterKey": "TaskMemory",
+        "ParameterValue": "512"
+    },
+    {
+        "ParameterKey": "AllowIP",
+        "ParameterValue": "170.200.72.4/32"
+    },
+    {
+        "ParameterKey": "TagName",
+        "ParameterValue": "vz-tbny-spotify"
+    },
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "vpc-default-20170216092049"
+    },
+    {
+        "ParameterKey": "ContainerPortIn",
+        "ParameterValue": "5000"
+    },
+    {
+        "ParameterKey": "ContainerMinCount",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "ClusterMaxSize",
+        "ParameterValue": "2"
+    },
+    {
+        "ParameterKey": "ContainerPortOut",
+        "ParameterValue": "5000"
+    },
+    {
+        "ParameterKey": "TagProject",
+        "ParameterValue": "takebackny"
+    },
+    {
+        "ParameterKey": "ContainerMaxCount",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "OperatorEmail",
+        "ParameterValue": "david.holm@rga.com"
+    },
+    {
+        "ParameterKey": "TagJobcode",
+        "ParameterValue": "10970303"
+    },
+    {
+        "ParameterKey": "PrometheusSecurityGroupId",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "TagEnvironment",
+        "ParameterValue": "dev"
+    },
+    {
+        "ParameterKey": "ContainerImage",
+        "ParameterValue": "004218698793.dkr.ecr.us-east-1.amazonaws.com/vz/vz-tbny-spotify:0.01"
+    },
+    {
+        "ParameterKey": "ClusterMinSize",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "TagClient",
+        "ParameterValue": "verizon"
+    },
+    {
+        "ParameterKey": "TagOwner",
+        "ParameterValue": "david.holm@rga.com"
+    },
+    {
+        "ParameterKey": "LoadBalancerListenPort",
+        "ParameterValue": "80"
+    },
+    {
+        "ParameterKey": "DeregistrationDelay",
+        "ParameterValue": "0"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t2.small"
+    }
+]

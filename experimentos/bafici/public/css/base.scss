@@ -1,0 +1,259 @@
+@import 'components/bourbon/dist/bourbon';
+
+
+@include font-face(Futura, '../fonts/futura-medium-webfont');
+@include font-face(Gotham Light, '../fonts/Gotham-Light');
+
+
+$sorpresa: #f22241;
+$felicidad: #ff9900;
+$indiferencia: #c0c0c0;
+$tristeza: #707070;
+$entusiasmo: #3af282;
+$decepcion: #77758a;
+$fondo: #001635;
+$separacion: 5px;
+$peso: 5px;
+
+
+
+html {
+    -webkit-font-smoothing: subpixel-antialiased;
+    overflow: hidden;
+    // cursor: none;
+    height: 100%;
+}
+
+body {
+    font-family: 'Futura';
+    background-color: #001635;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    z-index: 200;
+    
+    h1 {
+        position: absolute;
+        width: 100%;
+        font-size: 0.8em;
+        color: rgba(255,255,255,0.5);
+        text-transform: uppercase;
+        letter-spacing: 1.2em;
+        padding-top: 20px;
+        z-index: 100;
+    }
+
+    h1 span.left {
+        float: left;
+        padding-top: 50px;
+        padding-left: 80px;
+
+    }
+
+    h1 span.right {
+        float: right;
+        padding-top: 50px;
+        padding-right: 80px;
+    }
+
+}
+
+#logo {
+    display: block;
+    margin: 0px auto;
+    width: 400px;
+    height: 170px;
+    z-index: 55;
+    background: url('../img/logo.svg') no-repeat 10px 20px; 
+    background-size: 100%; 
+    opacity: 0.5;
+}
+
+#force, #force-demo  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 50;
+}
+
+#slides {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    z-index: 500;
+    .video {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 500;
+        width: 1280px;
+        height: 720px;
+    }
+    .slide {
+        
+        // border: 1px solid white;
+        display: block;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        font-size: 2em;
+        color: rgba(255,255,255,0.8);
+    }
+    .uno {
+        padding-top: 320px;
+    }
+    .dos {}
+}
+
+footer {
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    height:100px;
+    width:100%;
+    z-index: 500;
+
+    #emociones {
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        padding-left: 40px;
+        // border: 1px red solid;    
+        
+        li {
+            color: rgba(255,255,255,0.7);
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0; padding: 0;
+            display: inline-block;
+            width: 15%;
+            // border: 1px red solid;
+        }
+        
+
+    }
+
+    #control {
+        position: absolute;
+        display: block;
+        width: auto;
+        bottom: 20px;
+        opacity: 0.5;
+    }
+
+}
+
+#reposo {
+    z-index: 999;
+    background-color: rgba(lighten(desaturate($fondo, 90), 20), 0.9);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3000;
+    color: #fff;
+    h1 {
+        font-family: "Gotham Light", "Helvetica", _sans;
+        text-align: center;
+        font-weight: normal;
+        font-size: 4em;
+        line-height: 1em;
+        text-transform: uppercase;
+        padding-top: 40px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 2em;
+        line-height: 1em;
+        text-transform: uppercase;
+    }
+}
+
+#graficos {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-left: -55px;
+    margin-top: 30px;
+    .barras{
+        width: 420px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+
+
+
+
+svg {
+    position:fixed;
+}
+
+circle {
+    shape-rendering: optimizeSpeed;
+    color-rendering: optimizeSpeed;
+}
+
+.sorpresa {
+    fill: saturate($sorpresa, 10%);
+}
+.felicidad {
+    fill: saturate($felicidad, 10%);
+}
+.indiferencia {
+    fill: saturate($indiferencia, 10%);
+}
+.tristeza {
+    fill: saturate($tristeza, 10%);
+}
+.entusiasmo {
+    fill: saturate($entusiasmo, 10%);
+}
+.decepcion {
+    fill: saturate($decepcion, 10%);
+}
+
+.grande{
+  font-size: 120%;
+}
+
+.normal{
+  font-size: 100%;
+}
+
+
+.sorpresa span{
+    padding-bottom: $separacion;
+    border-bottom: $peso $sorpresa solid;
+}
+.felicidad span{
+    padding-bottom: $separacion;
+    border-bottom: $peso $felicidad solid;
+}
+.indiferencia span{
+    padding-bottom: $separacion;
+    border-bottom: $peso $indiferencia solid;
+}
+.tristeza span{
+    padding-bottom: $separacion;
+    border-bottom: $peso $tristeza solid;
+}
+.entusiasmo span{
+    padding-bottom: $separacion;
+    border-bottom: $peso $entusiasmo solid;
+}
+.decepcion span{
+    padding-bottom: $separacion;
+    border-bottom: $peso $decepcion solid;
+}
+

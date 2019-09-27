@@ -1,0 +1,126 @@
+//@import "partials/reset";
+@import "partials/mixins";
+@import "partials/breakpoints";
+@import "partials/variables";
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: $black;
+  overflow: hidden;
+}
+
+.vzn-tbny {
+  display: flex;
+  flex-direction: column;
+  background-color: $black;
+  font-family: BrandFont, Arial, sans-serif;
+  color: $white;
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+  .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .title.test {
+    font-size: 24px;
+    padding: 15px 20px;
+  }
+}
+
+.alpha-0 {
+  opacity: 0;
+}
+
+.none {
+  display: none !important;
+}
+
+// FOR TEST ONLY
+.vzn-tbny.manual-test {
+  .user-info {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+div.user-info.playlist {
+  u {
+    padding-right: 10px;
+  }
+  label {
+    color: #FFF;
+  }
+}
+
+.status {
+  padding: 15px 20px;
+  .status-text {
+    display: inline;
+    position: relative;
+    top: -24px;
+  }
+}
+
+.testBtn {
+  padding: 12px 22px;
+  border-radius: 20px;
+  /* background: red; */
+  border: 0px;
+  /* color: white; */
+}
+
+.testBtn.getplaylist {
+  color: #FFF;
+  background: green;
+  width: 100%;
+}
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 6px;
+  width: 13px;
+  background: #fff;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+  left: 6px;
+  animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+  left: 26px;
+  animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+  left: 45px;
+  animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+  0% {
+    top: 6px;
+    height: 51px;
+  }
+  50%,
+  100% {
+    top: 19px;
+    height: 26px;
+  }
+}

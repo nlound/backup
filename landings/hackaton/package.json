@@ -1,0 +1,17 @@
+{
+  "name": "BA-HACKATON-2014",
+  "version": "0.0.1",
+  "description": "Web del BA Hackaton 2014",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolás Lound, David Galavotti",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "^0.4.4",
+    "grunt-uncss": "~0.3.3"
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../scss/partials/mixins";
+@import "../../scss/partials/breakpoints";
+@import "../../scss/partials/variables";
+
+.vzn-tbny {
+
+  .content {
+    
+    #animation {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      svg{
+        width: 100%;
+      }
+      .skyline, .icon , .waves{
+        stroke: #fff;
+        stroke-linecap: round;
+        fill: none;
+      }
+      .waves{
+        stroke-width: 6px;
+      } 
+
+      .skyline, .icon{
+        stroke-width: 2px;
+      } 
+
+      .st_red{
+        fill:red;
+      }
+      .st_white{
+        fill:white;
+      }
+    }
+  }
+}
+
+  

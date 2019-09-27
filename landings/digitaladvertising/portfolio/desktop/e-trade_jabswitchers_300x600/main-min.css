@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* Modified Poor Man’s Reset
+ * -------------------------------------------------------
+ */
+html, body {
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+
+html {
+  font-size: 1em; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+a img, :link img, :visited img {
+  border: 0; }
+
+/* Utilities
+ * -------------------------------------------------------
+ */
+.visibility-off {
+  visibility: hidden; }
+
+.alpha-0 {
+  opacity: 0; }
+
+.gpu {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transform: rotate(0.1deg);
+          transform: rotate(0.1deg); }
+
+/* Variables
+ * -------------------------------------------------------
+ */
+.abs-center {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+.margin-adjust, #leftarrow, #rightarrow, #text1, #eftext1, #eftext2, #logo, #legal, #legalblack {
+  margin: -7px; }
+
+/* Ad content
+ * -------------------------------------------------------
+ */
+#canvas {
+  position: absolute;
+  left: 0;
+  right: 0; }
+
+#ad_content {
+  background: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  width: 300px;
+  height: 600px; }
+  #ad_content div, #ad_content img, #ad_content li {
+    position: absolute; }
+
+#bg, #frame1blocker {
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 600px;
+  background-color: #18213b; }
+
+#leftarrow {
+  left: 97px;
+  top: 250px; }
+
+#rightarrow {
+  left: 126px;
+  top: 250px; }
+
+#text1 {
+  left: 81px;
+  top: 267px; }
+
+#eftext1 {
+  left: 60px;
+  top: 235px; }
+
+#eftext2 {
+  left: 40px;
+  top: 329px; }
+
+#logo {
+  left: 60px;
+  top: 510px; }
+
+#legal, #legalblack {
+  left: 5px;
+  top: 588px; }
+
+#cta {
+  left: 41px;
+  top: 450px;
+  width: 218px;
+  height: 40px; }
+
+#ctabg {
+  background: #6633CC;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  color: #6633CC; }
+
+.backup {
+  position: absolute;
+  background: url("backup.png") no-repeat;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 600px; }
+
+.sprite-svg {
+	background: url("svgsprite.svg") no-repeat;
+}
+
+.ctatext {
+	background-position: 86.99281329540351% 61.41906873614191%;
+	width: 110.84px;
+	height: 21.81px;
+}
+
+.eftext1 {
+	background-position: 0 51.71855010660981%;
+	width: 186px;
+	height: 98.5px;
+}
+
+.eftext2 {
+	background-position: 0 0;
+	width: 232.41px;
+	height: 70.28px;
+}
+
+.leftarrow {
+	background-position: 77.2126245847176% 35.513636363636365%;
+	width: 77px;
+	height: 113px;
+}
+
+.legal {
+	background-position: 26.878905295493418% 69.5704472792884%;
+	width: 91.53px;
+	height: 17.09px;
+}
+
+.legalblack {
+	background-position: 26.8760907504363% 74.98258942703387%;
+	width: 91.5px;
+	height: 17.1px;
+}
+
+.logo {
+	background-position: 0 24.921985815602838%;
+	width: 195px;
+	height: 51px;
+}
+
+.rightarrow {
+	background-position: 0 99.9%;
+	width: 77px;
+	height: 113px;
+}
+
+.text1 {
+	background-position: 99.60143995885832% 0;
+	width: 144.66px;
+	height: 78.13px;
+}
+

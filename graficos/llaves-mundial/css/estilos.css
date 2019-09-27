@@ -1,0 +1,119 @@
+html, body {
+	width: 948px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+select {
+	width: 13%;
+	height: 1.8em;
+	background: #b6d6e9 url("../img/flecha.png") no-repeat center;
+	text-indent: 0.01px;
+	text-overflow: '';
+	cursor: pointer;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+select, span {
+	padding: 5px;
+	font-size: 20px;
+}
+
+span {
+	color: #808080;
+}
+
+select:hover {
+	background-color: white;
+}
+
+#tablas {
+	height: 130px;
+	overflow: hidden;
+	font-size: 12px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+table {
+	float: left;
+}
+
+#llaves {
+	height: 430px;
+	text-align: center;
+}
+
+#selArgPos, #selRivPos {
+	background-position: 4.6em;
+	/*width: auto;*/
+}
+
+#selRivNom {
+	background-position: 5em;
+	width: 6.2em;
+}
+
+#opciones {
+	margin: 5px;
+	background: #e3e2e2;
+	height: 110px;
+	text-align: center;
+}
+
+.tabla {
+	width: 90px;
+	background-color: #aaaaaa;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-weight: bold;
+}
+
+td{
+	background-color: #eeeeee;
+}
+
+.tablah {
+	line-height: 15px;
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 9px;
+}
+
+#formulario {
+	line-height: 35px;
+	padding: 20px;
+}
+
+.blanco {
+	fill: #FFFFFF;
+}
+
+.negro {
+	fill: #000000;
+}
+
+.transparente {
+	opacity: 0;
+}
+
+.avisoSVG{
+	position: absolute;
+	top: 200px;
+	left: 190px;
+	width: 554px;
+	height: 230px;
+	display: block;
+	-moz-box-shadow:    0px 0px 15px 10px #ccc;
+	-webkit-box-shadow: 0px 0px 15px 10px #ccc;
+	box-shadow:         0px 0px 15px 10px #ccc;	
+}

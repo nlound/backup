@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Barras conjuntas</title>
+	<style>
+		svg { 
+			background-color: #ffffff;
+		}
+
+		.nombreP {
+		  font: 11px Arial, Helvetica, sans-serif;
+		  font-weight:bold;
+		  fill: #636568;
+		}
+
+		.votos {
+		  font: 10px "Arial Narrow", Helvetica, sans-serif;
+		  fill: #636568;
+		}
+
+		.porcentaje {
+		  font: 14px Arial, Helvetica, sans-serif;
+		  font-weight:bold;
+		  fill: black;
+		}
+
+	</style>
+	<script src="d3.v3.min.js"></script>
+</head>
+
+<body>
+
+	<div id="graBar"> </div>
+	<script>
+	
+	function miles(n){ 
+		var r = ""; 
+		for (var p, i = n.length - 1, p = 0; i >= 0; i--, p++){ 
+			r = n.charAt(i) + ((p > 0) && (p % 3 == 0)? ".": "") + r;
+		}
+		return r; 
+	} 	
+	
+	
+	var datos = [
+					{n: "Frente para Victoria", v: "12523458" , p: "30.23%"},
+					{n: "Union Civica Radical", v: "10254856" , p: "20.31%"},
+					{n: "Aliados K", 			v: "9945654" , 	p: "10.32%"},
+					{n: "PJ no K", 				v: "5621487" , 	p: "4.56%"},
+					{n: "FAP", 					v: "342123" , 	p: "3.32%"},
+					{n: "Otros", 				v: "14121" , 	p: "2.05%"}
+				]
+		
+	var traslado = 20; //traslado h las barras
+	
+	var colores = ["#76a4c1","#cd8581","#d3c56b","#bbc5a0","#9988b3","#6f6f6f"]; //colores planos ; alpha .4 para las barras 
+	
+	var width = 260,
+	    height = 400;
+
+	var index = d3.range(datos.length),
+	    valores = index.map(function(d,i){ return datos[i].v;});
+
+	var x = d3.scale.linear()
+	    .domain([0, Math.max.apply(Math, valores)])
+	    .range([0, width - 70]); // - espacio para la etiqueta
+	    
+	var y = d3.scale.ordinal()
+	    .domain(index)
+	    .rangeRoundBands([0, height], .1);
+	
+	var svg = d3.select("#graBar")
+		.append("svg")
+	    .attr("width", width)
+	    .attr("height", height )
+		.append("g");
+	
+	var bar = svg.selectAll(".barra")
+	    .data(valores)
+	  .enter().append("g")
+	    .attr("class", "barra")
+	    .attr("transform", function(d, i) { return "translate(0," + (y(i)+traslado) + ")"; });
+	
+	bar.append("line") // linea top
+	    .attr("x1", 0)
+	    .attr("y1", -24)
+		.attr("x2", width)
+		.attr("y2", -25)
+		.style("stroke", "rgb(0,0,0)")
+		.style("stroke-width", 0.3)
+		.style("stroke-opacity", 0.4); 
+
+	bar.append("rect") // color vertical
+	    .attr("height", 50) 
+	    .attr("width", "3px")
+	    .attr("transform", function(d, i) { return "translate(0,-25)" }) 
+	    .attr("fill", function(d,i) { return colores[i]; });
+	
+	bar.append("rect") //barra
+	    .attr("width", "0px")
+	 	.style("opacity", 0.4)
+	    .attr("fill", function(d,i) { return colores[i]; })
+    	.attr("height", 25) 
+		.transition().duration(1000)
+	    .attr("width", x);
+	
+	bar.append("text") //tag partido
+	    .attr("x", "10px")
+	    .attr("y", y.rangeBand() / 2)
+	    .attr("dy", "-37px")
+	    .classed("nombreP", true)
+	    .text(function(d, i) { return datos[i].n.toUpperCase(); });
+	
+	bar.append("text") //tag votos
+	 	.style("opacity", 0)
+	    .attr("text-anchor", "beginning")
+	    .attr("x",  "0px") 
+	    .attr("y", y.rangeBand() / 2)
+	    .attr("dy", "-20px")
+	    .classed("votos", true)
+	    .text(function(d, i) { return "(" + miles(datos[i].v) + ")"; })
+		.transition().duration(1000)
+	    .attr("x",  function(d) { return x(d) + 10; }) 
+		.style("opacity", 1);
+
+	bar.append("text") //tag porcentaje
+	 	.style("opacity", 0)
+	    .attr("text-anchor", "beginning")
+	    .attr("x",  "0px") 
+	    .attr("y", y.rangeBand() / 2)
+	    .attr("dy", "-6px")
+	    .classed("porcentaje", true)
+	    .text(function(d, i) { return datos[i].p; })
+		.transition().duration(1000)
+	    .attr("x",  function(d) { return x(d) + 10; }) 
+		.style("opacity", 1);
+
+
+	</script>
+</body>

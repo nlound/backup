@@ -1,0 +1,185 @@
+<div ng-controller="ResultadoCtrl" data-ng-init="open()">
+    <script type="text/ng-template" id="alerta.html">
+        <div class="modal-header">
+            <button type="button" class="close" ng-click="$back(validacion)" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Tu selección única</h4>
+        </div>
+        <div class="modal-body modal-custom">
+            <h1>{{ alert }}</h1>
+        </div>
+        <div class="modal-footer">
+            <input ng-click="ok()" ng-hide="!isCollapsed"  add="log('input-button-alert', 'Confirmo mi voto')" value="Confirmo mi voto" class="btn btn-default btn-lg" />
+            <input ng-click="$back(validacion)" add="log('input-button-alert', 'Volvé a votar')" value="Volvé a votar" class="btn btn-default btn-lg" />
+        </div>
+    </script>
+<div id="tabla">
+    <div class="container">
+        <div class="table-responsive equipos">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="ba-mundial">BA Mundial</th>
+                        <th class="referencia">
+                            <h3>Selección Campeona</h3>
+                            <h4>¿Qué país se consagrará?</h4>
+                        </th>
+                        <th class="referencia">
+                            <h3>Mejor Jugador</h3>
+                            <h4>¿En qué equipo juega?</h4>
+                        </th>
+                        <th class="referencia">
+                            <h3>Máximo Goleador</h3>
+                            <h4>¿En qué equipo juega?</h4>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="info in range | isTrue:validacion" class="simulador">
+                        <td class="{{info[3].iso}}">
+                            <div class="votar-todo ">
+                                <input type="checkbox" disabled ng-id="info" ng-model="info[4].checked" id="checkAll{{$index+1}}" /><label for="checkAll{{$index+1}}"></label>
+                                <p>Votar todo</p>
+                            </div>
+                            <div class="pais">{{info[0].equipo}}</div>
+                        </td>
+                        <td class="{{info[3].iso}}">
+                            <div class="checkbox">
+                                <input type="checkbox" name="{{info[0].equipo}}" disabled ng-model="info[0].checked" id="campeon-{{info[3].iso}}" />
+                                <label for="campeon-{{info[3].iso}}" class="checkbox-inline"></label>
+                                <p>{{info[0].equipo}}</p>
+                            </div>
+                        </td>
+                        <td class="{{info[3].iso}}">
+                            <div class="checkbox">
+                                <input type="checkbox" name="{{info[1].jugador}}" disabled ng-model="info[1].checked" id="jugador-{{info[3].iso}}" />
+                                <label for="jugador-{{info[3].iso}}"></label>
+                                <p>{{info[0].equipo}}</p>
+                            </div>
+                        </td>
+                        <td class="{{info[3].iso}}">
+                            <div class="checkbox">
+                                <input type="checkbox" name="{{info[2].goleador}}" disabled ng-model="info[2].checked" id="goleador-{{info[3].iso}}" />
+                                <label for="goleador-{{info[3].iso}}"></label>
+                                <p>{{info[0].equipo}}</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="comparti-concursa">
+                        <td colspan="4">
+                            <h2>¡Muchas gracias por participar!</h2>
+                        <div>
+                            <div class="row">
+                                <div class="col-md-12 social">
+                                    <h3>Compartí</h3>
+                                    <h4>Desafiá a tus amigos</h4>
+                                    <div id="shares">
+                                        <a href="http://twitter.com/share?url=http://votamundial.buenosaires.gob.ar/&amp;text={{share}}" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://twitter.com']);" target="_blank" class="shareTwitter"></a>
+                                          
+                                        <a href="http://www.facebook.com/sharer.php?u=http://votamundial.buenosaires.gob.ar/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.facebook.com']);" target="_blank" class="shareFacebook"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12">    
+                                    <h3>Concursá</h3> 
+                                    <h4>No es necesario acertar. Solo por jugar ya estás participando del sorteo de 5 bicis.</h4>
+                                    <form role="form" ng-submit="enviarForm(form.$valid, user)"  name="form" class="form-horizontal" novalidate>
+                                        <fieldset>
+                                              <div class="form-group" ng-class="{ 'has-error' : form.nombre.$invalid && !form.nombre.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="nombre">Nombre:</label>
+                                                  <input class="col-sm-6" type="text" id="nombre" name="nombre" ng-model="user.nombre"  ng-minlength="3" ng-maxlength="20" placeholder="Ingresa tu nombre" required>
+                                                  <span ng-show="form.nombre.$error.minlength" class="help-block">Nombre es muy corto.</span>
+                                                  <span ng-show="form.nombre.$error.maxlength" class="help-block">Nombre es muy largo.</span>
+                                                  <span ng-show="form.nombre.$invalid && !form.nombre.$pristine" class="help-block">Necesitamos tu nombre.</span>
+                                              </div>
+                                              <div class="form-group" ng-class="{ 'has-error' : form.apellido.$invalid && !form.apellido.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="apellido">Apellido:</label>
+                                                  <input class="col-sm-6" type="text" id="apellido" name="apellido" ng-model="user.apellido" ng-minlength="3" ng-maxlength="15" placeholder="Ingresa tu apellido" required>
+                                                  <span ng-show="form.apellido.$error.minlength" class="help-block">Apellido es muy corto.</span>
+                                                  <span ng-show="form.apellido.$error.maxlength" class="help-block">Apellido es muy largo.</span>
+                                                  <span ng-show="form.apellido.$invalid && !form.apellido.$pristine" class="help-block">Necesitamos tu apellido.</span>
+                                               </div>
+                                               <div class="form-group" ng-class="{ 'has-error' : form.dni.$invalid && !form.dni.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="dni">DNI:</label>
+                                                  <input class="col-sm-6" type="text" id="dni" name="dni" ng-model="user.dni" placeholder="DNI" ng-minlength="3" ng-maxlength="8" required>
+                                                  <span ng-show="form.dni.$error.minlength" class="help-block">DNI es muy corto.</span>
+                                                  <span ng-show="form.dni.$error.maxlength" class="help-block">DNI es muy largo.</span>
+                                                  <span ng-show="form.dni.$invalid && !form.dni.$pristine" class="help-block">Necesitamos tu DNI.</span>
+                                              </div>
+                                              <div class="form-group" ng-class="{ 'has-error' : form.nacimiento.$invalid && !form.nacimiento.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="nacimiento">Fecha de Nacimiento:</label>
+                                                  <input class="col-sm-6" type="text" id="nacimiento" name="nacimiento" ng-model="user.nacimiento" placeholder="DD/MM/AAAA" ng-minlength="5" ng-maxlength="15" required>
+                                                  <span ng-show="form.nacimiento.$error.minlength" class="help-block">Fecha de Nacimiento es muy corto.</span>
+                                                  <span ng-show="form.nacimiento.$error.maxlength" class="help-block">Fecha de Nacimiento es muy largo.</span>
+                                                  <span ng-show="form.nacimiento.$invalid && !form.nacimiento.$pristine" class="help-block">Necesitamos tu fecha de nacimiento.</span>
+                                              </div>
+                                              <div class="form-group" ng-class="{ 'has-error' : form.domicilio.$invalid && !form.domicilio.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="domicilio">Domicilio:</label>
+                                                  <input class="col-sm-6" type="text" id="domicilio" name="domicilio" ng-model="user.domicilio" placeholder="Domicilio" ng-minlength="3" ng-maxlength="35" required>
+                                                  <span ng-show="form.domicilio.$error.minlength" class="help-block">Domicilio es muy corto.</span>
+                                                  <span ng-show="form.domicilio.$error.maxlength" class="help-block">Domicilio es muy largo.</span>
+                                                  <span ng-show="form.domicilio.$invalid && !form.domicilio.$pristine" class="help-block">Necesitamos tu domicilio.</span>
+                                              </div>
+                                              <div class="form-group" ng-class="{ 'has-error' : form.localidad.$invalid && !form.localidad.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="localidad">Localidad:</label>
+                                                  <input class="col-sm-6" type="text" id="localidad" name="localidad" ng-model="user.localidad" placeholder="Localidad" ng-minlength="3" ng-maxlength="15" required>
+                                                  <span ng-show="form.localidad.$error.minlength" class="help-block">Localidad es muy corto.</span>
+                                                  <span ng-show="form.localidad.$error.maxlength" class="help-block">Localidad es muy largo.</span>
+                                                  <span ng-show="form.localidad.$invalid && !form.localidad.$pristine" class="help-block">Necesitamos saber tu localidad.</span>
+                                              </div>
+                                              <div class="form-group" ng-class="{ 'has-error' : form.provincia.$invalid && !form.provincia.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="provincia">Provincia:</label>
+                                                  <input class="col-sm-6" type="text" id="provincia" name="provincia" ng-model="user.provincia" placeholder="Provincia" ng-minlength="3" ng-maxlength="20" required>
+                                                  <span ng-show="form.provincia.$error.minlength" class="help-block">Provincia es muy corto.</span>
+                                                  <span ng-show="form.provincia.$error.maxlength" class="help-block">Provincia es muy largo.</span>
+                                                  <span ng-show="form.provincia.$invalid && !form.provincia.$pristine" class="help-block">Necesitamos saber tu provincia.</span>
+                                              </div>
+                                              <div class="form-group" ng-class="{ 'has-error' : form.telefono.$invalid && !form.telefono.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="telefono">Telefono:</label>
+                                                  <input class="col-sm-6" type="text" id="telefono" name="telefono" ng-model="user.telefono" placeholder="Telefono" ng-minlength="3" ng-maxlength="20" required>
+                                                  <span ng-show="form.telefono.$error.minlength" class="help-block">Telefono es muy corto.</span>
+                                                  <span ng-show="form.telefono.$error.maxlength" class="help-block">Telefono es muy largo.</span>
+                                                  <span ng-show="form.telefono.$invalid && !form.telefono.$pristine" class="help-block">Necesitamos tu telefono.</span>
+                                              </div>
+                                              <div class="form-group" ng-class="{ 'has-error' : form.email.$invalid && !form.email.$pristine }">
+                                                  <label class="col-sm-2 col-sm-offset-1 control-label" for="email">Email:</label>
+                                                  <input class="col-sm-6" type="email" id="email" name="email" ng-model="user.email" placeholder="tucorreo@email.com" ng-minlength="3" ng-maxlength="55" required>
+                                                  <span ng-show="form.email.$error.minlength" class="help-block">Email es muy corto.</span>
+                                                  <span ng-show="form.email.$error.maxlength" class="help-block">Email es muy largo.</span>
+                                                  <span ng-show="form.email.$invalid && !form.email.$pristine" class="help-block">Necesitamos saber tu e-mail.</span>
+                                              </div>
+                                              <div class="form-group">
+                                                  Completá el código
+                                              </div>
+                                              <div class="form-group">
+                                                  <img src="/captcha.png">
+                                                  <input type="text" name="captcha" ng-model="user.captcha">
+                                              </div>
+
+                                              <div class="form-group">
+                                                  <label for="aceptar">
+                                                      Al hacer clic en "Enviar mis datos", usted entiende y acepta las <a add="log('a-href-resultado', 'bases-condiciones')" href="#/bases-y-condiciones" target"_blank">Bases y Condiciones</a>.
+                                                  </label>
+                                              </div>
+
+                                              <div class="row voto">
+                                                  <div class="col-md-6 col-md-offset-3">
+                                                      <input type="submit"  add="log('input-button-resultado', 'Enviar mis datos')" class="btn btn-success btn-lg" value="Enviar mis datos"/>
+                                                  </div>
+                                              </div>
+                                        </fieldset>
+                                    </form>
+                                    <div class="no-participo" add="log('no-quiero-participar', 'No participo')">
+                                        <a href="#/participaste">No quiero completar el concurso.</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

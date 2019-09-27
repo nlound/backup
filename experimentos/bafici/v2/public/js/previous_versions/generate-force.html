@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+	<title>BAFICI v0.05</title>
+	<link rel="stylesheet" href="css/base.css">
+	<script src='http://localhost:3000/socket.io/socket.io.js'></script>
+	<script src="lib/jquery-2.1.0.min.js"></script>
+	<script src="lib/d3.v3.min.js"></script>	
+	<script src="lib/dat.gui.min.js"></script>	
+	<script src="lib/stats.min.js"></script>
+	<script src="js/config.js"></script>
+</head>
+
+<body>
+	<header>
+		<h1>
+			<span class="left">Experimento</span>
+			<span class="right">Colaborativo</span>
+		</h1>
+		<div id="logo"> </div>
+	</header>
+
+	<div id="force"> </div>
+
+	<footer>
+	<ul id="emociones">
+		<li class="emociones">Sorpresa</li>
+		<li class="emociones">Felicidad</li>
+		<li class="emociones">Indiferencia</li>
+		<li class="emociones">Tristeza</li>
+		<li class="emociones">Entusiasmo</li>
+		<li class="emociones">Decepción</li>
+	</ul>
+
+	</footer>
+	<script src="js/generate-force.v0.5.1.js"></script>
+	<script src="js/optional-features.js"></script>
+	<script src="js/logo.js"></script>
+</body>

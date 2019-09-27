@@ -1,0 +1,9 @@
+setup.py
+dashboard_civico.egg-info/PKG-INFO
+dashboard_civico.egg-info/SOURCES.txt
+dashboard_civico.egg-info/dependency_links.txt
+dashboard_civico.egg-info/requires.txt
+dashboard_civico.egg-info/top_level.txt
+test/test_clima_owm.py
+test/test_consumoenergetico.py
+test/test_wsbicis.py

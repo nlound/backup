@@ -1,0 +1,209 @@
+
+
+//****************//
+//**  TIMELINE  **//
+//****************//
+
+.tl-container {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 10%;
+  border-radius: 2px;
+  
+}
+.tl-container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#timeline { /* timeline general position */
+  position: relative;
+  padding: 0;
+  margin-top: 2em;
+  margin-bottom: 0em;
+}
+
+#timeline::before { /* timeline mobile position and color mobile */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 27px;
+  height: 100%;
+  width: 2px;
+  background: #ffffff;
+
+}
+
+
+.tl-timeline-block {  /* timeline mobile content */
+  position: relative;
+  margin: 2em 0;
+  min-height: 308px;
+}
+
+
+.tl-timeline-block:after {  /* timeline clear table */
+  content: "";
+  display: table;
+  clear: both;
+}
+.tl-timeline-block:first-child {  /* timeline mobile first and last positions */
+  margin-top: 0px;
+}
+.tl-timeline-block:last-child {
+  margin-bottom: 0;
+}
+
+
+.tl-timeline-img {/* dot mobile */
+  position: absolute;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: #043e73;
+}
+
+.tl-timeline-img-finalistas{/* dot mobile */
+  position: absolute;
+  left: 10px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background: url("../../assets/images/finalistas.svg");
+}
+
+
+.tl-timeline-img-first{
+  left: 9px;
+  border: 10px solid #6e7c91;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  box-sizing: content-box;
+}
+
+.tl-timeline-content-finalistas{
+  position: relative;
+  margin-left: 50px;
+  margin-right: 30px;
+  p{
+    max-width: 525px;
+  }
+  
+}
+.tl-timeline-content {
+  position: relative;
+  margin-left: 60px;
+  margin-right: 30px;
+  padding-top: 0em;
+}
+.tl-timeline-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tl-timeline-content-finalistas h2 ,.tl-timeline-content h2 { /* title of card */
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  .tl-timeline-content-finalistas p, .tl-timeline-content p { /* text of card */
+    font-size: 17px;
+    line-height: 1.53;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+}
+
+.tl-timeline-content p {
+  margin: 0em 0;
+  line-height: 1.6;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .tl-timeline-content-finalistas{
+    position: relative;
+    margin-left: 90px;
+    margin-right: 30px;  
+    margin: 0px;  
+  }
+  
+  #timeline::before {  /* timeline desktop position */
+    left: 50%;
+    margin-left: -2px;
+  }
+
+  .tl-timeline-img { /* dot desktop */
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: center;
+  }
+  .tl-timeline-img-finalistas { /* dot desktop */
+    left: 50%;
+    transform: translateX(-50%) translateY(-36px);
+    transform-origin: center;
+
+  }
+
+  
+  .tl-timeline-content {  /* Timeline card desktop */
+    color: white;
+    margin-left: 0;
+    padding: 0.6em;
+    width: 36%;
+    margin: 0 10%;
+  }
+  
+  .tl-timeline-content-finalistas{
+  margin-left: 60px;
+  margin-right: 60px;
+    text-align: center;
+    
+  }
+  .tl-timeline-content-finalistas p{
+    position: relative;
+    margin: 0 auto;
+    max-width: 768px;
+
+  }
+
+  .tl-timeline-content .tl-image {
+    position: absolute;
+    width: 112%;
+    left: 122%;
+    top: 0px;
+  }
+  .tl-timeline-block:nth-child(odd) .tl-timeline-content {
+    float: right;
+  }
+  .tl-timeline-block:nth-child(even) .tl-timeline-content {
+    text-align: right;
+  }  .tl-timeline-block:nth-child(even) .tl-timeline-content .tl-image{
+    text-align: left;
+  }
+
+  .tl-timeline-block:nth-child(odd) .tl-timeline-content .tl-image {
+    left: auto;
+    right: 122%;
+    text-align: right;
+  }
+
+
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .tl-container {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+    margin-left: -10px;  }
+}

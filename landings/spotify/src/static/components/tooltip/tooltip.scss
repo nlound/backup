@@ -1,0 +1,71 @@
+@import "../../scss/styles";
+#basic-modal-content {
+    display: none;
+}
+
+/* Overlay */
+
+#simplemodal-overlay {
+    background-color: #000;
+}
+
+/* Container */
+
+#simplemodal-container {
+    height: calc(100% - 48px) !important;
+    width: calc(100vw - 48px) !important;
+    color: #bbb;
+    background-color: #fff;
+    padding: 12px;
+}
+
+#simplemodal-container .simplemodal-data {
+    padding: 8px;
+}
+
+#simplemodal-container {
+    a {
+        color: #ddd;
+    }
+}
+
+#simplemodal-container a.modalCloseImg {
+    background: url('../svg/close.svg') no-repeat;
+    width: 28px;
+    height: 28px;
+    display: inline;
+    z-index: 600;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#tbny-tooltip {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#tooltip-top,
+#tooltip-bottom {
+    font-family: BrandFont, Arial, sans-serif;
+    flex: 1;
+    flex-shrink: 0;
+    color: $black;
+}
+
+#tooltip-top {
+    width: calc(100% - 48px);
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: 700;
+}
+
+#tooltip-bottom {
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    border-top: 2px solid $black;
+    word-break: keep-all;
+}

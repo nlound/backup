@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mapa Legislativo 2013</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="description" content="Camaras de Diputados y senadores de las elecciones Primarias Legislativas 2013" />
+		<meta name="author" content="Clarin.com" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" type="text/css" href="css/estilosCamaras.css?version=1">		
+		<script type="text/javascript" src="js/d3.v3.min.js"></script>
+		<script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script>
+	</head>
+
+	<body>	
+
+		<!-- App gral -->
+		<div id="contenedorApp">
+			<div id="cabezal">
+				<div id="titulo">Mapa legislativo</div>
+				<div class="beta">(BETA)</div>
+				<button id="diputadosBtn" onclick="updateBotones(this.id);" disabled> </button>
+				<button id="senadoresBtn" onclick="updateBotones(this.id);"> </button>
+
+				<div id="shareViewCamaras">
+					<div id="logoShare"> </div>
+					<div id="textoShare">Compart&iacute; los resultados de las Cámaras</div>
+					<a id="shareTwitter" href=""> </a>
+					<a id="shareFacebook" href=""> </a>
+				</div>
+			</div>
+
+			
+			<div id="contenido">
+
+				<div id="botones" class="slashback">
+				 	<button id="provBtn" onclick="self.location='index.html'">  </button>
+				 	<button id="partBtn" onclick="self.location='index.html?view=part'"> </button>
+					<button id="votoBtn" onclick="self.location='index.html?view=voto'"> </button>
+					<button id="camaBtn" disabled> </button>
+				</div>
+
+				<div id="lasCamaras">
+		
+					<div id="contenedorCamara">
+						<div id="quorum_bancas">
+							<button id="quorum" class="desactivo"> </button>
+							<label for="opcionUnica">LEGISLADORES NECESARIOS PARA QUORUM ( <span id="numeroQuorum"> </span> )</label>
+						</div>
+
+						<div id="nuevas_bancas">
+							<button id="bancasNuevas" class="desactivo"> </button>
+							<label id="textoBancas" > </label>
+						</div>
+					
+						<button id="camaraActual" onclick="miSeleccion('vieja')"> </button>
+						<button id="camaraNueva" onclick="miSeleccion('nueva')"> </button>
+							
+						<div id="camara"> </div>
+					
+						<div id="totalCam_leg">
+											
+							<div id="totalSen"> -- </div>
+							<div id= "bancasTotales">BANCAS TOTALES</div>
+											
+							<div id="fondoTotalCam_leg">
+								<span class="textoTotales_leg_Escrutado">ESCRUTADO</span>
+								<span class="textoTotales_leg">| Votos: </span>
+								<span id="votosSen"> - </span>
+								<span class="textoTotales_leg">| Mesas: </span>
+								<span id="mesasSen"> - </span>						
+							</div>
+						</div>
+						
+						<div id="separador"> </div>
+				
+						<div id="tablaDetalle"> 
+								
+							<table class="tabla">
+								<caption> </caption>
+								<tr>
+									<td class="bancasTenian primero">Bancas actuales</td>
+									<td class="bancasTenian_nro primero_nro"> </td>
+								</tr>
+								<tr>
+									<td class="bancasRenovaron"><span>Renuevan</span></td>
+									<td class="bancasRenovaron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasObtuvieron"><span>Obtuvieron</span></td>
+									<td class="bancasObtuvieron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasDiferencia">Diferencia</td>
+									<td class="bancasDiferencia_nro"><span> </span></td>
+								</tr>		
+							</table>
+							
+							<table class="tabla">
+								<caption> </caption>
+								<tr>
+									<td class="bancasTenian primero">Bancas actuales</td>
+									<td class="bancasTenian_nro primero_nro"> </td>
+								</tr>
+								<tr>
+									<td class="bancasRenovaron"><span>Renuevan</span></td>
+									<td class="bancasRenovaron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasObtuvieron"><span>Obtuvieron</span></td>
+									<td class="bancasObtuvieron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasDiferencia">Diferencia</td>
+									<td class="bancasDiferencia_nro"><span> </span></td>
+								</tr>	
+							</table>
+							
+							<table class="tabla">
+								<caption> </caption>
+								<tr>
+									<td class="bancasTenian primero">Bancas actuales</td>
+									<td class="bancasTenian_nro primero_nro"> </td>
+								</tr>
+								<tr>
+									<td class="bancasRenovaron"><span>Renuevan</span></td>
+									<td class="bancasRenovaron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasObtuvieron"><span>Obtuvieron</span></td>
+									<td class="bancasObtuvieron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasDiferencia">Diferencia</td>
+									<td class="bancasDiferencia_nro"><span> </span></td>
+								</tr>		
+							</table>
+							
+							<table class="tabla">
+								<caption> </caption>
+								<tr>
+									<td class="bancasTenian primero">Bancas actuales</td>
+									<td class="bancasTenian_nro primero_nro"> </td>
+								</tr>
+								<tr>
+									<td class="bancasRenovaron"><span>Renuevan</span></td>
+									<td class="bancasRenovaron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasObtuvieron"><span>Obtuvieron</span></td>
+									<td class="bancasObtuvieron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasDiferencia">Diferencia</td>
+									<td class="bancasDiferencia_nro"><span> </span></td>
+								</tr>		
+							</table>
+							
+							<table class="tabla">
+								<caption> </caption>
+								<tr>
+									<td class="bancasTenian primero">Bancas actuales</td>
+									<td class="bancasTenian_nro primero_nro"> </td>
+								</tr>
+								<tr>
+									<td class="bancasRenovaron"><span>Renuevan</span></td>
+									<td class="bancasRenovaron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasObtuvieron"><span>Obtuvieron</span></td>
+									<td class="bancasObtuvieron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasDiferencia">Diferencia</td>
+									<td class="bancasDiferencia_nro"><span> </span></td>
+								</tr>		
+							</table>
+							
+							<table class="tabla">
+								<caption> </caption>
+								<tr>
+									<td class="bancasTenian primero">Bancas actuales</td>
+									<td class="bancasTenian_nro primero_nro"> </td>
+								</tr>
+								<tr>
+									<td class="bancasRenovaron"><span>Renuevan</span></td>
+									<td class="bancasRenovaron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasObtuvieron"><span>Obtuvieron</span></td>
+									<td class="bancasObtuvieron_nro"><span> </span></td>
+								</tr>
+								<tr>
+									<td class="bancasDiferencia">Diferencia</td>
+									<td class="bancasDiferencia_nro"><span> </span></td>
+								</tr>		
+							</table>
+						</div>
+			
+						<div class="tooltipCam" id="tooltipCam">
+							<P id="bloque"><STRONG>BLOQUE</STRONG></P>
+							<P id="fp_"> </P>
+							<P id="bNuevas"><span id="bNuevas_txt"> </span><span id="bNuevas_nro"> </span> </P>
+							
+							<P id="nota">TOTAL DE BANCAS</P>
+						</div>
+					</div>	
+				</div>
+				
+				<div id="footer">
+					<div class="creditos" id="creditos" onclick="abrirCreditos()"><span>»</span> Especificaciones y créditos</div>
+				<!--<div class="creditos" id="ppagrupados"><span>&#187;</span> Cómo se agruparon los partidos políticos </div>-->
+					<div class="creditos" id="feedback"><a href="mailto:infografia@clarin.com"><img src="img/sobre.png" width="16" height="11" alt="sobre" border="0">&nbsp; Escribinos</a></div>
+				</div>
+			
+				<div id="selectorMapa" class="selectDiputados"> </div>
+	
+	 		</div>
+	 	</div>		
+
+		<!-- Modal de Créditos -->		
+		<div id="modal" style="display: none;">
+			<div id="creditosModal">
+				<img id="btn_cerrar" src="img/cerrar.png" alt="cerrar" width="20" height="20" onclick="cerrarCreditos()">
+				<h3 id="tituloModal">Mapa Legislativo<span class="betaCreditos">(BETA)</span></h3>
+				<h4 class="subtitulo"><span>Fuentes</span></h4>
+				<p class="textoModal">Datos electorales: <span>INDRA para Ministerio del Interior.</span></p>
+				<hr class="separadorModal">
+				<!--<p class="subtitulo2">DATOS GEOGRAFICOS</p>-->
+				<p class="textoModal">Datos geográficos: <span>INDEC (Instituto Nacional de Estadística y Censos).<a class="linkModal" href="http://www.opex.sig.indec.gov.ar/codgeo/" target="_blank">Link &gt;</a></span></p>
+				<!--<hr class="separadorModal">-->
+				<!--<p class="textoModal">Departamentos: <span>Global Administrative Areas.<a class="linkModal" href="http://www.gadm.org/country?q=argentina" target="_blank">Link &gt;</a></span></p>-->
+				<!--<hr class="separadorModal">-->
+				<!-- <p class="textoModal">Comunas Capital Federal: <span>Buenos Aires Data, GCBA.<a class="linkModal" href="http://data.buenosaires.gob.ar/dataset/comunas" target="_blank">Link &gt;</a></span></p> -->				<h4 class="subtitulo"><span>Especificaciones</span></h4>
+				<p class="textoModal">Proyección del mapa: <span>Gauss-Krüger, faja 3.</span><span class="subtitulo2"> / proyección oficial argentina /</span></p>
+				<hr class="separadorModal">
+				<p class="subtitulo2">LIBRERIAS DE JAVASCRIPT</p>
+				<p class="textoModal"><span>TopoJSON<a class="linkModal" href="https://github.com/mbostock/topojson" target="_blank">Link &gt;</a></span></p>
+				<hr class="separadorModal">
+				<p class="textoModal"><span>Data-Driven Document (d3js).<a class="linkModal" href="http://d3js.org" target="_blank">Link &gt;</a></span></p>
+				<h4 class="subtitulo"><span>Créditos</span></h4>
+				<p class="textoModal">Dirección del proyecto: <span>Pablo Loscri y Juan Pablo Kutianski.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Coordinación: <span>Ariel González Mouls, Vanesa Caballero.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Frontend: <span>Juan Pablo Kutianski, Nicolás Lound, Maximiliano Sosa.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Backend: <span>Fernando Melo, Nahuel Mingori, Santiago López Denazis, Facundo Pultera.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Diseño de la aplicación: <span>Pablo Loscri.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Landing: <span> Tea Alberti, Cecilia Tombesi y Georgina Campenni.</span></p>
+				<p class="copyright">© Clarín 2013</p>
+			</div> 
+		</div>
+
+
+		<script src="js/camaras.js"></script>
+		<script type="text/javascript" src="js/interfaceCamaras.js?version=1"></script>
+
+</body>
+	
+</html>

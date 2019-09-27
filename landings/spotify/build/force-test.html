@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://respframework.verizon.com/vzrf/2-16-0/stylesheets/complete/vzrf.min-blessed1.css?z=1450274510218" rel="stylesheet" type="text/css">
+    <title>Verizon</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <style>body, html { overflow: scroll !important; }</style>
+  </head>
+  <body>
+    <div class="vzn-tbny manual-test">
+      <div class="header">
+        <div class="logo" id="logo-track"><a href="https://www.verizonwireless.com/" target="_blank"><img src="assets/svg/logo.svg"/></a></div>
+        <div class="share-bar none">
+          <div id="fb-root"></div>
+          <div id="url-text-share">Copied</div>
+          <div class="url-share" id="url-share" data-clipboard-text="http://vzw.com/streamline"></div><a id="twitter-share" href="https://twitter.com/intent/tweet?text=Turn%20wait%20time%20into%20stream%20time.%20Discover%20the%20mood%20of%20the%20city%20with%20dynamic%20playlists%20created%20in%20real-time.%20&amp;tw_p=tweetbutton&amp;url=https%3A%2F%2Fwww.verizonwireless.com%2Fstreamline" data-size="small"></a>
+          <div id="facebook-share"></div>
+        </div>
+      </div>
+      <div class="title test">TBNY Manual Test</div>
+      <div class="user-info playlist">
+        <p>
+          <label for="loc">Lat &amp; long:</label>
+          <input type="text" name="loc" placeholder="40.714224, -73.961452" id="loc">
+        </p>
+        <p>
+          <label for="datetime">DateTime:</label>
+          <input type="text" name="time" id="datetime" placeholder="2018-07-04 14:54">
+        </p>
+        <p>
+          <label for="weather">Weather:</label>
+          <select name="weather" id="weather">
+            <option value="Sunny">Sunny</option>
+            <option value="Mostly Sunny">Mostly Sunny</option>
+            <option value="Partly Sunny">Partly Sunny</option>
+            <option value="Intermittent Clouds">Intermittent Clouds</option>
+            <option value="Hazy Sunshine">Hazy Sunshine</option>
+            <option value="Mostly Cloudy">Mostly Cloudy</option>
+            <option value="Cloudy">Cloudy</option>
+            <option value="Dreary (Overcast)">Dreary (Overcast)</option>
+            <option value="Fog">Fog</option>
+            <option value="Showers">Showers</option>
+            <option value="Mostly Cloudy w/ Showers">Mostly Cloudy w/ Showers</option>
+            <option value="Partly Sunny w/ Showers">Partly Sunny w/ Showers</option>
+            <option value="T-Storms">T-Storms</option>
+            <option value="Mostly Cloudy w/ T-Storms">Mostly Cloudy w/ T-Storms</option>
+            <option value="Partly Sunny w/ T-Storms">Partly Sunny w/ T-Storms</option>
+            <option value="Mostly Cloudy w/ Flurries">Mostly Cloudy w/ Flurries</option>
+            <option value="Rain">Rain</option>
+            <option value="Flurries">Flurries</option>
+            <option value="Dreary">Partly Sunny w/ Flurries</option>
+            <option value="Snow">Snow</option>
+            <option value="Mostly Cloudy w/ Snow">Mostly Cloudy w/ Snow</option>
+            <option value="Ice">Ice</option>
+            <option value="Sleet">Sleet</option>
+            <option value="Freezing Rain">Freezing Rain</option>
+            <option value="Rain and Snow">Rain and Snow</option>
+            <option value="Hot">Hot</option>
+            <option value="Cold">Cold</option>
+            <option value="Windy">Windy</option>
+            <option value="Clear">Clear</option>
+            <option value="Mostly Clear">Mostly Clear</option>
+            <option value="Partly Cloudy">Partly Cloudy</option>
+            <option value="Intermittent Clouds">Intermittent Clouds</option>
+            <option value="Hazy Moonlight">Hazy Moonlight</option>
+            <option value="Mostly Cloudy">Mostly Cloudy</option>
+            <option value="Partly Cloudy w/ Showers">Partly Cloudy w/ Showers</option>
+            <option value="Mostly Cloudy w/ Showers">Mostly Cloudy w/ Showers</option>
+            <option value="Partly Cloudy w/ T-Storms">Partly Cloudy w/ T-Storms</option>
+            <option value="Mostly Cloudy w/ T-Storms">Mostly Cloudy w/ T-Storms</option>
+            <option value="Mostly Cloudy w/ Flurries">Mostly Cloudy w/ Flurries</option>
+            <option value="Mostly Cloudy w/ Snow">Mostly Cloudy w/ Snow</option>
+          </select>
+        </p>
+        <p>Results:</p>
+        <p class="none" id="results"><span>
+            <u>TBNY App Test:</u><a id="testLink">Click here</a></span><br><span>
+            <u>Zip Code:</u><span id="zipCode">-</span></span><br><span> 
+            <u>Borough:</u><span id="borough">-</span></span><br><span> 
+            <u>Weather:</u><span id="weatherRes">-</span></span><br><span> 
+            <u>Day:</u><span id="day">-</span></span><br><span> 
+            <u>Time:</u><span id="time">-</span></span><br><span> 
+            <u>PlaylistCode:</u><span id="playlistCode">-</span></span><br><span> 
+            <u>PlaylistURL:</u><br><span id="playlistUrl">-</span></span><br></p><br>
+        <button class="testBtn getplaylist" type="button" id="getPlaylist">Get Playlist</button>
+      </div>
+      <div class="status none"><div class="lds-facebook"><div></div><div></div><div></div></div>
+        <div class="status-text"><span id="status">Requesting Playlist URL, please wait ...</span></div>
+      </div>
+      <div class="alpha-0" id="footer">
+        <div class="bottom-title-area"><span>NY living demands the best network.</span></div>
+        <div class="cta-area">
+          <div class="cta-text">Mix and match the perfect<br>unlimited family plan</div>
+          <div class="cta" id="cta-track"><a href="https://www.verizonwireless.com/plans" target="_blank">
+              <div class="cta-button">Learn More </div></a></div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/libs.js"></script>
+    <script src="assets/playlist-test.js"></script>
+  </body>
+</html>

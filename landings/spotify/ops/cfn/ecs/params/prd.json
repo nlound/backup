@@ -1,0 +1,118 @@
+[
+    {
+        "ParameterKey": "BuildDate",
+        "ParameterValue": "20180709163654"
+    },
+    {
+        "ParameterKey": "ClusterMaxSize",
+        "ParameterValue": "3"
+    },
+    {
+        "ParameterKey": "BuildVersion",
+        "ParameterValue": "0.01"
+    },
+    {
+        "ParameterKey": "TagJobcode",
+        "ParameterValue": "10970303"
+    },
+    {
+        "ParameterKey": "ContainerImage",
+        "ParameterValue": "004218698793.dkr.ecr.us-east-1.amazonaws.com/vz/vz-tbny-spotify:0.01"
+    },
+    {
+        "ParameterKey": "TagOwner",
+        "ParameterValue": "david.holm@rga.com"
+    },
+    {
+        "ParameterKey": "TagClient",
+        "ParameterValue": "verizon"
+    },
+    {
+        "ParameterKey": "PrometheusSecurityGroupId",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "ContainerMaxCount",
+        "ParameterValue": "4"
+    },
+    {
+        "ParameterKey": "AllowIP",
+        "ParameterValue": "170.200.72.4/32"
+    },
+    {
+        "ParameterKey": "KeyName",
+        "ParameterValue": "vz-tbny-spotify-prd"
+    },
+    {
+        "ParameterKey": "TagProject",
+        "ParameterValue": "takebackny"
+    },
+    {
+        "ParameterKey": "ClusterDesiredSize",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "ContainerPortOut",
+        "ParameterValue": "5000"
+    },
+    {
+        "ParameterKey": "ContainerTargetPathPattern",
+        "ParameterValue": "/*"
+    },
+    {
+        "ParameterKey": "ContainerHealthCheckPath",
+        "ParameterValue": "/status"
+    },
+    {
+        "ParameterKey": "ParentVPCStack",
+        "ParameterValue": "vpc-default-20180709164547"
+    },
+    {
+        "ParameterKey": "SSLCertificateId",
+        "ParameterValue": ""
+    },
+    {
+        "ParameterKey": "OperatorEmail",
+        "ParameterValue": "david.holm@rga.com"
+    },
+    {
+        "ParameterKey": "TaskMemory",
+        "ParameterValue": "512"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t2.small"
+    },
+    {
+        "ParameterKey": "ContainerPortIn",
+        "ParameterValue": "5000"
+    },
+    {
+        "ParameterKey": "ContainerMinCount",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "ClusterMinSize",
+        "ParameterValue": "1"
+    },
+    {
+        "ParameterKey": "LoadBalancerListenPort",
+        "ParameterValue": "80"
+    },
+    {
+        "ParameterKey": "TagEnvironment",
+        "ParameterValue": "prd"
+    },
+    {
+        "ParameterKey": "TagName",
+        "ParameterValue": "vz-tbny-spotify"
+    },
+    {
+        "ParameterKey": "AllowHTTP",
+        "ParameterValue": "170.200.72.4/32"
+    },
+    {
+        "ParameterKey": "DeregistrationDelay",
+        "ParameterValue": "0"
+    }
+]

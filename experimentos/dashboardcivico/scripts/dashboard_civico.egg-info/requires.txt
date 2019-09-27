@@ -1,0 +1,9 @@
+config
+redis
+nose
+python-forecastio
+suds
+lxml
+tweepy
+requests[security]
+googlemaps

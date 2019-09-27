@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>LDR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <script src='http://localhost:3000/socket.io/socket.io.js' type="text/javascript" charset="utf-8"></script>
+    <script src='libs/jquery-1.11.1.min.js' type="text/javascript" charset="utf-8"></script>
+    <script src='libs/d3.v3.min.js' type="text/javascript" charset="utf-8"></script>
+
+
+    <style>
+        html, body{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        #ldr{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: red;
+        }
+
+        svg {
+            font: 10px Arial, sans-serif;
+        }
+
+        .line {
+            fill: none;
+            stroke: #333333;
+            stroke-width: 10px;
+        }
+
+
+
+    </style>    
+</head>
+
+<body>
+    <svg id="ldr"></svg>
+
+
+
+    <script>
+
+        var socket,
+            margin = 60,
+            width = parseInt(d3.select("#ldr").style("width")) - margin * 2,
+            height = parseInt(d3.select("#ldr").style("height")) - margin * 2,
+            graph,
+            ldrMax,
+            ldrData = [];
+
+
+        socket = io.connect('//localhost:3000');
+
+        // var colorScale = d3.scale.linear()
+        //                 .domain([0, d3.max(d)])
+        //                 .range([0,255]);
+
+
+        graph = d3.select("#ldr");
+
+        //     .attr("width", width + margin*2)
+        //     .attr("height", height + margin*2)
+        //   .append("g")
+        //     .attr("transform", "translate(" + margin + "," + margin + ")");
+
+        ldrMax = 600;
+
+        socket.on('message', function (ldrSensor) {
+
+
+            
+
+                ldrData = ldrSensor.split(",")[1];
+                
+                // var rangoColor = d3.scale.linear().domain([0, max]) ;
+                var colorScale = d3.scale.linear().domain([0, ldrMax]).range(["black", "white"]);
+
+                graph.datum(ldrData)
+                .style('background-color',function(d) { return colorScale(d); });
+
+                // console.log(colorScale(ldrData));
+
+                
+
+                
+                // // data.push(rangoColor(ldrData));
+                // // console.log(data);
+
+                // graph.style('background-color',function(d) { return colorScale(d); });
+
+
+
+        });
+
+            // var ldr;
+
+            // if (message.split(",")[0] === "/sensor_0"){
+            //     ldr = message.split(",")[1])
+            //     if (max < ldr{
+            //         max = ldr;
+            //     }
+
+                // var opacidad = d3.scale.linear().domain([0, max]).range([1, 0.2]);
+                // data.push(opacidad (message.split(",")[1]) );
+                // // redibuja y corre la linea
+                // path
+                //     .attr("d", line)
+                //     .attr("transform", null)
+                //     .transition()
+                //     .duration(500)
+                //     .ease("linear")
+                //     .attr("transform", "translate(" + x(0) + ",0)");
+
+
+                // elimino el dato mas viejo del array
+                //*  data.shift();
+
+                // actualizo el texto con el valor actual
+                // svg.select("text")
+                //     .text(function () {
+
+                //         var Vcc = 5; 
+                //         var Res = 10000;
+                //         var Vin = opacidad (message.split(",")[1]);
+
+                //         var total = Res + Vin;
+                //             total = total / Res;
+                //             total = total * Vcc;
+
+                //         return (opacidad(message.split(",")[1]) * 100).toFixed(1);
+
+
+                //         //por las dudas (y temporalmente) pongo la conversión de volts a luxes para el LDR
+
+                //         /*
+                //         // Vo = Vcc(R/(R+Vin)) que sería Vo los luxes, Vcc son 5v en nuestro circuito y no se modifica,
+                //         R sería 10.000 (el valor provisorio de nuestra resistencia), y Vin es el valor de nuestro sensor, q va de 0-1023
+                //         */
+                // } );
+
+            // }
+        // });        
+
+
+    </script>
+
+</body>
+</html>

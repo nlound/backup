@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <SocketStream/>
+    <title>Dashboard Cívico</title>
+</head>
+
+<body>
+    <div id="controles">
+        <div id="pp" onclick="controlo(this)" class="pause"> </div>
+        <div id="nx" onclick="controlo(this)" class="next"> </div>
+    </div>
+
+    <div id="dashboard">
+        <div class="fila">
+            <div class="caja">
+                <span id="horalugar">Cargando Lugar...</span>
+            </div>
+        </div>
+
+
+        <div id="seccionesCarousel" class="carousel slide tablero" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div id="seccion-ambiente" class="item active">
+
+
+
+                    <div class="fila">
+                        <div class="caja">
+                            <span id="consumoenergetico">Cargando Consumo Energético...</span>
+                        </div>
+                    </div>
+
+                    <div class="fila">
+                        <div class="caja">
+                            <span id="climaInterno">Cargando Temperatura Interna...</span>
+                        </div>
+                        <div class="caja larga">
+                            <span id="climaExterno">Cargando Temperatura Externa...</span>
+                        </div>
+                        <div class="caja">
+                            <span id="calidadAire">Cargando Calidad del aire...</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="seccion-transporte" class="item">
+                    <div class="fila">
+                        <div class="caja">
+                            <span id="estacionbici">Cargando Bicicletas...</span>
+                        </div>
+                        <div class="caja">
+                            <span id="subtesChico">Cargando Subtes...</span>
+                        </div>
+                    </div>
+                    <div class="fila">
+                        <div class="caja">
+                            <span id="ausa">Cargando Autopista...</span>
+                        </div>
+                        <div class="caja">
+                            <span id="distancias">Cargando Tránsito...</span>
+                        </div>
+                        <div class="caja">
+                            <span id="trafico_avIndep">Cargando Av. Independencia...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+    $(document).ready(function() {
+        $('.carousel').carousel({
+            interval: 1000 * 10,
+            wrap: true
+        })
+    });
+
+    function controlo(obj) {
+        if ($(obj).hasClass("next")) {
+            $(".carousel").carousel("next");
+        }
+
+        if ($(obj).hasClass("play")) {
+            $(".carousel").carousel();
+            $(obj).attr('class', 'pause');
+        } else {
+            if ($(obj).hasClass("pause")) {
+                $(".carousel").carousel("pause");
+                $(obj).attr('class', 'play');
+            }
+        }
+    }
+    </script>
+</body>
+
+</html>

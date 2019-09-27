@@ -1,0 +1,16 @@
+{
+	"undef": true,
+	"browser": true,
+	"globals": {
+		"window": false
+	},
+	"predef": [
+		"$",
+    "device",
+    "console",
+		"TimelineMax",
+		"Power1",
+		"DeviceDetector",
+		"TweenMax"
+	]
+}

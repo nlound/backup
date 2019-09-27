@@ -1,0 +1,122 @@
+<!doctype html>
+<html ng-app="bu-app">
+<!--[if lt IE 7]>      <html ng-app="bu-app" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html ng-app="bu-app" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html ng-app="bu-app" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Simulador BA Mundial</title>
+    <meta name="description" content="Simulador BA Mundial">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles/base.css">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:domain" content="http://buenosaires.gob.ar">
+    <meta name="twitter:site" content="@mingobba">
+    <meta name="twitter:creator" content="@mingobba">
+    <meta name="twitter:image:src" content="http://www.buenosaires.gob.ar/areas/modernizacion/labgcba/simulador-bu/banner-socialmedia.png">
+    <meta name="twitter:description" content="Demostrá cuánto sabés de fútbol y participá de un sorteo por 5 bicicletas.">
+    <meta name="twitter:title" content="Jugá al Simulador BAmundial">
+    <meta name="twitter:url" content="http://votamundial.buenosaires.gob.ar/">
+
+    <meta property="og:title" content="Jugá al Simulador BAmundial"/>
+    <meta property="og:site_name" content="Simulador BAmundial"/>
+    <meta property="og:description" content="Demostrá cuánto sabés de fútbol y participá de un sorteo por 5 bicicletas."/>
+    <meta property="og:image" content="http://www.buenosaires.gob.ar/areas/modernizacion/labgcba/simulador-bu/banner-socialmedia.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="250" />
+    <meta property="og:image:height" content="250" />
+    <meta property="og:url" content="http://votamundial.buenosaires.gob.ar/">
+
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=641019225994798&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+<header>
+    <div class="navbar navbar-default navbar-static-top" id="top" role="banner">
+        <div class="header-gcba">
+            <div class="header-inner">
+                <div class="container">
+                    <a  add="log('a-href-header', 'buenosaires.gob.ar')" href="http://buenosaires.gob.ar" target="_blank">
+                        <div class="logo"></div>
+                    </a>
+                    <h2 class="slogan">En todo estás vos</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div ng-view></div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 ministerio modernizacion">
+                Ministerio de Modernización
+            </div>
+            <div class="col-xs-6 ministerio desarrollo-economico">
+                Ministerio de Gobierno
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="scripts/jquery-1.11.1.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <!-- script src="bower_components/fastclick/lib/fastclick.js"></script-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.0/fastclick.min.js"></script>
+
+    <script src="scripts/st.min.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/controllers.js"></script>
+    <script src="scripts/boletaUnica.js"></script>
+
+
+    <!--[if lt IE 7]>
+        <p class="chromeframe">Usted esta utilizando una version de navegador <strong>desactualizada</strong>. Por favor visite <a href="http://browsehappy.com/">este sitio</a> para actualizarlo y mejorar su experiencia de navegación.</p>
+    <![endif]-->
+
+    <script>
+        var _gaq = [['_setAccount', 'UA-17784640-53'], ['_trackPageview']];
+        (function (d, t) {
+            var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            g.src = '//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g, s)
+        }(document, 'script'));
+    </script>
+
+</body>
+
+</html>

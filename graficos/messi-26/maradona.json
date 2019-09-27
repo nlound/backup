@@ -1,0 +1,4142 @@
+[
+   {
+      "jugador":{
+         "edad":"16",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"31/10/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Ferro",
+               "gRival":"3",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/11/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Huracán CR",
+               "gRival":"0",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"2",
+               "fecha":"14/11/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"5",
+               "rival":"San Lorenzo (MdP)",
+               "gRival":"2",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/11/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Central Norte",
+               "gRival":"0",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/11/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"All Boys",
+               "gRival":"4",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/12/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Colón",
+               "gRival":"0",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/12/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"San Lorenzo",
+               "gRival":"1",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/12/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Talleres Cba.",
+               "gRival":"5",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/12/1976",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Newell's",
+               "gRival":"2",
+               "torneo":"Nacional 76"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/2/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Quilmes",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/2/1977",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"Hungría",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/3/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Platense",
+               "gRival":"3",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/3/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Chacarita",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/3/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/3/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Newell's",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/4/1977",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"1",
+               "rival":"Uruguay",
+               "gRival":"1",
+               "torneo":"Sudamericano Sub 19"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/4/1977",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"1",
+               "rival":"Paraguay",
+               "gRival":"2",
+               "torneo":"Sudamericano Sub 19"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/4/1977",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"1",
+               "rival":"Perú",
+               "gRival":"2",
+               "torneo":"Sudamericano Sub 19"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/5/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Banfield",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/5/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Estudiantes LP",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/5/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Lanús",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"2",
+               "fecha":"22/5/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"5",
+               "rival":"Atlanta",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/5/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Independiente",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/7/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"R. Central",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"24/7/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"4",
+               "rival":"All Boys",
+               "gRival":"3",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/7/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Colón",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"2",
+               "fecha":"31/7/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Huracán",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/8/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Boca",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/8/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Ferro",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/8/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Temperley",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/8/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Gimnasia",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/8/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Quilmes",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/8/1977",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Paraguay",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/8/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Platense",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/8/1977",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Paraguay",
+               "gRival":"2",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/9/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Chacarita",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/9/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/9/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"River",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/9/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"San Lorenzo",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/9/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Vélez",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/10/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Estudiantes LP",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/10/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Lanús",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/10/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Atlanta",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/10/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Independiente",
+               "gRival":"5",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/10/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"R. Central",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/10/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"All Boys",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/10/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Colón",
+               "gRival":"3",
+               "torneo":"Metro 77"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"17",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"30/10/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Huracán",
+               "gRival":"0",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"2",
+               "fecha":"2/11/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Boca",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/11/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Ferro",
+               "gRival":"1",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/11/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Temperley",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/11/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Gimnasia",
+               "gRival":"2",
+               "torneo":"Metro 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/11/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Atlanta",
+               "gRival":"0",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/11/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Unión",
+               "gRival":"3",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/11/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Atl. Ledesma",
+               "gRival":"1",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/11/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Huracán",
+               "gRival":"2",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/12/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"All Boys",
+               "gRival":"1",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/12/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Belgrano",
+               "gRival":"2",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/12/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"4",
+               "rival":"Unión",
+               "gRival":"1",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/12/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Atl. Ledesma (J)",
+               "gRival":"3",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/12/1977",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Huracán",
+               "gRival":"2",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/1/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"All Boys",
+               "gRival":"0",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"2",
+               "fecha":"7/1/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Belgrano",
+               "gRival":"2",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/1/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Independiente",
+               "gRival":"1",
+               "torneo":"Nacional 77"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/3/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Boca",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"3",
+               "fecha":"16/3/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"5",
+               "rival":"Atlanta",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/3/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Estudiantes BA",
+               "gRival":"4",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/3/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Newell's",
+               "gRival":"3",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/3/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Vélez",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"3",
+               "fecha":"21/5/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"5",
+               "rival":"Chacarita",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/7/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"R. Central",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/7/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"San Lorenzo",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/7/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"All Boys",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/7/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"5",
+               "rival":"Unión",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/7/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Gimnasia",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/8/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"River",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/8/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Boca",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/8/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Atlanta",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/8/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Estudiantes BA",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/8/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Newell's",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"2",
+               "fecha":"30/8/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Vélez",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/9/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Colón",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/9/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Estudiantes LP",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/9/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"4",
+               "rival":"Independiente",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"2",
+               "fecha":"20/9/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Huracán",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/9/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Quilmes",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/9/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Platense",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/10/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Banfield",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"2",
+               "fecha":"8/10/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Chacarita",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/10/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"R. Central",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/10/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"San Lorenzo",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/10/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"All Boys",
+               "gRival":"0",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/10/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Unión",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/10/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Gimnasia",
+               "gRival":"1",
+               "torneo":"Metro 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/10/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Racing",
+               "gRival":"2",
+               "torneo":"Metro 78"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"18",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"5/11/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Racing Cba",
+               "gRival":"0",
+               "torneo":"Nacional 78"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/11/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Independiente",
+               "gRival":"1",
+               "torneo":"Nacional 78"
+            },
+            {
+               "cant":"2",
+               "fecha":"19/11/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Altos Hornos Zapla",
+               "gRival":"1",
+               "torneo":"Nacional 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/11/1978",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"R. Central",
+               "gRival":"2",
+               "torneo":"Nacional 78"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/1/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"4",
+               "rival":"Perú",
+               "gRival":"0",
+               "torneo":"Sudamericano Sub 19"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/1/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"5",
+               "rival":"Ecuador",
+               "gRival":"0",
+               "torneo":"Sudamericano Sub 19"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/1/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"0",
+               "rival":"Paraguay",
+               "gRival":"0",
+               "torneo":"Sudamericano Sub 19"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/1/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"0",
+               "rival":"Uruguay",
+               "gRival":"0",
+               "torneo":"Sudamericano Sub 19"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/1/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"1",
+               "rival":"Brasil",
+               "gRival":"0",
+               "torneo":"Sudamericano Sub 19"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/3/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Unión",
+               "gRival":"1",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/3/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"5",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/3/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Vélez",
+               "gRival":"1",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/3/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Platense",
+               "gRival":"1",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/4/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Newell's",
+               "gRival":"0",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/4/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Huracán",
+               "gRival":"1",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"2",
+               "fecha":"15/4/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"River",
+               "gRival":"1",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/4/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Quilmes",
+               "gRival":"3",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/4/1979",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Bulgaria",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/4/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Gimnasia",
+               "gRival":"0",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/5/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Vélez",
+               "gRival":"2",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/5/1979",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Holanda",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/5/1979",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Italia",
+               "gRival":"2",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/6/1979",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Escocia",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"2",
+               "fecha":"10/6/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"5",
+               "rival":"Platense",
+               "gRival":"1",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/6/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Newell's",
+               "gRival":"1",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"3",
+               "fecha":"23/6/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Huracán",
+               "gRival":"2",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/6/1979",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"FIFA",
+               "gRival":"2",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/7/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"River",
+               "gRival":"1",
+               "torneo":"Metro 79"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/8/1979",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Brasil",
+               "gRival":"2",
+               "torneo":"Copa América 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"8/8/1979",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Bolivia",
+               "gRival":"0",
+               "torneo":"Copa América 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/8/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"2",
+               "rival":"México",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"2",
+               "fecha":"26/8/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"5",
+               "rival":"Indonesia",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/8/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"1",
+               "rival":"Yugoslavia",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/8/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"4",
+               "rival":"Polonia",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/9/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"5",
+               "rival":"Argelia",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/9/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"2",
+               "rival":"Uruguay",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/9/1979",
+               "seleccion":"SI",
+               "club":"Juvenil",
+               "gEquipo":"3",
+               "rival":"U.R.S.S.",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/9/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"1",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/9/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Colón",
+               "gRival":"1",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/9/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Vélez",
+               "gRival":"0",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/10/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"At. Tucumán",
+               "gRival":"2",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/10/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Indpte. (Riv)",
+               "gRival":"2",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/10/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"A. Hornos Zapla (J)",
+               "gRival":"1",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/10/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"All Boys",
+               "gRival":"0",
+               "torneo":"Nacional 79"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"19",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"4/11/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Racing",
+               "gRival":"2",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"3",
+               "fecha":"11/11/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Colón",
+               "gRival":"0",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/11/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Vélez",
+               "gRival":"1",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/11/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"At. Tucumán",
+               "gRival":"2",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"2",
+               "fecha":"2/12/1979",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"5",
+               "rival":"Indpte. (Riv)",
+               "gRival":"1",
+               "torneo":"Nacional 79"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/2/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Independiente",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/2/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"San Lorenzo",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"2",
+               "fecha":"2/3/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Ferro",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"2",
+               "fecha":"5/3/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Colón",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/3/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Estudiantes LP",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/3/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Boca",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/3/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Platense",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"31/3/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Racing",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"2",
+               "fecha":"3/4/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Talleres Cba.",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/4/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Huracán",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/4/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Vélez",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/4/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"All Boys",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/4/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Unión",
+               "gRival":"3",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/4/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Quilmes",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"2",
+               "fecha":"4/5/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"River",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/5/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Inglaterra",
+               "gRival":"3",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/5/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Rep. Irlanda",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"3",
+               "fecha":"21/5/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"Austria",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/5/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Tigre",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"2",
+               "fecha":"28/5/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"4",
+               "rival":"Newell's",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/6/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Independiente",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/6/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"San Lorenzo",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/6/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Ferro",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/6/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Colón",
+               "gRival":"3",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/6/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Estudiantes LP",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/6/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"R. Central",
+               "gRival":"5",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/7/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Boca",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/7/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Platense",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/7/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/7/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"0",
+               "rival":"Talleres Cba.",
+               "gRival":"0",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/7/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Huracán",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/7/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Vélez",
+               "gRival":"1",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"2",
+               "fecha":"4/8/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"All Boys",
+               "gRival":"3",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/8/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Unión",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"2",
+               "fecha":"10/8/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Quilmes",
+               "gRival":"2",
+               "torneo":"Metro 80"
+            },
+            {
+               "cant":"3",
+               "fecha":"14/9/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"6",
+               "rival":"San Lorenzo (MdP)",
+               "gRival":"0",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/9/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Chile",
+               "gRival":"2",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/9/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"San Martín Mza.",
+               "gRival":"1",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"3",
+               "fecha":"24/9/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"4",
+               "rival":"Unión",
+               "gRival":"1",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/9/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"4",
+               "rival":"Boca",
+               "gRival":"3",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/10/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Huracán",
+               "gRival":"0",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/10/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Bulgaria",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/10/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Polonia",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/10/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Checoslovaquia",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"20/10/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"Platense",
+               "gRival":"3",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/10/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Talleres Cba.",
+               "gRival":"0",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/10/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"San Lorenzo (MdP)",
+               "gRival":"1",
+               "torneo":"Nacional 80"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"20",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"2/11/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"3",
+               "rival":"San Martín Mza.",
+               "gRival":"1",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/11/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"1",
+               "rival":"Unión",
+               "gRival":"2",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"4",
+               "fecha":"9/11/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"5",
+               "rival":"Boca",
+               "gRival":"3",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/11/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Huracán",
+               "gRival":"3",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/11/1980",
+               "seleccion":"NO",
+               "club":"Argentinos",
+               "gEquipo":"2",
+               "rival":"Platense",
+               "gRival":"1",
+               "torneo":"Nacional 80"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/12/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"U.R.S.S.",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/12/1980",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"Suiza",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/1/1981",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Alemania Fed.",
+               "gRival":"1",
+               "torneo":"Copa de Oro"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/1/1981",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Brasil",
+               "gRival":"1",
+               "torneo":"Copa de Oro"
+            },
+            {
+               "cant":"2",
+               "fecha":"22/2/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"4",
+               "rival":"Talleres Cba.",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"2",
+               "fecha":"1/3/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Instituto",
+               "gRival":"2",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/3/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Huracán",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/3/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Newell's",
+               "gRival":"2",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/4/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Independiente",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/4/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"3",
+               "rival":"River",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/4/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"0",
+               "rival":"Vélez",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/4/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Estudiantes LP",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/4/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"3",
+               "rival":"Colón",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/5/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"0",
+               "rival":"Ferro",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/5/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"3",
+               "rival":"R. Central",
+               "gRival":"2",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/5/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/5/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"0",
+               "rival":"Talleres Cba.",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/5/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"0",
+               "rival":"Instituto",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/5/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"3",
+               "rival":"Huracán",
+               "gRival":"2",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"2",
+               "fecha":"5/6/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"4",
+               "rival":"Platense",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/6/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Sarmiento",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/6/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"0",
+               "rival":"Unión",
+               "gRival":"2",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/6/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"4",
+               "rival":"San Lorenzo",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/6/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Newell's",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/6/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"Independiente",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/7/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"River",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/7/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"Vélez",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/7/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"Estudiantes LP",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/7/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Colón",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/8/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"Ferro",
+               "gRival":"0",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/8/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"0",
+               "rival":"R. Central",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/8/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"1",
+               "torneo":"Metro 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/9/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"Unión",
+               "gRival":"0",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/9/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"River",
+               "gRival":"3",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/9/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"0",
+               "rival":"Instituto",
+               "gRival":"1",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/10/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"0",
+               "rival":"San Lorenzo",
+               "gRival":"0",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"2",
+               "fecha":"11/10/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"7",
+               "rival":"San Lorenzo (MdP)",
+               "gRival":"1",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/10/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"3",
+               "rival":"Estudiantes LP",
+               "gRival":"1",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/10/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"1",
+               "rival":"Unión",
+               "gRival":"0",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/10/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"At. Tucumán",
+               "gRival":"1",
+               "torneo":"Nacional 81"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"21",
+         "goles":[
+            {
+               "cant":"2",
+               "fecha":"1/11/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"River",
+               "gRival":"2",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"3",
+               "fecha":"8/11/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"4",
+               "rival":"Instituto",
+               "gRival":"1",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/11/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"3",
+               "rival":"San Lorenzo",
+               "gRival":"0",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/12/1981",
+               "seleccion":"NO",
+               "club":"Boca",
+               "gEquipo":"2",
+               "rival":"Vélez",
+               "gRival":"1",
+               "torneo":"Nacional 81"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/3/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Checoslovaquia",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/3/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Alemania Fed.",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/4/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"U.R.S.S.",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/5/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Bulgaria",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/5/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Rumania",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/6/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Bélgica",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/6/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Hungría",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/6/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"El Salvador",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/6/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Italia",
+               "gRival":"2",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/7/1982",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Brasil",
+               "gRival":"3",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/9/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valencia",
+               "gRival":"2",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/9/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Valladolid",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"3",
+               "fecha":"15/9/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"8",
+               "rival":"Apollon",
+               "gRival":"0",
+               "torneo":"Recopa 82/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/9/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Sevilla",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/9/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/10/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/10/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"CD Málaga",
+               "gRival":"1",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"2",
+               "fecha":"20/10/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Estrella Roja",
+               "gRival":"2",
+               "torneo":"Recopa 82/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/10/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sporting de Gijón",
+               "gRival":"1",
+               "torneo":"Liga 1982/83"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"22",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"30/10/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Racing de Santander",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/11/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Estrella Roja",
+               "gRival":"1",
+               "torneo":"Recopa 82/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/11/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Salamanca",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/11/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Betis",
+               "gRival":"1",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/11/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Celta de Vigo",
+               "gRival":"1",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/11/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/12/1982",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Sociedad",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/3/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Betis",
+               "gRival":"1",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/3/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Austria Viena",
+               "gRival":"1",
+               "torneo":"Recopa 82/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/3/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Celta de Vigo",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/3/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/3/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Athletic Bilbao",
+               "gRival":"1",
+               "torneo":"Copa del Rey 82/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/4/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Sociedad",
+               "gRival":"0",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/4/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Athletic Club",
+               "gRival":"3",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/4/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Athletic Bilbao",
+               "gRival":"0",
+               "torneo":"Copa del Rey 82/83"
+            },
+            {
+               "cant":"3",
+               "fecha":"17/4/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"7",
+               "rival":"Las Palmas",
+               "gRival":"2",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/5/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Osasuna",
+               "gRival":"1",
+               "torneo":"Liga 1982/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/5/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Sociedad",
+               "gRival":"0",
+               "torneo":"Copa del Rey 82/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/5/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Sociedad",
+               "gRival":"1",
+               "torneo":"Copa del Rey 82/83"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/6/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Copa del Rey 82/83"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/6/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sporting de Gijón",
+               "gRival":"0",
+               "torneo":"Copa de la Liga 82/93"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/6/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Sporting de Gijón",
+               "gRival":"0",
+               "torneo":"Copa de la Liga 82/93"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/6/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Atlético de Madrid",
+               "gRival":"1",
+               "torneo":"Copa de la Liga 82/93"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/6/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Atlético de Madrid",
+               "gRival":"2",
+               "torneo":"Copa de la Liga 82/93"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/6/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Copa de la Liga 82/93"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/6/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Copa de la Liga 82/93"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/9/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sevilla",
+               "gRival":"3",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/9/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"3",
+               "fecha":"14/9/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Magdeburg",
+               "gRival":"1",
+               "torneo":"Recopa 83/84"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/9/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Mallorca",
+               "gRival":"1",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/9/1983",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Athletic Club",
+               "gRival":"0",
+               "torneo":"Liga 1983/84"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"23",
+         "goles":[
+            {
+               "cant":"2",
+               "fecha":"8/1/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Sevilla",
+               "gRival":"1",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"2",
+               "fecha":"15/1/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Osasuna",
+               "gRival":"4",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/1/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Mallorca",
+               "gRival":"1",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"2",
+               "fecha":"29/1/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Athletic Club",
+               "gRival":"1",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/2/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Murcia",
+               "gRival":"0",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"1",
+               "fecha":"8/2/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Hércules",
+               "gRival":"0",
+               "torneo":"Copa del Rey 83/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/2/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Sporting de Gijón",
+               "gRival":"0",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/2/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Valladolid",
+               "gRival":"0",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/2/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Copa del Rey 83/84"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/2/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/3/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Manchester United",
+               "gRival":"0",
+               "torneo":"Recopa 83/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/3/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/3/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Manchester United",
+               "gRival":"3",
+               "torneo":"Recopa 83/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/4/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Zaragoza",
+               "gRival":"0",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/4/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Salamanca",
+               "gRival":"0",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/4/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Las Palmas",
+               "gRival":"1",
+               "torneo":"Copa del Rey 83/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/4/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Espanyol",
+               "gRival":"2",
+               "torneo":"Liga 1983/84"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/5/1984",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Athletic Bilbao",
+               "gRival":"1",
+               "torneo":"Copa del Rey 83/84"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/8/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"4",
+               "rival":"Arezzo",
+               "gRival":"1",
+               "torneo":"Copa Italia 84/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/8/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Casertana",
+               "gRival":"0",
+               "torneo":"Copa Italia 84/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/8/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Perugia",
+               "gRival":"0",
+               "torneo":"Copa Italia 84/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/9/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Pescara",
+               "gRival":"0",
+               "torneo":"Copa Italia 84/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/9/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Fiorentina",
+               "gRival":"1",
+               "torneo":"Copa Italia 84/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/9/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Verona",
+               "gRival":"3",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/9/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Sampdoria",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/9/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Torino",
+               "gRival":"3",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/10/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Como",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/10/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Lazio",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/10/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Milan",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/10/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Atalanta",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"24",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"11/11/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Avellino",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/11/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Ascoli",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/11/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Cremonese",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/12/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Inter",
+               "gRival":"2",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/12/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Roma",
+               "gRival":"2",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/12/1984",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Juventus",
+               "gRival":"2",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"2",
+               "fecha":"6/1/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"4",
+               "rival":"Udinese",
+               "gRival":"3",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/1/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Fiorentina",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/1/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Verona",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/1/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Sampdoria",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/2/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Torino",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/2/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Como",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"3",
+               "fecha":"24/2/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"4",
+               "rival":"Lazio",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/2/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Milan",
+               "gRival":"1",
+               "torneo":"Copa Italia 84/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/3/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Milan",
+               "gRival":"2",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/3/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Atalanta",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/3/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Avellino",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"31/3/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Ascoli",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/4/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Cremonese",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/4/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Inter",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/4/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Roma",
+               "gRival":"1",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/5/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Juventus",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/5/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Paraguay",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"2",
+               "fecha":"12/5/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Udinese",
+               "gRival":"2",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/5/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Chile",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/5/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Fiorentina",
+               "gRival":"0",
+               "torneo":"Liga 1984/85"
+            },
+            {
+               "cant":"2",
+               "fecha":"26/5/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Venezuela",
+               "gRival":"2",
+               "torneo":"Eliminatorias"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/6/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Colombia",
+               "gRival":"1",
+               "torneo":"Eliminatorias"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/6/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Venezuela",
+               "gRival":"0",
+               "torneo":"Eliminatorias"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/6/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Colombia",
+               "gRival":"0",
+               "torneo":"Eliminatorias"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/6/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Perú",
+               "gRival":"1",
+               "torneo":"Eliminatorias"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/6/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Perú",
+               "gRival":"2",
+               "torneo":"Eliminatorias"
+            },
+            {
+               "cant":"2",
+               "fecha":"1/9/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Salernitana",
+               "gRival":"1",
+               "torneo":"Copa Italia 85/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/9/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Lecce",
+               "gRival":"0",
+               "torneo":"Copa Italia 85/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/9/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Como",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/9/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Pisa",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/9/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Atalanta",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/9/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Roma",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/10/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Lecce",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/10/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Fiorentina",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"1",
+               "fecha":"20/10/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"5",
+               "rival":"Verona",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/10/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Torino",
+               "gRival":"2",
+               "torneo":"Liga 1985/86"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"25",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"3/11/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Juventus",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/11/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Inter",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/11/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"México",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/11/1985",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"México",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"24/11/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Udinese",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/12/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Milan",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/12/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Sampdoria",
+               "gRival":"2",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/12/1985",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Avellino",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/1/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Como",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/1/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Pisa",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/1/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Atalanta",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/1/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Roma",
+               "gRival":"2",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/2/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Lecce",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/2/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Fiorentina",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"2",
+               "fecha":"23/2/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Verona",
+               "gRival":"2",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/3/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Torino",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/3/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/3/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Inter",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/3/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Udinese",
+               "gRival":"2",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/3/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Francia",
+               "gRival":"2",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/4/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Bari",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/4/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Milan",
+               "gRival":"1",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/4/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Sampdoria",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/4/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Avellino",
+               "gRival":"0",
+               "torneo":"Liga 1985/86"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/4/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Noruega",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"2",
+               "fecha":"4/5/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"7",
+               "rival":"Israel",
+               "gRival":"2",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/6/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Corea Del Sur",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/6/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Italia",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/6/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Bulgaria",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/6/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Uruguay",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"2",
+               "fecha":"22/6/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Inglaterra",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"2",
+               "fecha":"25/6/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Bélgica",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/6/1986",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Alemania Fed.",
+               "gRival":"2",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"1",
+               "fecha":"24/8/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Spal",
+               "gRival":"0",
+               "torneo":"Copa Italia 86/87"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/8/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Lazio",
+               "gRival":"0",
+               "torneo":"Copa Italia 86/87"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/9/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Cesena",
+               "gRival":"1",
+               "torneo":"Copa Italia 86/87"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/9/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Brescia",
+               "gRival":"0",
+               "torneo":"Liga 1986/87"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/9/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Toulouse",
+               "gRival":"0",
+               "torneo":"Copa Uefa 86/87"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/9/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Udinese",
+               "gRival":"1",
+               "torneo":"Liga 1986/87"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/9/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Avellino",
+               "gRival":"0",
+               "torneo":"Liga 1986/87"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/10/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"0",
+               "rival":"Toulouse",
+               "gRival":"1",
+               "torneo":"Copa Uefa 86/87"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/10/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"3",
+               "rival":"Torino",
+               "gRival":"1",
+               "torneo":"Liga 1986/87"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/10/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Sampdoria",
+               "gRival":"1",
+               "torneo":"Liga 1986/87"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/10/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"2",
+               "rival":"Atalanta",
+               "gRival":"2",
+               "torneo":"Liga 1986/87"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/10/1986",
+               "seleccion":"NO",
+               "club":"Napoli",
+               "gEquipo":"1",
+               "rival":"Roma",
+               "gRival":"0",
+               "torneo":"Liga 1986/87"
+            }
+         ]
+      }
+   }
+]

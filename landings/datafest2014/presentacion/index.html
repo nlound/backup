@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Cartografía básica para contar historias con datos</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+		<script src='lib/js/jquery-1.11.1.min.js' type="text/javascript" charset="utf-8"></script>
+		<script src='lib/js/TweenMax.min.js' type="text/javascript" charset="utf-8"></script>
+		<script src='lib/js/SplitText.min.js' type="text/javascript" charset="utf-8"></script>
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		
+		<div id="posicion" style="opacity: 0; z-index: 999">
+			<div id="numero" class="numero">01</div>
+			<div class="separador parte-uno"></div>
+			<div id="leyenda" class="leyenda">Gobierno Abierto</div>
+		</div>
+
+		<div class="reveal">
+
+			
+			<div class="slides">
+				<section></section>
+				<section>
+
+					<h1>Cartografía básica para contar historias con datos</h1>
+					<p>#DatafestAR</p>
+					
+				</section>
+				
+				<section>
+					<h1>Cuiden sus pertenencias!</h1>
+				</section>
+
+				<section>
+
+					<ul class="us">
+						<li>
+							<img src="img/pili.jpg" alt="">
+							<p>Pili</p>
+							<p>@pilimayora</p>
+						</li>
+						<li>
+							<img src="img/nico.jpg" alt="">
+							<p>Nico</p>
+							<p>@pinkcoso</p>
+						</li>
+						<li>
+							<img src="img/davo.jpg" alt="">
+							<p>Davo</p>
+							<p>@pixelbeat</p>
+						</li>
+					</ul>
+					
+				</section>
+				
+				<section>
+					<h2>Previously...</h2>
+				</section>
+				<section data-background="rgba(10,10,10,0.1)">
+					<h2>Gaba habló hoy de mapas en #DatafestAR</h2>
+					<a href="http://gabelula.github.io/mapas/" target="_blank">http://gabelula.github.io/mapas/</a>
+				</section>
+				
+				<section>
+					<h1>Tecnologías GIS</h1>
+					<h2 class="fragment claim">QGIS, Google, OSM</h2>
+					<p class="fragment">Quantum GIS</p>
+					<p class="fragment">Google Earth / Google Maps</p>
+					<p class="fragment">Open Street Map</p>
+				</section>
+
+				<section>
+					<h1>Más tecnologías GIS</h1>
+					<h2 class="fragment claim">CartoDB, Mapbox</h2>
+					<p class="fragment">CartoDB, tablas con postgis, en la nube</p>
+					<p class="fragment">Mapbox, mapas customizados, en la nube</p>
+				</section>
+				
+				<section>
+					<h1>Repasemos las herramientas</h1>
+				</section>
+
+				<section>
+
+					<h1 class="claim">Quantum GIS</h1>
+					<a href="http://www.qgis.org/" target="_blank">QGIS v2</a>
+					
+				</section>
+
+				<section data-background="img/14606441496_264d02e651_o.png"></section>
+				<section data-background="img/14969133156_effd96edbf_o.png"></section>
+				
+
+				<section>
+					<h1>QGIS</h1>
+					<p class="fragment">Open source</p>
+					<p class="fragment">Vector / Raster</p>
+					<p class="fragment">Legacy (ArcGIS/KML)</p>
+					<p class="fragment">Soporte DB (PostgreSQL/PostGIS, SpatiaLite & MySQL)</p>
+				</section>
+				
+				<section>
+					<h1>Google Map Engine</h1>
+					<p class="fragment">Gratis(hasta 2k features)</p>
+					<p class="fragment">API</p>
+					<p class="fragment">Google Spreadsheet / CSV</p>
+				</section>
+
+				<section data-background="img/Screen Shot 2014-11-01 at 2.05.56 PM.png"></section>
+
+				<section>
+					<h1>CartoDB</h1>
+					<p class="fragment">Soporte OSM</p>
+					<p class="fragment">KML, CSV, SHP</p>
+					<p class="fragment">PostGIS / SQL API</p>
+					<p class="fragment">Synced tables (Dropbox/Google Spreasheets)</p>
+					<p class="fragment">Custom publishing</p>
+				</section>
+				
+				<section>
+					<h1>Qué vamos a hacer?</h1>
+					<h2>Analfabetismo y Escuelas</h2>
+					<h3>Datos de Brasil y Argentina</h3>
+				</section>
+
+				<section>
+					<h1>Datos Abiertos / Dados Abertos</h1>
+					<ul>
+						<li>Portal de datos públicos Argentina</li>
+						<li>Instituto Geográfico Nacional</li>
+						<li>Instituto Brasileiro de Geografia e Estatística</li>
+						<li>Portal Brasileiro de Dados Abertos</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Argentina</h2>
+					<ul>
+						<li>Establecimientos educativos</li>
+						<li>Censor 2010, cantidad de analfabetos por departamento</li>
+						<li>IGN - Departamentos</li>
+						<li>IGN - Provincias</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Brasil</h2>
+					<ul>
+						<li>Pessoas de 10 anos ou mais de idade, total e alfabetizadas, por situação do domicílio, segundo as Grandes Regiões e as Unidades da Federação</li>
+						<li>Instituições de Ensino Básico</li>
+						<li>Polígonos Estados brasileiros</li>
+						<li>Polígonos Municípios Brasileiros</li>
+						<li>Polígonos Municípios Brasileiros</li>
+						<li>Brasil População por município</li>
+						<li>Taxa de analfabetismo segundo município</li>
+
+					</ul>
+				</section>
+				<section>
+					<h4>Mapa Argentina Grilla Establecimientos Educativos</h4>
+					<iframe width='100%' height='550' frameborder='0' src='http://datafest2014.cartodb.com/viz/9c5fb618-621a-11e4-8178-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+				</section>
+				<section>
+					<h4>Tasa de analfabetismo en municipios de Brasil</h4>
+					<iframe width='100%' height='550' frameborder='0' src='http://datafest2014.cartodb.com/viz/8db87b76-61b7-11e4-9967-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+				</section>
+				<section>
+					<h4>Mapa final</h4>
+					<iframe width='100%' height='550' frameborder='0' src='http://datafest2014.cartodb.com/viz/d3049300-61e3-11e4-8e93-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+				</section>
+				<section>
+					<h2>Presentación, código y datos en:</h2>
+					<p><a href="https://github.com/gcba/datafest2014" target="_blank">https://github.com/gcba/datafest2014</a></p>
+				</section>
+				<section>
+					<h1>Gracias!</h1>
+
+
+						<ul class="us">
+							<li>
+								<img src="img/pili.jpg" alt="">
+								<p>Pili</p>
+								<p><a href="https://twitter.com/pilimayora" target="_blank">@pilimayora</a></p>
+							</li>
+							<li>
+								<img src="img/nico.jpg" alt="">
+								<p>Nico</p>
+								<p><a href="https://twitter.com/pinkcoso" target="_blank">@pinkcoso</a></p>
+							</li>
+							<li>
+								<img src="img/davo.jpg" alt="">
+								<p>Davo</p>
+								<p><a href="https://twitter.com/pixelbeat">@pixelbeat</a></p>
+							</li>
+						</ul>
+						
+				</section>
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script src="js/presentacion.js"></script>
+
+	</body>
+</html>

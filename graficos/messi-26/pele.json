@@ -1,0 +1,4252 @@
+[
+   {
+      "jugador":{
+         "edad":"16",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"26/4/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"São Paulo",
+               "gRival":"1",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/5/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/5/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Flamengo",
+               "gRival":"4",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/5/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. de Desportos",
+               "gRival":"4",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/5/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Botafogo",
+               "gRival":"1",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"2",
+               "fecha":"15/5/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Palmeiras",
+               "gRival":"0",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/5/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Fluminense",
+               "gRival":"2",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/5/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"América",
+               "gRival":"0",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/6/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Vasco da Gama",
+               "gRival":"3",
+               "torneo":"Copa Río-San Pablo 57"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/7/1957",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Argentina",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/7/1957",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Argentina",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/7/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"XV de Piracicaba",
+               "gRival":"3",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/7/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"3",
+               "fecha":"25/7/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Ponte Preta",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/7/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Arapongas",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/7/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Jabaquara",
+               "gRival":"6",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/8/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Ferroviária",
+               "gRival":"3",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/8/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Botafogo",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"4",
+               "fecha":"15/8/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"8",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/8/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Port. de Desportos",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/8/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Salvador",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"1",
+               "fecha":"8/9/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Palmeiras",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"4",
+               "fecha":"11/9/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Nacional",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/9/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"São Paulo",
+               "gRival":"3",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/9/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Port. Santista",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"3",
+               "fecha":"25/9/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"9",
+               "rival":"Ipiranga",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/9/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/10/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Sport Recife",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/10/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Náutico",
+               "gRival":"0",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/10/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Canto do Rio",
+               "gRival":"0",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/10/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Botafogo",
+               "gRival":"4",
+               "torneo":"Paulista 1957"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"17",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"23/10/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. Santista",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/10/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Palmeiras",
+               "gRival":"3",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"3",
+               "fecha":"3/11/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Corinthians",
+               "gRival":"3",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/11/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Bandeirantes",
+               "gRival":"3",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/11/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/11/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"XV de Piracicaba",
+               "gRival":"0",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/11/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"São Paulo",
+               "gRival":"6",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"3",
+               "fecha":"24/11/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Jabaquara",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"2",
+               "fecha":"27/11/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"XV de Piracicaba",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"4",
+               "fecha":"1/12/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Port. Santista",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/12/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"São Paulo",
+               "gRival":"2",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"1",
+               "fecha":"8/12/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Ponte Preta",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"2",
+               "fecha":"15/12/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Port. de Desportos",
+               "gRival":"0",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/12/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"0",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/12/1957",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1957"
+            },
+            {
+               "cant":"4",
+               "fecha":"26/2/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"América",
+               "gRival":"3",
+               "torneo":"Copa Río-San Pablo 58"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/3/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Botafogo",
+               "gRival":"2",
+               "torneo":"Copa Río-San Pablo 58"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/3/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Palmeiras",
+               "gRival":"6",
+               "torneo":"Copa Río-San Pablo 58"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/3/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Flamengo",
+               "gRival":"3",
+               "torneo":"Copa Río-San Pablo 58"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/3/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. de Desportos",
+               "gRival":"3",
+               "torneo":"Copa Río-San Pablo 58"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/3/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"São Paulo",
+               "gRival":"4",
+               "torneo":"Copa Río-San Pablo 58"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/3/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Vasco da Gama",
+               "gRival":"1",
+               "torneo":"Copa Río-San Pablo 58"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/3/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"2",
+               "torneo":"Copa Río-San Pablo 58"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/5/1958",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"Paraguay",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/5/1958",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Bulgária",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/5/1958",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Bulgária",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/6/1958",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Uniâo Soviética",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/6/1958",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"País de Gales",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"3",
+               "fecha":"24/6/1958",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"França",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"2",
+               "fecha":"29/6/1958",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"Suécia",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/7/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Jabaquara",
+               "gRival":"3",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"20/7/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Juventus",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"4",
+               "fecha":"23/7/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"XV de Piracicaba",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"2",
+               "fecha":"27/7/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Botafogo",
+               "gRival":"2",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"31/7/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Comercial",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"América",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Port. de Desportos",
+               "gRival":"3",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Noroeste",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Ferroviária",
+               "gRival":"3",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Paulo",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"20/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Ponte Preta",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Palmeiras",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"XV de Jaú",
+               "gRival":"2",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/8/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. Santista",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/9/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Taubaté",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/9/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Ypiranga",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"4",
+               "fecha":"11/9/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"10",
+               "rival":"Nacional",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/9/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/9/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"8",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"5",
+               "fecha":"1/10/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"8",
+               "rival":"Ypiranga",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/10/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Taubaté",
+               "gRival":"3",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/10/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Noroeste",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"3",
+               "fecha":"15/10/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Port. Santista",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"2",
+               "fecha":"19/10/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"XV de Piracicaba",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"3",
+               "fecha":"20/10/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Jabaquara",
+               "gRival":"2",
+               "torneo":"Paulista 1958"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"18",
+         "goles":[
+            {
+               "cant":"3",
+               "fecha":"26/10/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Botafogo",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/10/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/11/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"XV de Jaú",
+               "gRival":"0",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/11/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"América",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/11/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Ferroviária",
+               "gRival":"2",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/11/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"4",
+               "fecha":"19/11/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"9",
+               "rival":"Comercial",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/11/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Ponte Preta",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/11/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Nacional",
+               "gRival":"3",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"4",
+               "fecha":"7/12/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"3",
+               "fecha":"10/12/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"4",
+               "fecha":"14/12/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/12/1958",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"São Paulo",
+               "gRival":"2",
+               "torneo":"Paulista 1958"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/3/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Peru",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"2",
+               "fecha":"15/3/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Chile",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/3/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Bolivia",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/3/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Uruguai",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"3",
+               "fecha":"29/3/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Paraguay",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/4/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Argentina",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/4/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Botafogo",
+               "gRival":"2",
+               "torneo":"Copa Río-San Pablo 59"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/4/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Flamengo",
+               "gRival":"2",
+               "torneo":"Copa Río-San Pablo 59"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/4/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Fluminense",
+               "gRival":"1",
+               "torneo":"Copa Río-San Pablo 59"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/4/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. de Desportos",
+               "gRival":"0",
+               "torneo":"Copa Río-San Pablo 59"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/4/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Bahia",
+               "gRival":"1",
+               "torneo":"Copa Río-San Pablo 59"
+            },
+            {
+               "cant":"2",
+               "fecha":"26/4/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"São Paulo",
+               "gRival":"3",
+               "torneo":"Copa Río-San Pablo 59"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/4/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Corinthians",
+               "gRival":"2",
+               "torneo":"Copa Río-San Pablo 59"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/5/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Inglaterra",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/5/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Vasco da Gama",
+               "gRival":"0",
+               "torneo":"Copa Río-San Pablo 59"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/7/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Jabaquara",
+               "gRival":"0",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"3",
+               "fecha":"26/7/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"8",
+               "rival":"XV de Jaú",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"3",
+               "fecha":"2/8/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Juventus",
+               "gRival":"0",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/8/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Taubaté",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/8/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Ferroviária",
+               "gRival":"0",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"3",
+               "fecha":"23/8/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Noroeste",
+               "gRival":"3",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/8/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Corinthians",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/8/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"América",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"3",
+               "fecha":"7/9/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Port. de Desportos",
+               "gRival":"0",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"2",
+               "fecha":"10/9/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/9/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Botafogo",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"3",
+               "fecha":"17/9/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"7",
+               "rival":"Chile",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/9/1959",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Chile",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/9/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Paulo",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/10/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Comercial",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"3",
+               "fecha":"3/10/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Palmeiras",
+               "gRival":"3",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"4",
+               "fecha":"14/10/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"8",
+               "rival":"América",
+               "gRival":"0",
+               "torneo":"Paulista 1959"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"19",
+         "goles":[
+            {
+               "cant":"2",
+               "fecha":"25/10/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"XV de Piracicaba",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/10/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Noroeste",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Comercial",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Comercial",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"XV de Jaú",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"2",
+               "fecha":"11/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"2",
+               "fecha":"15/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Nacional",
+               "gRival":"0",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Grêmio",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1959"
+            },
+            {
+               "cant":"3",
+               "fecha":"22/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Grêmio",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/11/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"2",
+               "fecha":"6/12/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Ferroviária",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/12/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Bahia",
+               "gRival":"3",
+               "torneo":"Copa Brasil 1959"
+            },
+            {
+               "cant":"2",
+               "fecha":"13/12/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"São Paulo",
+               "gRival":"3",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/12/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Guarani",
+               "gRival":"3",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/12/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Taubaté",
+               "gRival":"0",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"2",
+               "fecha":"27/12/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/12/1959",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Bahia",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/1/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/1/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Palmeiras",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/1/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Palmeiras",
+               "gRival":"2",
+               "torneo":"Paulista 1959"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/4/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. de Desportos",
+               "gRival":"2",
+               "torneo":"Copa Río-San Pablo 60"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/4/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Paulo",
+               "gRival":"1",
+               "torneo":"Copa Río-San Pablo 60"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/4/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Vasco da Gama",
+               "gRival":"0",
+               "torneo":"Copa Río-San Pablo 60"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/4/1960",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"United Arab Republic/EGI",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"3",
+               "fecha":"1/5/1960",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"United Arab Republic/EGI",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/5/1960",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"United Arab Republic/EGI",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/5/1960",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Dinamarca",
+               "gRival":"3",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/7/1960",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Uruguai",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/7/1960",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"Argentina",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/7/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Ponte Preta",
+               "gRival":"3",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/7/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/7/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Guarani",
+               "gRival":"2",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"3",
+               "fecha":"27/7/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"8",
+               "rival":"Jabaquara",
+               "gRival":"3",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"31/7/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"3/8/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Botafogo",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/8/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Comercial",
+               "gRival":"2",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"3",
+               "fecha":"10/8/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Noroeste",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/8/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"0",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/8/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Pameiras",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/8/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Paulo",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/9/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Ferroviária",
+               "gRival":"4",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/9/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Port. Santista",
+               "gRival":"0",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/9/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"XV de Piracicaba",
+               "gRival":"0",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"3",
+               "fecha":"15/9/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Juventus",
+               "gRival":"2",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/9/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"América",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/9/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Jabaquara",
+               "gRival":"2",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"2",
+               "fecha":"24/9/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/9/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Port. de Desportos",
+               "gRival":"4",
+               "torneo":"Paulista 1960"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"20",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"23/10/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Ponte Preta",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"2",
+               "fecha":"6/11/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"XV de Piracicaba",
+               "gRival":"0",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/11/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Port. Santista",
+               "gRival":"0",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"2",
+               "fecha":"13/11/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Noroeste",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"20/11/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Botafogo",
+               "gRival":"2",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/11/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Corinthians",
+               "gRival":"0",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/11/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"2",
+               "fecha":"4/12/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Taubaté",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"3",
+               "fecha":"7/12/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Ferroviária",
+               "gRival":"0",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/12/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Paulo",
+               "gRival":"2",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/12/1960",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1960"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/3/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Vasco da Gama",
+               "gRival":"1",
+               "torneo":"Copa Rio San Pablo 61"
+            },
+            {
+               "cant":"2",
+               "fecha":"5/3/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Fluminense",
+               "gRival":"1",
+               "torneo":"Copa Rio San Pablo 61"
+            },
+            {
+               "cant":"3",
+               "fecha":"11/3/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Flamengo",
+               "gRival":"1",
+               "torneo":"Copa Rio San Pablo 61"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/3/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Paulo",
+               "gRival":"0",
+               "torneo":"Copa Rio San Pablo 61"
+            },
+            {
+               "cant":"2",
+               "fecha":"1/4/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Botafogo",
+               "gRival":"2",
+               "torneo":"Copa Rio San Pablo 61"
+            },
+            {
+               "cant":"2",
+               "fecha":"5/4/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Atlético",
+               "gRival":"1",
+               "torneo":"Copa Rio San Pablo 61"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/4/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"América",
+               "gRival":"1",
+               "torneo":"Copa Rio San Pablo 61"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/4/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Vasco da Gama",
+               "gRival":"2",
+               "torneo":"Copa Rio San Pablo 61"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/7/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Taubaté",
+               "gRival":"0",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/7/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/8/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Jabaquara",
+               "gRival":"0",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/8/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"3",
+               "fecha":"13/8/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Noroeste",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/8/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"3",
+               "fecha":"19/8/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"XV de Piracicaba",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"4",
+               "fecha":"3/9/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"São Paulo",
+               "gRival":"3",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"5",
+               "fecha":"6/9/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"10",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/9/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Botafogo",
+               "gRival":"0",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"4",
+               "fecha":"13/9/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Guaratinguetá",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"4",
+               "fecha":"17/9/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/10/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Botafogo",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/10/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Port. Santista",
+               "gRival":"2",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/10/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"21",
+         "goles":[
+            {
+               "cant":"2",
+               "fecha":"28/10/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/11/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/11/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Taubaté",
+               "gRival":"2",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"3",
+               "fecha":"8/11/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Guaratinguetá",
+               "gRival":"0",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"2",
+               "fecha":"11/11/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"América",
+               "gRival":"2",
+               "torneo":"Copa Brasil 1961"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/11/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"América",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1961"
+            },
+            {
+               "cant":"2",
+               "fecha":"21/11/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"América",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/11/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Comercial",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/11/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Palmeiras",
+               "gRival":"3",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/12/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"2",
+               "fecha":"6/12/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Noroeste",
+               "gRival":"2",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"3",
+               "fecha":"10/12/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"XV de Piracicaba",
+               "gRival":"2",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"2",
+               "fecha":"13/12/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Ferroviária",
+               "gRival":"2",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/12/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"São Paulo",
+               "gRival":"1",
+               "torneo":"Paulista 1961"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/12/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Bahia",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1961"
+            },
+            {
+               "cant":"3",
+               "fecha":"27/12/1961",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Bahia",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1961"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/2/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Municipal/BOL",
+               "gRival":"3",
+               "torneo":"Libertadores 62"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/2/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Municipal/BOL",
+               "gRival":"1",
+               "torneo":"Libertadores 62"
+            },
+            {
+               "cant":"2",
+               "fecha":"28/2/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"9",
+               "rival":"Cerro Porteño/PAR",
+               "gRival":"1",
+               "torneo":"Libertadores 62"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/4/1962",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"6",
+               "rival":"Paraguay",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"2",
+               "fecha":"24/4/1962",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Paraguay",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/5/1962",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Portugal",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/5/1962",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Portugal",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/5/1962",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"País de Gales",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/5/1962",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"País de Gales",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/5/1962",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"México",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/6/1962",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Tchecoslováquia",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/8/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Prudentina",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/8/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Juventus",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/8/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Palmeiras",
+               "gRival":"2",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"3",
+               "fecha":"19/8/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Jabaquara",
+               "gRival":"1",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/8/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"30/8/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Peñarol",
+               "gRival":"0",
+               "torneo":"Libertadores 62"
+            },
+            {
+               "cant":"2",
+               "fecha":"2/9/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"São Paulo",
+               "gRival":"3",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"5/9/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Botafogo",
+               "gRival":"2",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"4",
+               "fecha":"16/9/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Ferroviária",
+               "gRival":"2",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"19/9/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Benfica/PORT",
+               "gRival":"2",
+               "torneo":"Intercontinental 62"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/9/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Corinthians",
+               "gRival":"2",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"26/9/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Noroeste",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/9/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Comercial",
+               "gRival":"1",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/10/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. de Desportos",
+               "gRival":"3",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"3",
+               "fecha":"11/10/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Benfica/PORT",
+               "gRival":"2",
+               "torneo":"Intercontinental 62"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"22",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"27/10/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Taubaté",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"3",
+               "fecha":"31/10/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Guarani",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/11/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/11/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Juventus",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/11/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Noroeste",
+               "gRival":"1",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/11/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Palmeiras",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/11/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"XV de Piracicaba",
+               "gRival":"1",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"21/11/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/11/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Ferroviária",
+               "gRival":"1",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"28/11/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Comercial",
+               "gRival":"2",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"4",
+               "fecha":"2/12/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"8",
+               "rival":"Jabaquara",
+               "gRival":"2",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/12/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"São Paulo",
+               "gRival":"2",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/12/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Botafogo",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"15/12/1962",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Prudentina",
+               "gRival":"0",
+               "torneo":"Paulista 1962"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/1/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Sport Recife",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1962"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/1/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Sport Recife",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/2/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Vasco da Gama",
+               "gRival":"2",
+               "torneo":"Copa Rio San Pablo 63"
+            },
+            {
+               "cant":"2",
+               "fecha":"20/2/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Port. de Desportos",
+               "gRival":"3",
+               "torneo":"Copa Rio San Pablo 63"
+            },
+            {
+               "cant":"2",
+               "fecha":"3/3/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Corinthians(RJ)",
+               "gRival":"0",
+               "torneo":"Copa Rio San Pablo 63"
+            },
+            {
+               "cant":"3",
+               "fecha":"7/3/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"São Paulo",
+               "gRival":"2",
+               "torneo":"Copa Rio San Pablo 63"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/3/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Palmeiras",
+               "gRival":"0",
+               "torneo":"Copa Rio San Pablo 63"
+            },
+            {
+               "cant":"3",
+               "fecha":"16/3/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Olaria",
+               "gRival":"1",
+               "torneo":"Copa Rio San Pablo 63"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/3/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Botafogo",
+               "gRival":"3",
+               "torneo":"Copa Brasil 1962"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/3/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Fluminense",
+               "gRival":"4",
+               "torneo":"Copa Rio San Pablo 63"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/3/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Flamengo",
+               "gRival":"0",
+               "torneo":"Copa Rio San Pablo 63"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/3/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Botafogo",
+               "gRival":"3",
+               "torneo":"Copa Brasil 1962"
+            },
+            {
+               "cant":"2",
+               "fecha":"2/4/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Botafogo",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1962"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/4/1963",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Argentina",
+               "gRival":"3",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"3",
+               "fecha":"16/4/1963",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Argentina",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/4/1963",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Portugal",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"3",
+               "fecha":"28/4/1963",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"França",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/5/1963",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Holanda",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/5/1963",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Alemania Ocidental",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/5/1963",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Itália",
+               "gRival":"3",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"4",
+               "fecha":"21/7/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Noroeste",
+               "gRival":"3",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/7/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/7/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Jabaquara",
+               "gRival":"2",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"31/7/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Guaratinguetá",
+               "gRival":"2",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/8/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/8/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/8/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Paulo",
+               "gRival":"4",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/8/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"XV de Piracicaba",
+               "gRival":"0",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/8/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Botafogo",
+               "gRival":"1",
+               "torneo":"Libertadores 63"
+            },
+            {
+               "cant":"3",
+               "fecha":"28/8/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Botafogo",
+               "gRival":"0",
+               "torneo":"Libertadores 63"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/9/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Ferroviária",
+               "gRival":"4",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/9/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Boca Juniors",
+               "gRival":"2",
+               "torneo":"Libertadores 63"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/9/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Boca Juniors",
+               "gRival":"1",
+               "torneo":"Libertadores 63"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/9/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Prudentina",
+               "gRival":"2",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"3",
+               "fecha":"22/9/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/9/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/9/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Botafogo",
+               "gRival":"1",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/10/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Noroeste",
+               "gRival":"2",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"3",
+               "fecha":"5/10/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Prudentina",
+               "gRival":"0",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/10/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Milan/ITA",
+               "gRival":"4",
+               "torneo":"Mundial Interclubes 63"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"23",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"24/10/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. de Desportos",
+               "gRival":"3",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"2",
+               "fecha":"27/10/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Comercial",
+               "gRival":"0",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/10/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"São Bento",
+               "gRival":"3",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/11/1963",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Juventus",
+               "gRival":"0",
+               "torneo":"Paulista 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/1/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Grêmio",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1963"
+            },
+            {
+               "cant":"3",
+               "fecha":"19/1/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Grêmio",
+               "gRival":"3",
+               "torneo":"Copa Brasil 1963"
+            },
+            {
+               "cant":"2",
+               "fecha":"25/1/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Bahia",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1963"
+            },
+            {
+               "cant":"2",
+               "fecha":"28/1/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Bahia",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1963"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/3/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Corinthians",
+               "gRival":"0",
+               "torneo":"Copa Rio San Pablo 64"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/3/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Fluminense",
+               "gRival":"0",
+               "torneo":"Copa Rio San Pablo 64"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/4/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Botafogo",
+               "gRival":"1",
+               "torneo":"Copa Rio San Pablo 64"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/5/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Flamengo",
+               "gRival":"3",
+               "torneo":"Copa Rio San Pablo 64"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/5/1964",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"Inglaterra",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/7/1964",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Argentina",
+               "gRival":"3",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/7/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"América",
+               "gRival":"2",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/7/1964",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Portugal",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/8/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Guarani",
+               "gRival":"1",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/8/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/9/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Bento",
+               "gRival":"1",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"2",
+               "fecha":"27/9/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Port. de Desportos",
+               "gRival":"4",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/9/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Corinthians",
+               "gRival":"1",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/10/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"América",
+               "gRival":"1",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/10/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"São Paulo",
+               "gRival":"2",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/10/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Comercial",
+               "gRival":"2",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/10/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Atlético",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1964"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"24",
+         "goles":[
+            {
+               "cant":"2",
+               "fecha":"25/10/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Atlético",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1964"
+            },
+            {
+               "cant":"4",
+               "fecha":"28/10/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"8",
+               "rival":"Prudentina",
+               "gRival":"1",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"3",
+               "fecha":"1/11/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"XV de Piracicaba",
+               "gRival":"3",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/11/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Palmeiras",
+               "gRival":"2",
+               "torneo":"Copa Brasil 1964"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/11/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Palmeiras",
+               "gRival":"3",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/11/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Palmeiras",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1964"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/11/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Ferroviária",
+               "gRival":"0",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/11/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Guarani",
+               "gRival":"5",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"8",
+               "fecha":"21/11/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"11",
+               "rival":"Botafogo",
+               "gRival":"0",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/11/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Noroeste",
+               "gRival":"0",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"2",
+               "fecha":"2/12/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Juventus",
+               "gRival":"2",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"4",
+               "fecha":"6/12/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Corinthians",
+               "gRival":"4",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"3",
+               "fecha":"9/12/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"São Bento",
+               "gRival":"0",
+               "torneo":"Paulista 1964"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/12/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Port. de Desportos",
+               "gRival":"2",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"3",
+               "fecha":"16/12/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Flamengo",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1964"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/12/1964",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Flamengo",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1964"
+            },
+            {
+               "cant":"3",
+               "fecha":"13/2/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Universidad Chile",
+               "gRival":"1",
+               "torneo":"Libertadores 65"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/2/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Universitário/PERU",
+               "gRival":"1",
+               "torneo":"Libertadores 65"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/2/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Universidad Chile",
+               "gRival":"0",
+               "torneo":"Libertadores 65"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/3/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Universitario/PERU",
+               "gRival":"1",
+               "torneo":"Libertadores 65"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/3/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Port. de Desportos",
+               "gRival":"1",
+               "torneo":"Copa Rio San Pablo 65"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/3/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Peñarol",
+               "gRival":"4",
+               "torneo":"Libertadores 65"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/3/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Peñarol",
+               "gRival":"3",
+               "torneo":"Libertadores 65"
+            },
+            {
+               "cant":"1",
+               "fecha":"31/3/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Peñarol",
+               "gRival":"2",
+               "torneo":"Libertadores 65"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/4/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Vasco da Gama",
+               "gRival":"3",
+               "torneo":"Copa Rio San Pablo 65"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/4/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Botafogo",
+               "gRival":"3",
+               "torneo":"Copa Rio San Pablo 65"
+            },
+            {
+               "cant":"4",
+               "fecha":"15/4/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Corinthians",
+               "gRival":"4",
+               "torneo":"Copa Rio San Pablo 65"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/4/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Fluminense",
+               "gRival":"2",
+               "torneo":"Copa Rio San Pablo 65"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/4/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"América",
+               "gRival":"0",
+               "torneo":"Copa Rio San Pablo 65"
+            },
+            {
+               "cant":"3",
+               "fecha":"2/6/1965",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"5",
+               "rival":"Bélgica",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/6/1965",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Alemania Ocidental",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/6/1965",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Argentina",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/6/1965",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Argélia",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/6/1965",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Portugal",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/6/1965",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Suécia",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"2",
+               "fecha":"4/7/1965",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"URSS",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"5",
+               "fecha":"14/7/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"6",
+               "rival":"Noroeste",
+               "gRival":"2",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/7/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Ferroviária",
+               "gRival":"1",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"3",
+               "fecha":"21/7/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Comercial",
+               "gRival":"3",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/8/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"São Paulo",
+               "gRival":"1",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/8/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Port. Santista",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"3",
+               "fecha":"15/8/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Prudentina",
+               "gRival":"1",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"3",
+               "fecha":"22/8/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Port. de Desportos",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"2",
+               "fecha":"28/8/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Corinthians",
+               "gRival":"3",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"3",
+               "fecha":"4/9/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Botafogo",
+               "gRival":"1",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"2",
+               "fecha":"8/9/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"4",
+               "fecha":"11/9/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Guarani",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/9/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/9/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Ferroviária",
+               "gRival":"2",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"3/10/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Noroeste",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/10/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"São Bento",
+               "gRival":"2",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/10/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"Comercial",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/10/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Port. Santista",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/10/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"São Paulo",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"25",
+         "goles":[
+            {
+               "cant":"3",
+               "fecha":"24/10/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"América",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/10/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Port. de Desportos",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"5",
+               "fecha":"31/10/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Prudentina",
+               "gRival":"2",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/11/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Palmeiras",
+               "gRival":"2",
+               "torneo":"Copa Brasil 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/11/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"XV de Piracicaba",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/11/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Palmeiras",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/11/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Corinthians",
+               "gRival":"2",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"21/11/1965",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"URSS",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"4",
+               "fecha":"25/11/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Botafogo",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"3",
+               "fecha":"27/11/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"4",
+               "rival":"Juventus",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/12/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"5",
+               "rival":"Vasco da Gama",
+               "gRival":"1",
+               "torneo":"Copa Brasil 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/12/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Guarani",
+               "gRival":"0",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"1",
+               "fecha":"8/12/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Vasco da Gama",
+               "gRival":"0",
+               "torneo":"Copa Brasil 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/12/1965",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Palmeiras",
+               "gRival":"5",
+               "torneo":"Paulista 1965"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/5/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Chile",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/6/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Peru",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/6/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Polônia",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"2",
+               "fecha":"12/6/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Tchecoslováquia",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/6/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Tchecoslováquia",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/6/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Escócia",
+               "gRival":"1",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/6/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Suécia",
+               "gRival":"2",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/7/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Bulgária",
+               "gRival":"0",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/7/1966",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Portugal",
+               "gRival":"3",
+               "torneo":"Selección"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/8/1966",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"1",
+               "rival":"Juventus",
+               "gRival":"1",
+               "torneo":"Paulista 1966"
+            },
+            {
+               "cant":"2",
+               "fecha":"11/9/1966",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Prudentina",
+               "gRival":"1",
+               "torneo":"Paulista 1966"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/9/1966",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"0",
+               "rival":"Port. de Desportos",
+               "gRival":"2",
+               "torneo":"Paulista 1966"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/10/1966",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"3",
+               "rival":"Corinthians",
+               "gRival":"0",
+               "torneo":"Paulista 1966"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/10/1966",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"7",
+               "rival":"Comercial",
+               "gRival":"5",
+               "torneo":"Paulista 1966"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/10/1966",
+               "seleccion":"NO",
+               "club":"Santos",
+               "gEquipo":"2",
+               "rival":"São Bento",
+               "gRival":"2",
+               "torneo":"Paulista 1966"
+            }
+         ]
+      }
+   }
+]

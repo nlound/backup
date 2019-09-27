@@ -1,0 +1,46 @@
+
+extends ../templates/layout.pug
+
+block includes
+  include ../components/animation/animation.pug
+  include ../components/header/header.pug
+  include ../components/userInfo/userInfo.pug
+  include ../components/playlist/playlist.pug
+  include ../components/footer/footer.pug
+
+block title
+  title Verizon
+
+block styles
+  link(rel="stylesheet" type="text/css" href="assets/css/styles.css")
+  style body, html { overflow: scroll !important; }
+block components
+
+
+  .vzn-tbny
+    +header()
+
+    .content
+      .title.test TBNY Geolocation Test
+      div.user-info.playlist
+        p Location: #[span#location -]
+        p
+        p Zip Code: #[span#zipCode -]
+        p Borough: #[span#borough -]
+        p Weather: #[span#weather -]
+        p Day: #[span#day -]
+        p Time: #[span#time -]
+        p
+        p 
+          a(href='#' id='mloc' style='color: white') Enter Location
+          input(type='text' name='loc' placeholder='40.714224, -73.961452' class='none' id='loc')
+          button(type='button' id='submitLoc' class='testBtn none') Submit Location
+      
+      .status.none
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+        .status-text #[span#status Getting location, please wait ...]
+    +footer()
+
+block scripts
+  script(src="assets/js/libs.js")
+  script(src="assets/test.js")

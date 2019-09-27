@@ -1,0 +1,15 @@
+<krpano>
+	<progress showload="none" showwait="none" />
+	<!-- android buttons and events -->
+	<plugin name="androidzoom_out" devices="android+flash" keep="true" url="androidbuttons.png" alpha="0.5" crop="0|0|71|64"   align="rightbottom" x="88" y="10" ondown="set(crop,0|64|71|64);  set(fov_moveforce,+1);" onup="set(crop,0|0|71|64);  set(fov_moveforce,0);" />	<plugin name="androidzoom_in"  devices="android+flash" keep="true" url="androidbuttons.png" alpha="0.5" crop="71|0|78|64"  align="rightbottom" x="10" y="10" ondown="set(crop,71|64|78|64); set(fov_moveforce,-1);" onup="set(crop,71|0|78|64); set(fov_moveforce,0);" />	<plugin name="androidfsbutton" devices="android+flash" keep="true" url="androidbuttons.png" alpha="0.5" crop="149|0|64|64" align="righttop"    x="0"  y="0"  onclick="switch(fullscreen);" />	<events name="androidfsbutton" devices="android+flash" keep="true" onenterfullscreen="set(plugin[androidfsbutton].crop,149|64|64|64);" onexitfullscreen="set(plugin[androidfsbutton].crop,149|0|64|64);" />
+	<!-- right-click context menu to change the viewing settings -->	<contextmenu>		<item caption="normal view"        onclick="view_normal();"/>		<item caption="fisheye view"       onclick="view_fisheye();"/>	</contextmenu>
+	
+
+	<!-- actions to change the mouse cursor -->
+	<action name="dragcursor">		set(plugin[btn_dragmode].visible, false);		set(plugin[btn_movemode].visible, true);		set(control.mousetype, drag2D);		set(cursors.url, %SWFPATH%/skin/drag-cursors.png);		set(cursors.type, drag);		set(cursors.move,  2|0|30|32);		set(cursors.drag, 37|0|30|32);	</action>
+	<action name="qtvrcursor">		set(plugin[btn_dragmode].visible, true);		set(plugin[btn_movemode].visible, false);		set(control.mousetype, moveto);		set(cursors.url, %SWFPATH%/skin/qtvr-cursors.png);		set(cursors.type, 8way);		set(cursors.move,       0|0|16|16);		set(cursors.drag,      16|0|16|16);		set(cursors.arrow_u,   32|0|16|16);		set(cursors.arrow_d,   48|0|16|16);		set(cursors.arrow_l,   64|0|16|16);		set(cursors.arrow_r,   80|0|16|16);		set(cursors.arrow_lu,  96|0|16|16);		set(cursors.arrow_ru, 112|0|16|16);		set(cursors.arrow_rd, 128|0|16|16);		set(cursors.arrow_ld, 144|0|16|16);	</action>	<!-- actions for view changing -->	<action name="view_normal">		tween(view.fovmax,       150.0, distance(179, 1.00));		tween(view.architectural,  0.0, distance(1.0, 0.45), easeoutquad);		tween(view.fisheye,        0.0, distance(1.0, 0.45), easeoutquad, set(view.stereographic,false); set(view.pannini,false); set(display.flash10,on); );	</action>
+	<action name="view_fisheye">		set(display.flash10,off);		tween(view.architectural, 0.0, distance(1.0, 0.30), easeoutquad);		tween(view.fisheye,       0.0 ,distance(1.0, 0.30), easeoutquad, set(view.stereographic,false); set(view.pannini,false); set(view.fovmax,179); tween(view.fisheye, 0.35, distance(1.0,1.25)); );	</action>
+
+
+	<action name="setuppano">		<!-- hide the projection settings in the context menu for partial panos -->		if(ispartialpano === true, set(showviewitems,false), set(showviewitems,true));	</action>
+</krpano>

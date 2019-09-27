@@ -1,0 +1,298 @@
+@import "../public/components/bourbon/dist/bourbon";
+@import "../public/components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
+
+@include font-face('Gotham', 'fonts/gotham');
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* ########
+   Colores
+   ######## */
+
+
+$black: #000;
+$white: #FFF;
+
+
+/* ########
+   Fuentes
+   ######## */
+
+$fontset-default: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$fontset-gotham: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+
+/* ################
+   Bootstrap Resets
+   ################ */
+
+$navbar-default-bg: transparent;
+$navbar-default-border: none;
+
+$bubbleSize: 30px;
+
+@import "../public/components/bootstrap-sass-official/assets/stylesheets/bootstrap/bootstrap.scss";
+
+
+html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-backface-visibility: hidden;
+    moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: $fontset-default;
+    background-color: #FCF9EB;
+}
+
+header{
+    pointer-events: none;    
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 999;
+    font-family: $fontset-gotham;
+    
+    .header-gcba {
+        height:50px;
+        padding:10px 0;
+        overflow:visible;
+        background-color: transparent;
+    }
+
+    .header-inner {
+        padding-right:20px;
+        padding-left:20px
+    }
+
+    .header-gcba .logo {
+        float:left;
+        width:172px;
+        height:33px;
+        @include retina-image("img/logo-normal", 172px 34px);
+    }
+
+    .header-gcba h2.slogan {
+        float: right;
+        font-weight: bold;
+        margin-top: 0.75em;
+        font-size: 0.85em;
+        font-size:12px;
+        letter-spacing:-1px;
+        color: $black;
+        text-transform: uppercase;
+        min-width: 150px;
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-static-top {
+    border-width: 0;
+}
+
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+    padding-bottom: 0;
+    h1 {
+        font-size: 4.5rem;
+        font-family: $fontset-default;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    h2 {
+        font-size: 1.2em;
+        font-weight: 400;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .lead {
+        font-size: 1em;
+        font-weight: 400;
+        width: 60%;
+        margin: 0 auto;
+        padding-top: 16px;
+    }
+}
+
+#contenedor-visualizacion {
+    width: 100%;
+    height: 600px;
+    position:relative;
+}
+
+#presupuesto-visualizado {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 40;
+    top: 0px;
+}
+
+svg {
+    height: 100%;
+    overflow: hidden;
+    
+    .titulo {
+        font-family: $fontset-default;
+        font-size: .9em;
+    }
+
+    .total {
+        font-family: $fontset-default;
+        font-weight: 700;
+        font-size: 1.4em;    
+    }
+
+}
+
+
+.referencias {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    
+    h3 {
+        font-family: $fontset-default;
+        font-weight: 700;
+        font-size: 2em;
+        text-align: center;
+        margin: 0 auto;
+        width: 450px;
+        padding-top: 25px;
+    }
+    
+    .claves ul, .colores ul {
+        list-style-type: none;
+    }
+
+    .claves {
+        
+    }
+
+    .colores {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+        li {
+            color: $white;
+            font-size: .8em;
+            display: inline-block;
+            width: $bubbleSize;
+            height: $bubbleSize;
+            padding: 0px;
+            overflow: hidden;
+            @include hide-text;
+            @include border-top-radius($bubbleSize);
+            @include border-bottom-radius($bubbleSize);
+            @include border-left-radius($bubbleSize);
+            @include border-right-radius($bubbleSize);
+        }
+        .ssoc {
+            background-color: #53777A;
+            border: 1px solid darken(#53777A,10%)
+        }
+        .ssec {
+            background-color: #542437;
+            border: 1px solid darken(#542437,10%)
+        }
+        .adgu {
+            background-color: #ECD078;
+            border: 1px solid darken(#ECD078,10%)
+        }
+        .sseg {
+            background-color: #C02942;
+            border: 1px solid darken(#C02942,10%)
+        }
+        .depu {
+            background-color: #D95B43;
+            border: 1px solid darken(#D95B43,10%)
+        }
+    }
+}
+
+.mas-info, .definiciones {
+    font-size: .9em;
+    text-align: center;
+    z-index: 50;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.definiciones {
+    display: none;
+    font-size: .9em;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 
+
+Custom Tooltip
+
+*/
+
+.tooltip {
+  position: absolute;
+  border: 1px solid #000;
+  background: #fff;
+  opacity: .9;
+  color: black;
+  padding: 20px;
+  width: 350px;
+  z-index: 41;
+  text-align: center;
+  @include border-bottom-radius(5px);
+  @include border-left-radius(5px);
+  @include border-right-radius(5px);
+  .title {
+    font-size: 13px;
+  }
+  .name {
+    font-weight: bold;
+  }
+}
+
+footer {
+    display: block;
+    color: $white;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    .ministerio {
+        padding: 20px 50px;
+    }
+    .modernizacion {
+        text-align: left;
+    }
+    .labgcba {
+        text-align: center;
+        background: url("img/labgcba.png") no-repeat center center;
+
+    }
+    .hacienda {
+        text-align: right;
+    }
+}

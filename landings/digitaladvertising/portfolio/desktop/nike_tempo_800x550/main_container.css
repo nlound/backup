@@ -1,0 +1,35 @@
+html, body{
+	margin: 0;
+	padding: 0;	
+	width: 100%;
+}
+
+.container {
+	width: 1078px;
+	height:714px;
+	margin: 0 auto;
+	background: url("800x550.jpg") no-repeat;
+	text-align: center;
+}
+
+.iframe_pos {
+	width:800px;
+	height:550px;
+	border:0px;
+	top: 82px;
+	position: relative;
+}
+
+@media screen and (max-width: 1078px){
+
+.iframe_pos {
+	transform: scale(0.8);
+}
+
+	.container {
+		width:100%;
+		height:714px;
+		margin: 0 auto;
+		background: url("800x550_tablet.jpg") no-repeat 50% 0%;
+	}
+}

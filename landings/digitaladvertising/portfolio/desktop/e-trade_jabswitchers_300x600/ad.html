@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Banner</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="ad.size" content="width=300,height=600">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<link rel="stylesheet" href="main-min.css">
+		<script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+		<script src="jobswitcher_animation_300x600.js?1460746566593"></script>
+		<script>
+			var canvas, stage, exportRoot;
+			function init() {
+				// --- write your JS code here ---
+
+				canvas = document.getElementById("canvas");
+				exportRoot = new lib.jobswitcher_animation_300x600();
+
+				stage = new createjs.Stage(canvas);
+				stage.addChild(exportRoot);
+				stage.update();
+
+				createjs.Ticker.setFPS(lib.properties.fps);
+				createjs.Ticker.addEventListener("tick", stage);
+			}
+			</script>
+	</head>
+
+	<body>
+		<script>
+			var clickTag = 'http://etrade.com';
+		</script>
+		<div id="ad_content">
+			<div id="bg"></div>
+			<canvas id="canvas" width="300" height="600"></canvas>
+			<div id='legalblack' class="sprite-svg legalblack"></div>
+			<div id="frame1blocker" class="alpha-0"></div>
+			<div id='text1' class="sprite-svg text1 alpha-0"></div>
+			<div id='rightarrow' class="sprite-svg rightarrow alpha-0"></div>
+			<div id='leftarrow' class="sprite-svg leftarrow alpha-0"></div>
+			<div id='legal' class="sprite-svg legal alpha-0"></div>
+			<div id='logo' class="sprite-svg logo alpha-0"></div>
+			<div id='eftext1' class="sprite-svg eftext1 alpha-0"></div>
+			<div id='eftext2' class="sprite-svg eftext2 alpha-0"></div>
+			<div id='cta' class="alpha-0">
+				<div id='ctabg' class="">.</div>
+				<div id='ctatext' class="sprite-svg ctatext abs-center"></div>
+			</div>
+			<div id="backup" class=""></div>
+		</div>
+
+		<!-- Load scripts -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+		<!-- <script src="createjs-2015.11.26.min.js"></script> -->
+		<script src="main-min.js"></script>
+	</body>
+</html>

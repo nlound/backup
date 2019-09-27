@@ -1,0 +1,18 @@
+@import "../../scss/partials/mixins";
+@import "../../scss/partials/breakpoints";
+@import "../../scss/partials/variables";
+.vzn-tbny {
+  #playlist {
+    padding: 0px 15px 0px 15px;
+    width: 100%;
+    height: inherit;
+    flex-grow: 1;
+    display: flex;
+    overflow: hidden;
+    iframe {
+      border-bottom: 1px solid $grey;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

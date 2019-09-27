@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Buenos Aires Data, Sensores, API y Datos Abiertos en Tiempo Real</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/microdancing.css">
+		<script src='http://localhost:3000/socket.io/socket.io.js' type="text/javascript" charset="utf-8"></script>
+
+		<script src='captura-osc/frontend/libs/jquery-1.11.1.min.js' type="text/javascript" charset="utf-8"></script>
+		<script src='captura-osc/frontend/libs/paper-full.js' type="text/javascript" charset="utf-8"></script>
+		<script src='lib/js/TweenMax.min.js' type="text/javascript" charset="utf-8"></script>
+		<script src='lib/js/SplitText.min.js' type="text/javascript" charset="utf-8"></script>
+		<script src='captura-osc/frontend/libs/d3.v3.min.js' type="text/javascript" charset="utf-8"></script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+		
+			.iconoSVG {
+				width: 500px;
+				height: 550px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -225px;
+				margin-top: -225px;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+		<div class="iconoSVG labs" id="iconoAnimado"></div>
+
+		<div id="creative-content"></div>
+
+		<div id="posicion" style="opacity: 0; z-index: 999">
+			<div id="numero" class="numero">01</div>
+			<div class="separador parte-uno"></div>
+			<div id="leyenda" class="leyenda">Gobierno Abierto</div>
+		</div>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section class="inicio" data-state="inicio">
+
+				</section>
+
+				<section data-state="gobierno">
+					<div class="icono" id="open-data"></div>
+					<h1 class="titulo">882 días</h1>
+
+					<ul class="diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/slide-01-1.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">En 2012 cuando lanzamos teníamos una idea clara de lo que queríamos lograr. Con mucho trabajo y esfuerzo fuimos cumpliendo objetivos y sobre todo creciendo, adaptándonos y entendiendo el contexto en el que nos movíamos.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">2012 - 1er. Decreto</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/slide-02-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/slide-02-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">En marzo de 2012 lanzamos oficialmente la iniciativa y el plan de Gobierno Abierto con la firma de decreto por el Jefe de Gobierno que instaba a la creación del primer portal de datos abiertos de gobierno en el país.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">BA Data</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/slide-03-2.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/slide-03-4.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					 <aside class="notes">El portal ya va por la segunda versión y cuenta con más de 70 conjuntos de datos. Nos concentramos en buscar información de calidad, no tanto en la cantidad. Trabajamos mucho en conseguir información como Relevamiento de Usos del Suelo actualizado y geolocalizado, operaciones de defensa civil, llamados al 147, etc., que son los datos más sensibles, complejos y probablemente más interesante para el ciudadano.</aside>
+				 </section>
+				<section>
+					<h1 class="titulo">Exploración</h1>
+					<aside class="notes">Recorrimos la  mayor cantidad de áreas posibles. Primero para comprender qué información producían y segundo para contarles, inspirarlos y sumarlos a este proyecto que involucra al gobierno en su totalidad. Y así fue. Muchos equipos lo entendieron y comenzaron a aportar su información. Incluso colaboramos en la formación profesional en varios equipos que no contaban con perfiles técnicos para que pudieran manejar mejor los datos.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Comunidad</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/comunidad-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/comunidad-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Al mismo tiempo que recorríamos los pasillos de gobierno, nos concentramos en la Comunidad. Programadores, desarrolladores, emprendedores, diseñadores, académicos, universidaes y vecinos que podían sacarle provecho y darle valor a esta información nueva publicada. Había que empezar a moverla.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">BA Hackaton</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/bahackaton-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/bahackaton-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Organizamos el primer hackaton de la Ciudad, que consistia en una competencia de desarrollo de aplicaciones móviles. Fue el primer contacto cara a cara con la comunidad de reutilizadores externos. Tuvimos una excelente respuesta. Muchos de los que participaron, luego volvieron en los años siguientes.
+
+					De la primera experiencia aprendimos que valorabamos más la idea de colaboración que la de competencia. Por eso en 2013 lo repetimos, en este caso sin competencia, impulsando a los equipos de gobierno a involucrarse más y motivando a que el hackaton sea el semillero de muchas cosas, no solamente aplicaciones. Este año lo llevamos a cabo con la misma idea pero cambiamos el foco. Decidimos hacerlo bien específico y en conjunto con MAyEP. Todo el evento giraba alrededor del tema Basura. 
+					
+					[FOTOS: Metro Libros, BA Bici, Tacho Piola, Mapa de Actores Villa, Viz MAyEP]
+					</aside>
+				</section>
+				<section>
+					<h1 class="titulo">BA Apps</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/baapps-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/bahackaton-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Con esta misma idea de motivar a los reutilizadores de la información, llevamos adelante 2  Concursos de Aplicaciones.
+					
+						[FOTOS: Los Tan Faun, Estacionapp, Parkando, Bicicleta Buenos Aires]</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Mapa Interactivo</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/mapa-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/mapa-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Hay que resaltarlo, eso que ven atras mio, el mapa interactivo es un servicio abierto del gobierno que permite, no solamente a vos como usuario consultar como ir de un punto a otro, sino que también lo podés usar en tu aplicación, consultar calles, altruas, intersecciones y muchisimo más. Y es el Dato Abierto más utilizado por los concursantes de BA Apps, por lejos.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Store de Aplicaciones de Gobierno</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/bastore-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/bastore-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">También, en conjunto con Gobierno Electronico, lanzamos un espacio para concentrar la oferta de aplicaciones que hacemos desde la ciudad pero también promocionar aquellas que salieron de hackatones y concursos. Lo pueden encontrar en buenosaires.gob.ar/aplicacionesmoviles</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Comunidad</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/comunidad-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/comunidad-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Cuando decimos que nos concentramos en la comunidad, no solamente estamos diciendo que los invitamos a participar de los eventos organizados por nosotros, sino que también, nosotros fuimos a participar y colaboramos en todo lo que pudimos con eventos de otros.
+					
+						[FOTOS: Muchos logos de eventos de la comunidad CityCamp, HacksHackers, BarCamp, PechaKucha, JSconf, RubyConf, etc.)
+						Ya lo hiciste acá https://docs.google.com/file/d/0B1xKJypkyaQLN1FJTkgzOENwMG8/edit</aside>
+				</section>
+				<section>
+					<h1 class="titulo">DAL<br>Proyecto Donde</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/dal-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/dal-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Un ejemplo claro es Desarrollando America Latina, un hackaton en simultáneo en 8 países. Participamos como un equipo más. Nos pusimos a trabajar en una mesa con la Fundación Huesped y Leandro Cahn que está por ahi, en recolectar y luego en mapear toda la información de centnro de entrega gratuita de preservativos y centros para hacerse el test de VIH. 
+						Este proyecto no lo pudimos terminar en esa jornada de trabajo, pero unos meses despues y varias sesiones de trabajo en conjunto, Fundación Huesped publicó  DONDE, la aplicación ya terminada creada en conjunto por la Fundación, el Gobierno y Vecinos.
+					
+						[FOTO: DAL y Donde]</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Datos públicos en el mundo</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/mapa-od-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/mapa-od-2.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Este camino no lo estamos recorriendo solamente en Buenos Aires. En todo el mundo y sobre todo desde que asumió Barack Obama en estados unidos y una de sus primeras resoluciones fue sobre Gobierno Abierto, los portales de datos abiertos se han multiplicado. Casi todas las grandes ciudades tienen el suyo. Incluso en 2011 se creó la Alianza para Gobierno Abierto que reune a todos los programas de gobierno abierto y datos abiertos a nivel nacional. Ya son 64 los países que la integran. Entre ellos Argentina. Esto demuestra el compromiso de paises y ciudades a la apertura, transparencia y la colaboración con los ciudadanos.
+					
+						[FOTO: Mapa de iniciativas en el mundo]</aside>
+				</section>
+				<section>
+					<h1 class="titulo">De adentro y de afuera</h1>
+					<aside class="notes">Luego de hablar con la mayoría de ustedes, de conocer las problemáticas y de interactuar con la comunidad de reutilizadores encontramos  el mismo pedido que viene de los dos lados: De adentro del gobierno y de afuera. Queremos saber que está pasando ahora mismo en la ciudad. No lo de ayer, eso ya es tarde. Queremos saber ahora.</aside>
+				</section>
+				<section data-state="gobierno-final">
+					<h1 class="titulo">Vamos a dar el siguiente paso</h1>
+					<aside class="notes">Eso significa que tenemos que dar el siguiente paso.</aside>
+				</section>
+				<section data-state="previo-internet"> </section>
+
+				<section data-state="internet">
+					<h1 class="titulo main">Internet de las cosas</h1>
+					<aside class="notes">Antes de seguir quiero darles un poco de contexto, sobre una de las nuevas fronteras tecnológicas del mundo,  un lugar donde queremos llegar, entre todos.
+					Es algo que llaman Internet de las Cosas. </aside>
+				</section>
+				<section>
+					<h1 class="titulo">Una idea, infinitas posibilidades</h1>
+					<aside class="notes">IOT hace referencia a la idea de interconectar objetos fisicos cotidianos con tecnología, permitiendo que estos se comuniquen para recolectar información o tomar decisiones. Bien fácil, IOT es una gran red conectada de cosas. Eso incluye relaciones personas-peronsas, personas-cosas y cosas-cosas. IOT nos abre la puerta a un sinfin de posibilidades. La firma Gartner dice que para 2020 ya habrá más de 26 mil millones de dispositivos conectados.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Objetos cotidianos,<br>con súper poderes</h1>
+					<aside class="notes">Vamos a algunos ejemplos para comprender mejor la idea de un mundo con objetos conectados.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Monitoreo de agua</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/iot-05.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/iot-06.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Si colocamos un sensor en cada lugar para estacionar y luego los conectaramos todos entre sí, incluso con tu auto o tu celular, ya no existiría la tediosa tarea de buscar lugar, porque ya sabrías exactamente a donde ir. http://www.libelium.com/smart_santander_parking_smart_city/</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Nest</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/iot-04.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/iot-07.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Un aparato que aprende la temperatura ideal para tu casa, en base a tus hábitos. Se apaga cuando no hay nadie en el hogar y te ayuda a reducir tu consumo eléctrico. </aside>
+				</section>
+				<section>
+					<h1 class="titulo">Soofa<br> Big Belly</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/iot-01.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/iot-02.jpg" />
+					        </article>
+					    </li>
+					</ul>
+					<aside class="notes">Un aparato que aprende la temperatura ideal para tu casa, en base a tus hábitos. Se apaga cuando no hay nadie en el hogar y te ayuda a reducir tu consumo eléctrico. </aside>
+				</section>
+				<section>
+					<h1 class="titulo quote">Diseñar objetos inteligentes para la ciudad</h1>
+				</section>
+				<section>
+					<h1 class="titulo">Redefinir eficiencia y servicios públicos</h1> 
+					<aside class="notes">Aplicar desde la gestión pública significa avanzar en la calidad de servicios que brindamos al ciudadano. Al tener las “cosas” conectadas y brindando información al instante podemos, con todos los datos recolectados, tomar mejores decisiones, optimizar procesos e identificar necesidades rapidamentes.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Información rápida para respuesta a emergencias</h1>
+					<aside class="notes">Al mismo tiempo, al tener la información disponible al instante, podemos reaccionar mejor frente a las situaciones de emergencia y sobre todo, trabajar para evitarlas.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Impulsar una nueva industria</h1>
+					<aside class="notes">Queremos crear una red de información de datos en tiempo real, recolectados por objetos de la ciudad, pero queremos hacerlo pensando de antemano en hacer una red abierta para el consumo y reutilización de esta información. Para impulsar a una industria de innovación y creatividad, que genere valor con información pública, que nos ayude a comprender patrones complejos de información, que nos ayude a prevenir; a crear nuevos hábitos como ciudadanos. Que nos ayude a utilizar mejor nuestros escasos recursos</aside>. 
+				</section>
+				<section>
+					<h1 class="titulo quote">Crear un ecosistema de datos en tiempo real para la ciudad</h1>
+				</section>
+				<section>
+					<h1 class="titulo">El pulso de una ciudad</h1>
+					<aside class="notes">Esta idea de internet de la cosas nos desafía, nos propone pensar como vemos las ciudades. Como las percibimos. Es posible ahora tomar y comprender los signos vitales de una ciudad.</aside>   
+				</section>
+				<section>
+					<h1 class="titulo">Por donde empezamos a trabajar</h1>
+					<aside class="notes">La idea de intervenir objetos cotidianos con tecnología, convertirlos en sensores, darles niveles de procesamiento computacional, requiere mucho esfuerzo, investigación y prueba. Se puede comenzar desde de la comunicación de los datos generados por estos dispositivos y su integración en un mismo punto de consulta.</aside>
+				</section>
+				<section data-state="internet-final">
+					<h1 class="titulo">APIs</h1>
+					<aside class="notes">Pensemos a la API como el sistema de containers. Vos podes poner lo que quieras dentro de tu conteiner. Si ese container cumple con la norma va a ser facil trasladarlo, subirlo al barco, bajarlo meterlo en un camión, lo que quieras. Es decir, que siempre que respetes esas guías vas a poder transaccionar lo que quieras por todo el mundo, si quisieras. Las APIs son algo muy parecido. Es un sistema que permite comunicarte con un servicio, en este caso de sensores, de IOT. Siempre que vos respetes las guías de como hablar con esa API, vas a poder pedir y dar información, todo lo que quieras.</aside>
+				</section>
+
+				<section data-state="previo-datos"> </section>
+
+				<section data-state="datos">
+					<h1 class="titulo main">Datos en tiempo real</h1>
+					<aside class="notes">Tenemos que dar el siguiente paso. Y ese es: datos en tiempo real. Pero en gobierno tenemos una carencia en lo que refiere a este servicio. Antes de empezar a buscar una solución épica, lo que hicimos desde la DG es empezar a recorrer todas las àreas producen este tipo de informaciòn para comprender el estado de situación.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">En el Gobierno de la Ciudad</h1>
+					<aside class="notes">Luego de explorar llegamos a una conclusión obvia. Dentro del Gobierno ya hay información riquísima para proveer en tiempo real, y mucha más. Pero hay que ponerla en uso, hacerla disponible.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Valor de los datos en tiempo real</h1>
+					<ol class="">
+						<li class="fragment">En un mísmo lugar</li>
+						<li class="fragment">Ser facil de consultar</li>
+						<li class="fragment">Estar abierta a la comunidad</li>
+					</ol>
+
+					<aside class="notes">
+						¿Cómo la ponemos en uso?. Básicamente estos datos cumplen con su misión, y generalmente estàn asociados a tareas específicas de gestión. Las áreas de emergencias miden las lluvias, las de ambiente contaminación, las de transporte, el paso de vehículos. 
+
+						Pero cómo hacemos para que no solo los datos se tomen en tiempo real, sino para que podamos tomar decisiones en tiempo real. Y no solo para que el gobierno tome decisiones en tiempo real si no para que los vecinos puedan tomar sus propias decisiones inteligentes?
+						
+						Creemos que el primer paso para lograr esto es muy simple la información debe estar:
+
+						1. En un mísmo lugar
+						2. Ser facil de consultar
+						3. Estar abierta a la comunidad
+
+						Pero ahora, en la Ciudad, estamos en el polo opuesto. Tenemos una constelación de soluciones, tecnologías, proveedores, completamente heterogénea. Cada equipo, cada tecnología habla un idioma diferente. 
+						Cruzar estos datos, analizarlos y mucho menos publicarlos en formato claro es imposible.
+					</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Objetivos alcanzables</h1>
+					<aside class="notes">En este escenario, nos planteamos un objetivo alcanzable en el corto plazo. Para comprender, calibrar y mejorar. </aside>
+				</section>
+				<section>
+					<h1 class="titulo">Acceso único para sensores y datos</h1>
+					<aside class="notes">Lograr un punto unificado que permitiera a cualquier área de gobierno sumar su sensor al sistema y disponibilizar su información. Y por otro lado un punto único donde se pueda consumir esa información tanto desde adentro del gobierno, como de afuera.
+					</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Desafíos reales</h1>
+
+					<aside class="notes">
+					1. Abstracción
+					La completa abstracción del sistema de datos. Es decir, un sistema que no importa de qué fuente venga el dato, siempre podemos guardarlos. Estudiamos cómoo funcionan las fuentes de datos hasta conseguir una solución que pueda adaptarse a todos.
+
+					2. Robustez / Big Data
+					Segundo desafío: La robustez de este sistema. Esta es la primera pata que pone la Ciudad de Buenos Aires en lo que se denomina Big Data, por lo tanto el sistema tiene que estar construido como para poder recibir consultas masivas y bancarsela.
+
+					3. Estandar
+					Tercero, adoptar un estándar para que todos los equipos de gobierno y proveedores externos que trabajen con datos en tiempo real, con sensores, con IOT utilicen y se manejen de la misma manera.
+					</aside>
+				</section>
+				<section>
+					<h1 class="titulo">API de datos, Versión alpha</h1>
+					<aside class="notes">La versión 0 de este sistema, está API ya está lista y disponible para empezar a reunir todos los sensores que andan dando vueltas por ahí y hacerlos hablar el mismo idioma.
+						Estamos buscando nuevos sensores para sumar, para hacer crecer y madurar esta plataforma. Necesitamos más casos de uso, más ideas y situaciones.</aside>
+				</section>
+				<section>
+					<h1 class="titulo">Salir a la calle Inteligente</h1>
+					<aside class="notes">Al mismo tiempo estamos pensando en cuál es la infraestructura que tenemos que proveer. Tenemos que salir de los servidores e ir a la calle. Las posibilidades de IoT nos revelan que un futuro donde cualquier objeto que el gobierno instale en la calle pueda ser conectado a un sistema como este. Para eso tenemos que pensar y diseñar entre todos una red especial, para objetos con superpoderes, con sensores. Diseñar y crear el futuro del equipamiento en el espacio público. </aside>
+				</section>
+				<section>
+					<h1 class="titulo">Un proyecto experimental,<br>Microcentro</h1>
+					<aside class="notes">En ese sentido estamos diseñando un piloto a implementarse en el microcentro, con una malla de sensores que miden variables ambientales y de movilidad, que hablen entre ellos, transmitan información entre sí, puedan prescindir de cualquier otro tipo de conectividad y funcionar en cualquier tipo de contexto.</aside> 
+				</section>
+				<section>
+					<h1 class="titulo">Microcentro sensorizado</h1>
+					<aside class="notes">A esta malla vamos a conectar sensores y equipamiento de muy bajo costo y de manera masiva. Un objeto por calle, con la idea de tener un sensor en cada cuadra. En los próximos meses vamos a intervenir el microcentro, instalando estos objetos en los semáforos, en la red de alumbrado.</aside> 
+				</section>
+				<section>
+					<h1 class="titulo">Open Hardware</h1>
+					<aside class="notes">Toda la documentación de este proyecto es Open Hardware. Todos pueden pueden ver y ayudarnos a trabajar con estas tecnologías. Usamos estándares tecnológicos que le permite al gobierno y a proveedores externos incorporar nuevos nodos a la red sin problemas. La potencialidad es enorme. Este es solo el primer caso.</aside>
+				</section>
+				<section data-state="datos-final">
+					<h1 class="titulo">Colaborativo y abierto,<br>por diseño</h1>
+					<aside class="notes">Nuestra idea es pensar y resolver una infraestructura de transporte de datos de tiempo real. Queremos convocar a todos a pensar en problemas reales y casos de uso posible.
+					 	Trabajando colaborativamente cómo utilizar los datos generados por estos sensores podremos crear infinitas nuevas posibilidades.</aside> 
+				</section>
+
+				<section data-state="previo-prototipo"> </section>
+
+				<section data-state="prototipo">
+					<h1 class="titulo main">Generar datos en tiempo real<br></h1>
+				</section>
+				<section>
+					<h1 class="titulo">Prototipo de sensor autónomo v0</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/sensores-2.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/sensores-3.jpg" />
+					        </article>
+					    </li>
+					</ul>
+				</section>
+				<section>
+					<h1 class="titulo">Sensor autónomo v0.5</h1>
+					<ul class="lista-diamante">
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/sensores-1.jpg" />
+					        </article>
+					    </li>
+					    <li class="item">
+					        <article class="contenidos">
+					            <img src="img/sensores-4.jpg" />
+					        </article>
+					    </li>
+					</ul>
+				</section>	
+				<section>
+					<h1 class="titulo">Dashboard con datos en tiempo real</h1>
+				</section>	
+				<section data-state="prototipo-final">
+					<h1 class="titulo main">Proyecto de todos</h1>
+				</section>
+				<section data-state="gracias">
+					<h1 class="titulo quote">Muchas Gracias</h1>
+					<ul class="social">
+						<li class="twitter">@LABgcba</li>
+						<li class="facebook">/LABgcba</li>
+					</ul>
+				</section>
+				
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script src="js/network.js"></script>
+		<script src="js/iconos.js"></script>
+		<script src="js/presentacion.js"></script>
+		
+		<script type="text/javascript" charset="utf-8">
+			var socket, valores, MINLight, MAXLight, maxLight, bkg;
+			socket = io.connect('//localhost:3000');
+
+			valores = [0,0,0,0];
+			bkg = d3.select("body")
+
+			MINLight = 1;   // valor Minimo del sensor de luz
+			MAXLight = 500;  // valor Maximo del sensor de luz
+			maxLight = MAXLight;  // var: Maximo de escala normal de luz
+
+
+
+			colorScale = d3.scale.linear().domain([MINLight, maxLight]).range(["#2F004B", "#554B80", "#BFA1B4", "#E6CA94","#FFF288"]);
+
+			// console.log(dataLight);
+
+
+			// oigo el mensaje del Arduino y cambio el valor del ángulo
+			socket.on('message', function (message) {
+			    valores[message[message.split(",")[0].length - 1]] = parseInt(message.split(",")[1]);
+			    
+			    console.log(valores);
+			    if (maxLight < valores[3] ){
+			        maxLight = valores[3] ;
+			    } else {
+			        if (maxLight >= MAXLight) {
+			            maxLight--;
+			        }
+			    }
+
+			    colorScale = d3.scale.linear().domain([MINLight, maxLight]).range(["#2F004B", "#554B80", "#BFA1B4", "#E6CA94","#FFF288"]);
+
+			    // console.log(dataLight);
+
+			    bkg.datum(valores[3])
+			    .transition(200)
+			    .style('background-color',function(d) { return colorScale(d); });
+
+
+
+			}); // end listener   
+		</script>
+	</body>
+</html>

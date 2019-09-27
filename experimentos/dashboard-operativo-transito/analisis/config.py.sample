@@ -1,0 +1,37 @@
+import os
+
+if os.environ.get('OPENSHIFT_MYSQL_DIR'):
+    mysql = dict(
+        user=os.environ.get('OPENSHIFT_MYSQL_DB_USERNAME'),
+        password=os.environ.get('OPENSHIFT_MYSQL_DB_PASSWORD'),
+        host=os.environ.get('OPENSHIFT_MYSQL_DB_HOST'),
+        db='dashboardoperativo'
+    )
+else:
+    api = dict(
+        host="apisensores.buenosaires.gob.ar",
+        token="80176b952ffa5d0c8f5f5c916994d037"
+    )
+    email = dict(
+        debug=True,
+        user="luisuranga@buenosaires.gob.ar",
+        pwd="emerepad",
+        to="chadad@buenosaires.gob.ar"
+    )
+    server = dict(
+        ip='0.0.0.0',
+        port=8080
+    )
+    db = dict(
+        engine='mysql',
+        user='root',
+        password='password',
+        host='localhost',
+        db='dashboardoperativo',
+        debug='False',
+    )
+    db_url = db['engine'] + "://" + db['user'] + ":" + \
+        db['password'] + "@" + db['host'] + "/" + db['db']
+        
+captcha_site_key="6Lcd2wwTAAAAAMfz3yJhphSG74U54MJhRMu-_Vyp",
+captcha_secret='6Lcd2wwTAAAAALP0ZBvoLJlSxjF5qytxJJ19Z2iE'

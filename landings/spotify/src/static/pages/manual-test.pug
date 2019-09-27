@@ -1,0 +1,67 @@
+
+extends ../templates/layout.pug
+
+block includes
+  include ../components/animation/animation.pug
+  include ../components/header/header.pug
+  include ../components/userInfo/userInfo.pug
+  include ../components/playlist/playlist.pug
+  include ../components/footer/footer.pug
+
+block title
+  title Verizon
+
+block styles
+  link(rel="stylesheet" type="text/css" href="assets/css/styles.css")
+  style body, html { overflow: scroll !important; }
+
+block components
+
+
+  .vzn-tbny.manual-test
+    +header()
+    .title.test TBNY Manual Test
+    div.user-info.playlist
+      p
+        label(for="borough") Borough:
+        select(name="borough" id="borough")
+          option(value="MT") Manhattan
+          option(value="BK") Brooklyn
+          option(value="QU") Queens
+          option(value="BX") The Bronx
+          option(value="SI") Staten Island
+
+      p
+        label(for="day") Day:
+        select(name="day" id="day")
+          option(value="WD") Weekday
+          option(value="WE") Weekend
+      
+      p
+        label(for="time") Time:
+        select(name="time" id="time")
+          option(value="Day") Day
+          option(value="Eve") Evening
+          option(value="Late") Late Night
+      
+      p
+        label(for="weather") Weather:
+        select(name="weather" id="weather")
+          option(value="Sun") Sunny
+          option(value="Clear") Clear
+          option(value="Dreary") Dreary
+      
+      p Test Name: #[span#testName -]
+
+      p Playlist URL: #[span#playlist -]
+        br
+        br
+        button(type='button' id='getPlaylist' class='testBtn getplaylist') Get Playlist
+    
+    .status.none
+      <div class="lds-facebook"><div></div><div></div><div></div></div>
+      .status-text #[span#status Requesting Playlist URL, please wait ...]
+    +footer()
+
+block scripts
+  script(src="assets/manual-test.js")

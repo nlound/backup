@@ -1,0 +1,457 @@
+[
+  {
+    "vpm":"VPM4011",
+    "ubicacion":"Av.:Gral:Paz_enlace:Au:Perito:Moreno",
+    "detalle" : "6 Es el acceso a AU1 desde AU Oeste sentido centro."
+  },
+  {
+    "vpm":"VPM1012",
+    "ubicacion":"Av.:Gral:Paz_enlace:Au:Perito:Moreno",
+    "detalle" : "Rampa de acceso desde Gral Paz sentido Riachuelo a AU6 sentido Centro"
+  },
+  {
+    "vpm":"VPM1013",
+    "ubicacion":"Av.:Gral:Paz_enlace:Au:Perito:Moreno",
+    "detalle":"Rampa de acceso desde Gral Paz sentido Rio de La Plata a AU6 sentido Centro"
+  },
+  {
+    "vpm":"VPM1022",
+    "ubicacion":"Av.:Gral:Paz_Av.:Gral:Paz:Norte",
+    "detalle": "Rampa de salida de AU6 sentido Provincia a Gral Paz sentido Rio de La Plata"
+  },
+  {
+    "vpm":"VPM1171",
+    "ubicacion":"Nudo:9:Julio_San:Juan",
+    "detalle": "Rampa de salida de AU1 sentido Centro a 9 de Julio y San Juan (sentido Centro)"
+  },
+  {
+    "vpm":"VPM1161",
+    "ubicacion":"enlace:Au:25:de:Mayo_enlace:Au:25:de:Mayo",
+    "detalle": "Rampa de acceso desde 9 de Julio sentido Provincia a AU1 sentido Provincia"
+  },
+  {
+    "vpm":"VPM1172",
+    "ubicacion":"Nudo:9:Julio_enlace:Au:9:Julio",
+    "detalle": "Rampa de salida de AU1 sentido Centro a AU 9 de Julio Sur sentido Provincia"
+  },
+  {
+    "vpm":"VPM1183",
+    "ubicacion":"Constitucion_enlace:Au:25:de:Mayo",
+    "detalle": "Rampa de acceso desde AU 9 de Julio Sur sentido Centro a AU1 sentido Centro"
+  },
+  {
+    "vpm":"VPM1201",
+    "ubicacion":"Paseo:Colon_enlace:Au:25:de:Mayo",
+    "detalle": "Rampa de acceso de Paseo Colon a AU1 sentido Centro"
+  },
+  {
+    "vpm":"VPM1202",
+    "ubicacion":"fin:Au:25:de:Mayo_fin:Au:25:de:Mayo",
+    "detalle": "Rampa de salida de AU1 sentido Centro a Av. Huergo sentido Retiro"
+  },
+  {
+    "vpm":"VPM1203",
+    "ubicacion":"Huergo_enlace:Au:25:de:Mayo",
+    "detalle": "Rampa de acceso de Av. Huergo a AU1 sentido Centro"
+  },
+  {
+    "vpm":"VPM1204",
+    "ubicacion":"fin:Au:25:de:Mayo_fin:Au:25:de:Mayo",
+    "detalle": "Rampa de salida de AU1 sentido Centro a Av. Huergo sentido La Boca"
+  },
+  {
+    "vpm":"VPM1251",
+    "ubicacion":"enlace:Av:9:Julio_enlace:Av:9:Julio",
+    "detalle": "Rampa de acceso a AU1 sentido Centro desde 9 de Julio sentido Provincia"
+  },
+  {
+    "vpm":"VPM1252",
+    "ubicacion":"enlace:Au:25:de:Mayo_enlace:Au:25:de:Mayo",
+    "detalle": "Rampa de salida de AU1 sentido Centro a 9 de Julio sentido Centro"
+  },
+  {
+    "vpm":"VPM1261",
+    "ubicacion":"enlace:Au:9:Julio:Sur_enlace:Au:9:Julio:Sur",
+    "detalle": "Rampa de salida de AU1 sentido Provincia a AU 9 de Julio Sur sentido Provincia"
+  },
+  {
+    "vpm":"VPM1262",
+    "ubicacion":"Av.:9:Julio_Av.:9:Julio",
+    "detalle": "Rampa de salida de AU1 sentido Provincia a 9 de Julio sentido Centro"
+  },
+  {
+    "vpm":"VPM4011",
+    "ubicacion":"Av.:Gral:Paz_enlace:Au:Perito:Moreno",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4021",
+    "ubicacion":"Av.:Gral:Paz_Acceso:Oeste",
+    "detalle": "Av. Gral Paz Acceso Oeste"
+  },
+  {
+    "vpm":"VPM4031",
+    "ubicacion":"Rivadavia_Barragan",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4032",
+    "ubicacion":"Barragan_Rivadavia",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4041",
+    "ubicacion":"Rivadavia_Rivadavia",
+    "detalle": "Rampa de salida de AU6 sentido Provincia a Rivadavia"
+  },
+  {
+    "vpm":"VPM4042",
+    "ubicacion":"Rivadavia_Rivadavia",
+    "detalle": "Rampa de acceso desde Rivadavia a AU6 sentido Centro"
+  },
+  {
+    "vpm":"VPM4051",
+    "ubicacion":"Alberdi_Rivadavia",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4052",
+    "ubicacion":"Rivadavia_Alberdi",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4061",
+    "ubicacion":"Peaje_Alberdi",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4062",
+    "ubicacion":"Alberdi_Peaje",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4071",
+    "ubicacion":"enlace:Au:25:de:Mayo_Peaje",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4072",
+    "ubicacion":"Peaje_enlace:Au:25:de:Mayo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4081",
+    "ubicacion":"Varela_enlace:Au:25:de:Mayo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4082",
+    "ubicacion":"enlace:Au:25:de:Mayo_Varela",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4091",
+    "ubicacion":"Carabobo_Varela",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4092",
+    "ubicacion":"Varela_Carabobo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4092",
+    "ubicacion":"Puente:Lacarra_Peaje",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4101",
+    "ubicacion":"Chacabuco_Carabobo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4102",
+    "ubicacion":"Carabobo_Parque:Chacabuco",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4111",
+    "ubicacion":"Av.:La:Plata_Parque:Chacabuco",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4112",
+    "ubicacion":"Parque:Chacabuco_Av.:La:Plata",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4121",
+    "ubicacion":"Boedo_Av.:La:Plata",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4122",
+    "ubicacion":"Av.:La:Plata_Boedo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4131",
+    "ubicacion":"Jujuy_Boedo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4132",
+    "ubicacion":"Boedo_Jujuy",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4141",
+    "ubicacion":"Jujuy_Jujuy",
+    "detalle": "Rampa de acceso a AU1 sentido Provincia desde Jujuy"
+  },
+  {
+    "vpm":"VPM4142",
+    "ubicacion":"Jujuy_Jujuy",
+    "detalle": "Rampa de salida de AU1 sentido Centro a Jujuy"
+  },
+  {
+    "vpm":"VPM4151",
+    "ubicacion":"Av.:9:Julio_Jujuy",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4152",
+    "ubicacion":"Jujuy_Entre:Rios",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4161",
+    "ubicacion":"Nudo:9:Julio_Nudo:9:Julio",
+    "detalle": "AU1 sobre 9 de Julio (traza sobre el nudo) sentido Provincia"
+  },
+  {
+    "vpm":"VPM4162",
+    "ubicacion":"Nudo:9:Julio_Nudo:9:Julio",
+    "detalle": "AU1 sobre 9 de Julio (traza sobre el nudo) sentido Centro"
+  },
+  {
+    "vpm":"VPM4181",
+    "ubicacion":"San:Juan_Au:9:Julios",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4182",
+    "ubicacion":"fin:Au:25:de:Mayo_San:Juan",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4191",
+    "ubicacion":"Colon_Nudo:9:Julio",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4192",
+    "ubicacion":"fin:Au:25:de:Mayo_fin::Au:25:de:Mayo",
+    "detalle": "Salida de AU1 a AU La Plata "
+  },
+  {
+    "vpm":"VPM4211",
+    "ubicacion":"Lacarra_Escalada",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4212",
+    "ubicacion":"Escalada_Lacarra",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4221",
+    "ubicacion":"Escalada_Larrazabal",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4222",
+    "ubicacion":"Larrazabal_Escalada",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4231",
+    "ubicacion":"Larrazabal_Montiel",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4232",
+    "ubicacion":"Montiel_Larrazabal",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4241",
+    "ubicacion":"Montiel_Ricchieri",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4242",
+    "ubicacion":"Ricchieri_Montiel",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4271",
+    "ubicacion":"Av.:Udaondo_enlace:Au.:Gral:Paz",
+    "detalle": "Av. Udaondo enlace Au. Gral. Paz"
+  },
+  {
+    "vpm":"VPM4272",
+    "ubicacion":"enlace:Av.:Gral:Paz_Av.:Udaondo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4281",
+    "ubicacion":"Av.:Udaondo_Av.:Udaondo",
+    "detalle": "Udaondo a Comodoro Rivadavia"
+  },
+  {
+    "vpm":"VPM4282",
+    "ubicacion":"Av.:Udaondo_Av.:Udaondo",
+    "detalle": "Comodoro Rivadavia a Udaondo "
+  },
+  {
+    "vpm":"VPM4291",
+    "ubicacion":"Ciudad:Universitaria_Av.:Udaondo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4292",
+    "ubicacion":"Av.:Udaondo_Ciudad:Universitaria",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4301",
+    "ubicacion":"Av.:La:Pampa_Ciudad:Universitaria",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4302",
+    "ubicacion":"Ciudad:Universitaria_Av.:La:Pampa",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4311",
+    "ubicacion":"Salguero_Av.:La:Pampa",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4312",
+    "ubicacion":"Av.:La:Pampa_Aeroparque",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4321",
+    "ubicacion":"Salguero_Av.:La:Pampa",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4322",
+    "ubicacion":"Aeroparque_Av.Dorrego",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4331",
+    "ubicacion":"Salguero_Av.:La:Pampa",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4332",
+    "ubicacion":"Av.:Dorrego_Av.:Sarmiento",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4341",
+    "ubicacion":"Salguero_Av.:La:Pampa",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4342",
+    "ubicacion":"Av.:Sarmiento_Salguero",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4351",
+    "ubicacion":"Peaje_Salguero",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4352",
+    "ubicacion":"Salguero_Peaje",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4361",
+    "ubicacion":"Retiro_Peaje",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4362",
+    "ubicacion":"Peaje_Peaje",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4371",
+    "ubicacion":"Retiro_Retiro",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4372",
+    "ubicacion":"Peaje_Retiro_Au:Illia",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4381",
+    "ubicacion":"Ingreso:Au:Illia_Retiro",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4382",
+    "ubicacion":"Retiro_Retiro",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4391",
+    "ubicacion":"Ingreso:Au:Illia_Ingreso:Au:Illia",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4392",
+    "ubicacion":"Retiro_Av.:9:Julio",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4401",
+    "ubicacion":"Caseros_Caseros",
+    "detalle": "De Brasil a Caseros en AU 9 de Julio Sur sentido Provincia"
+  },
+  {
+    "vpm":"VPM4402",
+    "ubicacion":"Suarez_Au:25:de:Mayo",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4411",
+    "ubicacion":"Av.:Caseros_Suarez",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4412",
+    "ubicacion":"California_Suarez",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4421",
+    "ubicacion":"Suarez_Puente:Pueyrredon",
+    "detalle": ""
+  },
+  {
+    "vpm":"VPM4422",
+    "ubicacion":"Rio:Cuarto_California",
+    "detalle": ""
+  }
+]

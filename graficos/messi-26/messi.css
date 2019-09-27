@@ -1,0 +1,246 @@
+#fotos{
+	width: 948px;
+	height: 150px;
+	border-bottom: 1px solid #d7d6d6;
+	border-top: 0px solid #d7d6d6;
+    
+}
+#fotoIZ{
+	width: 435px;
+	height: 150px;
+	float:left;
+    background: url("sprite.png") no-repeat scroll 0px 0px transparent;
+	border-right: 1px solid #d7d6d6;
+}
+#fotoDE{
+	width: 435px;
+	height: 150px;
+	float:right;
+	border-left: 1px solid #d7d6d6;
+}
+
+.maradona {
+	background: url("sprite.png") no-repeat scroll 0px -150px transparent;
+}
+
+.pele{
+    background: url("sprite.png") no-repeat scroll 0px -300px transparent;
+}
+
+.distefano{
+    background: url("sprite.png") no-repeat scroll 0px -450px transparent;
+}
+
+.messiLabels {
+	background: url("labels.png") no-repeat scroll 0px 0px transparent;
+}
+.maradonaLabels {
+	background: url("labels.png") no-repeat scroll -435px 0px transparent;
+}
+.peleLabels {
+	background: url("labels.png") no-repeat scroll -870px 0px transparent;
+}
+.distefanoLabels {
+	background: url("labels.png") no-repeat scroll -1305px 0px transparent;     
+}
+
+#cabezalIZ{
+	width: 435px;
+	height: 60px;
+	float:left;
+    background: url("sprite.png") no-repeat scroll 0px -600px transparent;
+	border-right: 1px solid #d7d6d6;
+}
+
+#cabezalDE{
+	width: 435px;
+	height: 60px;
+	float:right;
+    background: url("sprite.png") no-repeat scroll 0px -600px transparent;
+	border-left: 1px solid #d7d6d6;
+}
+
+
+#lineasI{
+	width: 435px;
+	height: 700px;
+	float:left;
+	border-right: 1px solid #d7d6d6;
+   	
+}
+
+#lineasD{
+	width: 435px;
+	height: 700px;
+	float:right;
+	border-left: 1px solid #d7d6d6;
+}
+
+.graficoIZ{
+  	padding-left: 69px;
+}
+
+.graficoDE{
+   	padding-left: 69px;
+}
+
+.goles{
+	width: 28.4px;
+	float:left;
+}
+
+
+.gol {
+	margin: 2px;
+	width: 7px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-khtml-border-radius: 15px;	
+}
+
+.gol:hover{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+	opacity: 0.5;
+}
+
+#grafico {
+	background-image:url("bg.png");
+	background-repeat:no-repeat;
+	background-position: center top;	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 948px;
+	clear: none;	    
+}
+
+.avisoSVG{
+	position: absolute;
+	margin-left: 195px;
+	margin-top: 197px;
+	width: 554px;
+	height: 230px;
+	display: block;
+	-moz-box-shadow:    0px 0px 15px 10px #ccc;
+	-webkit-box-shadow: 0px 0px 15px 10px #ccc;
+	box-shadow:         0px 0px 15px 10px #ccc;	
+}
+
+.tool {
+	position: absolute;
+	pointer-events: none;
+    background: url("tooltip.png") no-repeat scroll 0 0 transparent;
+	width: 150px;
+	height: 150px
+	padding: 10px;
+	text-align: left;
+	margin: 10px;
+	display: block;
+	z-index: 1000;
+	font-family: Arial, _sans;
+	color: #4C4C4C;
+	border: 1px solid #f0f0f0;
+	-moz-box-shadow:    5px 5px 5px -2px #ccc;
+	-webkit-box-shadow: 5px 5px 5px -2px #ccc;
+	box-shadow:         5px 5px 5px -2px #ccc;
+}
+
+#nombreIZ{
+	font-family: Arial, _sans;
+	font-size: 18px;
+	font-weight: bold;	
+	position: absolute;
+	width: 150px;
+	height: 150px
+	z-index: 2000;
+	top: 25px;
+	left: 300px;
+}
+
+#selector{
+	position: absolute;
+	width: 150px;
+	height: 150px
+	z-index: 2000;
+	top: 20px;
+	left: 530px;
+}
+	
+.tool table{
+	padding: 5px;
+}
+
+.tool .par{
+	font-family: Arial, _sans;
+	font-size: 10px;
+	padding-top: 0px;
+	padding-left: 5px;
+}
+
+.tool .loc{
+	font-family: Arial, _sans;
+	font-size: 12px;
+	color: #e0494b;
+	font-weight: bold;	
+	padding-top: 6px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.tool .vis{
+	font-family: Arial, _sans;
+	font-size: 12px;
+	font-weight: bold;	
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.tool .lug{
+	font-family: Arial, _sans;
+	font-size: 10px;
+	padding-top: 7px;
+	padding-right: 5px;
+}
+
+.tool .fec{
+	font-family: Arial, _sans;
+	font-size: 10px;
+	padding-top: 7px;
+	padding-right: 5px;
+}
+
+select {
+	border: 1px solid #ccc;
+	width: 220px;   
+	padding: 5px;
+	font-family: Arial, _sans;
+	font-size: 18px;
+	font-weight: bold;	
+	border-radius: 5px;
+	height: 34px;
+	-webkit-appearance: none;
+}
+
+
+
+.golesTotales {
+	width: 20px;
+	height: 30px
+	pointer-events: none;
+    background-color: #000000;
+	text-align: center;
+	z-index: 1000;
+	font-family: Arial, _sans;
+	font-size: 8px;
+	font-weight: bold;	
+	color: #FFFFFF;
+	border: 1px solid #f0f0f0;
+	-moz-box-shadow:    5px 5px 5px -2px #ccc;
+	-webkit-box-shadow: 5px 5px 5px -2px #ccc;
+	box-shadow:         5px 5px 5px -2px #ccc;
+	border-radius: 3px;
+}

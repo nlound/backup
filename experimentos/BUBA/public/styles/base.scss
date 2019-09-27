@@ -1,0 +1,840 @@
+@import "../bower_components/bourbon/dist/bourbon";
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/mixins";
+
+@include font-face('Gotham', 'fonts/Gotham-Medium');
+@include font-face('Gotham Black', 'fonts/Gotham-Black');
+@include font-face('PFHandbookPro-Medium', 'fonts/PFHandbookPro-Medium');
+@include font-face('PFHandbookPro-Bold', 'fonts/PFHandbookPro-Bold');
+
+
+
+$break-full: 960px;
+$break-tablet: 750px;
+$break-phone: 469px;
+$break-zero: 0;
+
+$break-full-height: 1200px;
+$break-desktop-height: 800px;
+$break-tablet-height-portrait: 650px;
+$break-tablet-height-landscape: 1200px;
+
+@mixin responsive($media:'', $orientation:'') {
+    @if $media == full {
+        @media only screen and (min-device-width: $break-full) { @content; }
+    }
+    @else if $media == tablet {
+        @media only screen and (min-device-width: $break-tablet) and (max-width: $break-full - 1) { @content; }
+    }
+    @else if $media == phone {
+        @media only screen and (min-device-width: $break-phone) and (max-width: $break-tablet - 1) { @content; }
+    }
+    @else if $media == zero {
+        @media only screen and (min-device-width: $break-zero) and (max-width: $break-phone - 1) { @content; }
+    }
+    @else if $media == tablet and $orientation == portrait {
+        @media only screen and (orientation: portrait) { @content; }
+    }
+    @else if $media == tablet and $orientation == landscape {
+        @media only screen and (orientation: landscape) { @content; }
+    }
+}
+
+
+
+@mixin vertical-responsive($media:'', $orientation:'') {
+    @if $media == full {
+        @media only screen and (min-device-height: $break-full-height) { @content; }
+    }
+    @else if $media == desktop {
+        @media only screen and (min-device-height: $break-tablet-height-portrait) and (max-height: $break-full-height - 200) { @content; }
+    }
+    @else if $media == tablet {
+        @media only screen and (min-device-width: $break-tablet) and (max-width: $break-full - 1) { @content; }
+    }
+    @else if $media == tablet and $orientation == portrait {
+        @media only screen and (orientation: portrait) { @content; }
+    }
+    @else if $media == tablet and $orientation == landscape {
+        @media only screen and (orientation: landscape) { @content; }
+    }
+}
+
+
+$navbar-default-bg: transparent;
+$navbar-default-border: none;
+
+$color-slides: transparent;
+$color-primary: #729926;
+$footer-height: 60px;
+
+$modal-backdrop-opacity: .8 !default;
+
+$braucoec: #ffe900;
+$grgbbairdeusgh: #eaeaea;
+$mxng: #007451; 
+$eshrcl: #ff1c38;
+$cmdz: #01a451;
+$nlci: #ff7300;
+$jpithnar: #00569f;
+$uy: #b5f4f9;
+$crchbekr: #ff1c38;
+$fr: #0b3861;
+$ptru: #841013;
+
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+@import "../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+
+
+.modal {
+  // When fading in the modal, animate it to slide down
+  &.fade .modal-dialog {
+    @include translate(0, 0%);
+    @include transition-transform(0.3s ease-in-out);
+  }
+  &.in .modal-dialog { @include translate(0, 0)}
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-backface-visibility: hidden;
+    moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-touch-callout: none;
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width: 100%;
+    font-family: $font-family-sans-serif;
+    background-image: url("img/back.png");
+    background-size: cover;
+    background-color: #90c41a;
+}
+
+header, footer {
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+    pointer-events: none;    
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 999;
+    
+    .header-gcba {
+        height:50px;
+        padding:10px 0;
+        overflow:visible;
+        background-color: transparent;
+        @include transition (background-color 0.4s ease-in-out);
+    }
+
+    .fondoColor {
+        background-color: #FFCB05;
+        @include transition (all 0.4s ease-in-out);
+    }
+
+    .sloganNormal{
+        color:#000 !important;
+        @include transition (all 0.4s ease-in-out);
+    }
+
+    .header-inner {
+        padding-right:20px;
+        padding-left:20px
+    }
+
+    .header-gcba .logo {
+        float:left;
+        width:172px;
+        height:33px;
+        @include retina-image("img/logo-invertido", 172px 34px);
+    }
+
+    .header-gcba h2.slogan {
+        float: right;
+        font-weight: bold;
+        margin-top: 0.75em;
+        font-size: 0.85em;
+        font-size:12px;
+        letter-spacing:-1px;
+        color:#FFF;
+        text-transform: uppercase;
+        min-width: 150px;
+        @include transition (color 0.4s ease-in-out);
+    }
+
+}
+
+.ng-scope {
+    // min-height: 1200px;
+    // border: 1px solid green;
+}
+
+#landing {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    min-height: 900px;
+    text-align:center;
+    padding-top: 200px;
+    .content {
+        position: relative;
+        // border: 1px solid red;
+        .seleccion {
+            display: block;
+            .logoMundial{
+                float: right;
+                position: absolute;
+                right: 20%;
+                top: -40px;
+
+                @include vertical-responsive (full) {
+                    top: -40px;
+                }
+                @include vertical-responsive (desktop) {
+                    top: -20px;
+                }
+            }
+            
+            .intro {
+                @include responsive (full) {
+                    width: 700px;
+                }
+                @include responsive (tablet) {
+                    width: 700px;
+                }
+                @include responsive (tablet, portrait) {
+                    width: 50px;
+                }
+                @include responsive (tablet, landscape) {
+                    width: 500px;
+                }
+            }
+            @include responsive (tablet) {
+                padding-top: 20%;
+            }
+            h1, h2, h3 {
+                @include hide-text;
+            }
+              
+        }
+        .ribbon {
+            display: block;
+            width: 328px; height: 107px;
+            margin: 0 auto;
+            cursor: pointer;
+            @include retina-image("img/vota", 328px 107px);
+
+            span {
+                @include hide-text;
+            }
+        }
+    }
+}
+
+#tutorial {
+    margin: 0px;
+    background-color: #FFCB05;
+    //min-height: 1200px;
+    padding-top: 150px;
+    padding-bottom: 350px;
+
+    h2 {
+        font-size: 3em;
+        padding-bottom: 50px;
+    }
+
+    h2, h3 {
+        font-family: "PFHandbookPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+    }
+    
+    h2, h3, p {
+        color: #2D5052;
+        text-align: center;
+    }
+
+    .continua {
+        font-family: "PFHandbookPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        padding: 10px 5px;
+        color: #2D5052;
+        text-align: center;
+        display: block;
+        max-width: 180px;
+        margin: 0 auto;
+        cursor: pointer;
+        border: 3px solid #2D5052;
+
+        @include border-top-radius(10px);
+        @include border-bottom-radius(10px);
+        @include border-left-radius(10px);
+        @include border-right-radius(10px);
+
+    }
+
+    .pasos {
+
+        .titulo {
+            display: block;
+            font-size: 2em;
+        }
+        .texto{
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+            font-family: "PFHandbookPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 1.3em;
+            padding-bottom: 50px;
+        }
+    }
+
+    .icon {
+        text-align: center;
+        // background-size: 100% auto;
+        // height: 311px;
+        // img{
+        //     min-width: 50px;
+        //     max-width: 100px;
+        // }
+        
+        .eleccion {
+           display: block;
+           width: 330px; height: 330px;
+           margin: 0 auto 20px auto;
+           @include hide-text;
+           @include retina-image(img/icon-eleccion, 330px 330px); 
+        }
+        .comparti {
+           display: block;
+           width: 330px; height: 330px;
+           margin: 0 auto 20px auto;
+           @include hide-text;
+           @include retina-image(img/icon-bici, 330px 330px); 
+        }
+
+    }
+        
+
+    .bajarTabla{ 
+        // cursor: pointer;
+        // position: absolute;
+        // bottom: 0px;
+        // left: 48%;
+        // background-color: #ff7301;
+        // height: 30px;
+        // width: 30px;
+        // -webkit-border-top-left-radius: 8px;
+        // -webkit-border-top-right-radius: 8px;
+        // -moz-border-radius-topleft: 8px;
+        // -moz-border-radius-topright: 8px;
+        // border-top-left-radius: 8px;
+        // border-top-right-radius: 8px;
+    }
+}
+
+.modal-dialog {
+    font-family: "PFHandbookPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    .modal-body {
+    }
+}
+
+#terminos-condiciones {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #FFCB05;
+    min-height: 1200px;
+    padding-top: 150px;
+    padding-bottom: 350px;
+        
+        .sorteo {
+            list-style-type: lower-latin;
+        }
+
+}
+
+#participaste{
+    font-family: "PFHandbookPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    background: #31579A;
+    color: #FFFFFF;
+    padding-top: 150px;
+    padding-bottom: 350px;
+    text-align: center;
+    @include vertical-responsive (full) {
+        padding-top: 200px;
+        min-height: 1400px;
+    }
+    @include vertical-responsive (desktop) {
+        padding-top: 100px;
+        min-height: 900px;
+    }
+
+
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+    }
+
+    .separador {
+        width: 215px;
+        height: 15px;
+        padding-bottom: 30px;
+        background: transparent url("img/line.png") no-repeat;
+        margin: 0 auto;        
+    }
+
+    h2{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1.3em;
+        line-height: 1.2em;
+        padding-bottom: 30px;
+    }
+
+    h3{
+        font-size: 1.4em;
+        a {
+            color: #FFFFFF;
+            text-decoration: underline; 
+        }
+        a:hover {
+            text-decoration: none;
+        }
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+
+}
+
+footer {
+    color: #FFF;
+    bottom: 0px;
+    width: 100%;
+    height: $footer-height; 
+    background-color: #333333;
+
+    .ministerio {
+        padding: 20px 50px;
+    }
+    .modernizacion {
+        text-align: left; 
+    }
+    .desarrollo-economico {
+        text-align: right;
+    }
+    .list-group {
+      height: 20px;
+    }
+
+}
+
+#landing, #tutorial {
+    @include vertical-responsive (full) {
+        padding-top: 300px;
+        min-height: 1400px;
+    }
+    @include vertical-responsive (desktop) {
+        padding-top: 200px;
+        min-height: 1000px;
+    }
+}
+
+    
+/* 
+Tabla
+*/
+
+#tabla {
+    margin: 0px;
+    background-color: #B6D225;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    min-height: 1200px;
+        cursor: default;
+
+}
+
+// Oculto tabla del modal hasta terminarla.
+
+.modal-table {
+    display: none;
+}
+
+.equipos {
+
+    position: relative;
+    background-color: #fff;
+    font-family: "PFHandbookPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    @include border-top-radius(15px);
+    @include border-bottom-radius(15px);
+    @include border-left-radius(15px);
+    @include border-right-radius(15px);
+
+    thead {
+        background-color: #ffffff;
+    }
+    
+    thead > th {
+        border: none;
+        margin: 20px 0 20px 0;
+        width: 25% !important;
+    }
+    th {
+        width: 25% !important;
+    }
+    .ba-mundial {
+        @include hide-text;
+        @include retina-image(img/ba-mundial, 179px 172px);
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+        width: 179px;
+        height: 172px;
+        top: -60px;
+        left: -10px;
+
+    }
+
+    .referencia {
+        border: 0;
+        text-align: center;
+    }
+
+    .referencia h3 {
+        line-height: 1em;
+        margin-bottom: 0; 
+    }
+
+    .referencia h4, .pais {
+        font-size: 1.1em;
+        font-family: "PFHandbookPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #A0A0A0;
+        margin-top: 0;
+        letter-spacing: -.05em;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #FFFFFF;
+    }
+
+    tbody tr:nth-child(odd) {
+      background: lighten(#9B9D9F,30%);
+    }
+
+    .flechita{
+        display: flex;
+        float: left;
+        top: 45px;
+        font-size: 2em;
+        color: #666666;
+        left: 5px;
+        cursor: default;
+    }
+
+
+    .simulador {
+        td {
+            // vertical-align: middle !important;
+        }
+        .votar-todo {
+            p {
+                font-size: 1.3em;
+                line-height: 0.8em;
+                color: darken(#A0A0A0,15%);
+                font-family: "PFHandbookPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                padding-right: 0px;
+            }
+            display: inline-block;
+            float: left;
+            max-width: 50px;
+            margin-left: 25px;
+            margin-top: 6px;
+            padding: 29px 0px 20px 0px;
+            @include responsive (tablet) {
+                padding: 0px;
+                margin-left: 5px;
+                margin-top: 36px;
+            }
+            label {
+                padding: 0px;
+            }
+        }
+
+
+        .checkbox {
+            padding: 25px 0px 5px 0px;
+        }
+
+        p {
+            font-size: 1.1em;
+            font-family: "PFHandbookPro-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: darken(#A0A0A0,15%);
+            text-align: center;
+            padding-right: 5px;
+            // padding: 40px 0px 0px 0px;
+        }
+
+        input[type=checkbox] {
+            position:absolute; z-index:-1000;
+        }
+
+        input[type=checkbox] + label, input[type=checkbox] + label.clr {
+            padding-left:55px;
+            height:50px; 
+            display:inline-block;
+            line-height:50px;
+            background-repeat:no-repeat;
+            background-position: 0 0;
+            vertical-align:middle;
+            cursor:pointer;
+        }
+
+        input[type=checkbox]:checked + label, input[type=checkbox] + label.chk {
+            background-position: 0 -50px;
+        }
+        label {
+            background-image:url('img/checkbox-off-on.png');
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    }
+
+    
+    .pais {
+        // border: 1px solid red;
+
+        font-size: .9em;
+        line-height: .8em;
+        color: darken(#A0A0A0,15%);
+        background: url('img/paises.png') no-repeat;
+        display: inline-block;
+        float: left;
+        padding-top: 56px;
+        padding-bottom: 5px;
+        margin-left: 10px;
+        margin-top: 36px;
+        @include responsive (tablet) {
+            margin-top: 36px;
+        }
+        max-width: 110px;
+        text-align: center;
+    }
+
+
+    
+    .br, .au, .co, .ec {
+            border-bottom: 2px solid tint($braucoec,40%);
+    }
+
+    .gr, .gb, .ba, .ir, .de, .us, .gh {
+            border-bottom: 2px solid tint($grgbbairdeusgh,50%);
+    }
+
+    .mx, .ng {
+           border-bottom: 2px solid tint($mxng,50%); 
+    }
+
+    .es, .hr, .cl {
+            border-bottom: 2px solid tint($eshrcl,50%);
+    }
+
+    .cm, .dz {
+            border-bottom: 2px solid tint($cmdz,50%);      
+    }
+
+    .nl, .ci {
+            border-bottom: 2px solid tint($nlci,50%);
+    }
+
+    .jp, .it, .hn, .ar {
+            border-bottom: 2px solid tint($jpithnar,50%);
+    }
+
+    .uy {
+            border-bottom: 2px solid tint($uy,50%);
+    }
+
+    .cr, .ch, .be, .kr {
+            border-bottom: 2px solid tint($crchbekr,50%);
+    }
+
+    .fr {
+            border-bottom: 2px solid tint($fr,50%);
+    }
+
+    .pt, .ru {
+            border-bottom: 2px solid tint($ptru,50%);    
+    }
+    
+
+    .br > .pais { background-position: 0 0; width: 70px; height: 47px; } 
+    .cm > .pais { background-position: 0 -97px; width: 70px; height: 47px; } 
+    .hr > .pais { background-position: 0 -194px; width: 70px; height: 47px; } 
+    .mx > .pais { background-position: 0 -291px; width: 70px; height: 47px; } 
+    .au > .pais { background-position: 0 -388px; width: 70px; height: 47px; } 
+    .cl > .pais { background-position: 0 -485px; width: 70px; height: 47px; } 
+    .es > .pais { background-position: 0 -582px; width: 70px; height: 47px; } 
+    .nl > .pais { background-position: 0 -679px; width: 70px; height: 47px; } 
+    .co > .pais { background-position: 0 -776px; width: 70px; height: 47px; } 
+    .ci > .pais { 
+        background-position: 0 -873px; width: 70px; height: 47px;
+        padding-bottom: 15px;
+    } 
+    .gr > .pais { background-position: 0 -970px; width: 70px; height: 47px; } 
+    .jp > .pais { background-position: 0 -1067px; width: 70px; height: 47px; } 
+    .cr > .pais { background-position: 0 -1164px; width: 70px; height: 47px; } 
+    .gb > .pais { background-position: 0 -1261px; width: 70px; height: 47px; } 
+    .it > .pais { background-position: 0 -1358px; width: 70px; height: 47px; } 
+    .uy > .pais { background-position: 0 -1455px; width: 70px; height: 47px; } 
+    .ec > .pais { background-position: 0 -1552px; width: 70px; height: 47px; } 
+    .fr > .pais { background-position: 0 -1649px; width: 70px; height: 47px; } 
+    .hn > .pais { background-position: 0 -1746px; width: 70px; height: 47px; } 
+    .ch > .pais { background-position: 0 -1843px; width: 70px; height: 47px; } 
+    .ar > .pais { background-position: 0 -1940px; width: 70px; height: 47px; } 
+    .ba > .pais {
+        background-position: -120px 0; width: 70px; height: 47px;
+        padding-bottom: 15px;
+    } 
+    .ir > .pais { background-position: -120px -97px; width: 70px; height: 47px; } 
+    .ng > .pais { background-position: -120px -194px; width: 70px; height: 47px; } 
+    .de > .pais { background-position: -120px -291px; width: 70px; height: 47px; } 
+    .us > .pais { 
+        background-position: -120px -388px; width: 70px; height: 47px;
+        padding-bottom: 15px;
+    } 
+    .gh > .pais { background-position: -120px -485px; width: 70px; height: 47px; } 
+    .pt > .pais { background-position: -120px -582px; width: 70px; height: 47px; } 
+    .dz > .pais { background-position: -120px -679px; width: 70px; height: 47px; } 
+    .be > .pais { background-position: -120px -776px; width: 70px; height: 47px; } 
+    .kr > .pais {
+        background-position: -120px -873px; width: 70px; height: 47px;
+        padding-bottom: 15px;
+    } 
+    .ru > .pais { background-position: -120px -970px; width: 70px; height: 47px; }
+    
+    .voto {
+        padding-bottom: 20px;
+    }
+
+
+    
+    .comparti-concursa {
+        h3 {
+           
+        }
+        h4 {
+            margin: 0 auto;
+            width: 40%;
+            color: #9B9D9F;
+            padding-bottom: 50px;
+        }
+    }
+}
+
+
+.tableFloatingHeaderOriginal th {
+    background-color: #fff;
+    border-bottom: 1px solid #DDD;
+}
+
+
+#shares{
+    display: inline-flex;
+}
+
+.shareTwitter{
+    background: url('img/buttons-socialmedia.png') no-repeat;
+    background-position: -98px 0px;
+    height: 76px;
+    width: 98px;
+    margin: 0 auto;
+}
+
+.shareFacebook{
+    background: url('img/buttons-socialmedia.png') no-repeat;
+    background-position: 0 0px;
+    height: 76px;
+    width: 98px;
+    margin: 0 auto;
+}
+
+
+.social {
+    padding: 10px 0px 70px 0px;
+}
+
+.comparti-concursa {
+
+    h3 {
+        font-family: "PFHandbookPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    h4 {
+        color: #9B9D9F;
+    }
+
+}
+
+.enviarFlotante{
+    font-family: "PFHandbookPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 130px;
+    width: auto;
+    left: 50%;
+    margin-left: -100px;
+    padding: 15px 50px;
+}
+
+.enviarFooter{
+    font-family: "PFHandbookPro-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    position: fixed;
+    bottom: 130px;
+    width: auto;
+    left: 50%;
+    margin-left: -100px;
+    padding: 15px 50px;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.no-participo {
+    text-align: right;
+    a {
+        
+        padding: 20px 10px;
+        color: $color-primary;
+    }
+}

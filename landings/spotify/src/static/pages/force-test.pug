@@ -1,0 +1,123 @@
+
+extends ../templates/layout.pug
+
+block includes
+  include ../components/animation/animation.pug
+  include ../components/header/header.pug
+  include ../components/userInfo/userInfo.pug
+  include ../components/playlist/playlist.pug
+  include ../components/footer/footer.pug
+
+block title
+  title Verizon
+
+block styles
+  link(rel="stylesheet" type="text/css" href="assets/css/styles.css")
+  style body, html { overflow: scroll !important; }
+
+block components
+
+
+  .vzn-tbny.manual-test
+    +header()
+    .title.test TBNY Manual Test
+    div.user-info.playlist
+      p
+        label(for="loc") Lat &amp; long:
+        input(type='text' name='loc' placeholder='40.714224, -73.961452' id='loc')
+      
+      p
+        label(for="datetime") DateTime:
+        input(type="text" name="time" id="datetime" placeholder="2018-07-04 14:54")
+      
+      p
+        label(for="weather") Weather:
+        select(name="weather" id="weather")
+          option(value="Sunny") Sunny
+          option(value="Mostly Sunny") Mostly Sunny
+          option(value="Partly Sunny") Partly Sunny
+          option(value="Intermittent Clouds") Intermittent Clouds
+          option(value="Hazy Sunshine") Hazy Sunshine
+          option(value="Mostly Cloudy") Mostly Cloudy
+          option(value="Cloudy") Cloudy
+          option(value="Dreary (Overcast)") Dreary (Overcast)
+          option(value="Fog") Fog
+          option(value="Showers") Showers
+          option(value="Mostly Cloudy w/ Showers") Mostly Cloudy w/ Showers
+          option(value="Partly Sunny w/ Showers") Partly Sunny w/ Showers
+          option(value="T-Storms") T-Storms
+          option(value="Mostly Cloudy w/ T-Storms") Mostly Cloudy w/ T-Storms
+          option(value="Partly Sunny w/ T-Storms") Partly Sunny w/ T-Storms
+          option(value="Mostly Cloudy w/ Flurries") Mostly Cloudy w/ Flurries
+          option(value="Rain") Rain
+          option(value="Flurries") Flurries
+          option(value="Dreary") Partly Sunny w/ Flurries
+          option(value="Snow") Snow
+          option(value="Mostly Cloudy w/ Snow") Mostly Cloudy w/ Snow
+          option(value="Ice") Ice
+          option(value="Sleet") Sleet
+          option(value="Freezing Rain") Freezing Rain
+          option(value="Rain and Snow") Rain and Snow
+          option(value="Hot") Hot
+          option(value="Cold") Cold
+          option(value="Windy") Windy
+          option(value="Clear") Clear
+          option(value="Mostly Clear") Mostly Clear
+          option(value="Partly Cloudy") Partly Cloudy
+          option(value="Intermittent Clouds") Intermittent Clouds
+          option(value="Hazy Moonlight") Hazy Moonlight
+          option(value="Mostly Cloudy") Mostly Cloudy
+          option(value="Partly Cloudy w/ Showers") Partly Cloudy w/ Showers
+          option(value="Mostly Cloudy w/ Showers") Mostly Cloudy w/ Showers
+          option(value="Partly Cloudy w/ T-Storms") Partly Cloudy w/ T-Storms
+          option(value="Mostly Cloudy w/ T-Storms") Mostly Cloudy w/ T-Storms
+          option(value="Mostly Cloudy w/ Flurries") Mostly Cloudy w/ Flurries
+          option(value="Mostly Cloudy w/ Snow") Mostly Cloudy w/ Snow
+
+      p Results:
+      p(id="results" class="none")
+        span
+          u TBNY App Test:
+          a(id="testLink") Click here
+        br
+        span
+          u Zip Code:
+          span#zipCode -
+        br
+        span 
+          u Borough:
+          span#borough -
+        br
+        span 
+          u Weather:
+          span#weatherRes -
+        br
+        span 
+          u Day:
+          span#day -
+        br
+        span 
+          u Time:
+          span#time -
+        br
+        span 
+          u PlaylistCode:
+          span#playlistCode -
+        br
+        span 
+          u PlaylistURL:
+          br
+          span#playlistUrl -
+        br
+      
+      br
+      button(type='button' id='getPlaylist' class='testBtn getplaylist') Get Playlist
+    
+    .status.none
+      <div class="lds-facebook"><div></div><div></div><div></div></div>
+      .status-text #[span#status Requesting Playlist URL, please wait ...]
+    +footer()
+
+block scripts
+  script(src="assets/js/libs.js")
+  script(src="assets/playlist-test.js")

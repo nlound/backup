@@ -1,0 +1,45 @@
+@import "../../scss/partials/mixins";
+@import "../../scss/partials/breakpoints";
+@import "../../scss/partials/variables";
+.vzn-tbny {
+  .user-info {
+    width: 100%;
+    padding: 15px 15px;
+    font-weight: 700;
+    min-height: 112px;
+    @include respond-to('small') {
+      min-height: 100px;
+    }
+    .title {
+      position: absolute;
+      font-size: 32px;
+      line-height: 32px;
+      color: $white;
+      margin-bottom: 18px;
+      @include respond-to('small') {
+        font-size: 25px;
+        line-height: 25px;
+      }
+      #city {
+        font-size: 48px;
+        line-height: 46px;
+        @include respond-to('small') {
+          font-size: 38px;
+          line-height: 36px;
+        }
+      }
+      #info-icon{
+        display: inline-block;
+        width: 18px;
+        height: 100%;
+        line-height: normal;
+        img {
+          vertical-align: top;
+          position: relative;
+          top: -5px;
+          left: 8px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,410 @@
+@import "libs/_bourbon.scss";
+@import "bootstrap.min.css";
+@include font-face('Gotham', '/fonts/gotham');
+@include font-face('Open Sans', '/fonts/OpenSans');
+@include font-face('PFDinTextCondPro-Medium', '/fonts/PFDinTextCondPro-Medium');
+@include font-face('PFDinDisplayPro-Black', '/fonts/PFDinDisplayPro-Black');
+@include font-face('PFDinDisplayPro-Medium', '/fonts/PFDinDisplayPro-Medium');
+// fonts
+$fontset-DIN-logo: "PFDinDisplayPro-Black",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif !default;
+$fontset-DIN-condensed: "PFDinTextCondPro-Medium",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif !default;
+$fontset-DIN-display: "PFDinDisplayPro-Medium",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif !default;
+$fontset-openSans: "Open Sans",
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif !default;
+$fontset-glyphicons-halflings: "Glyphicons Halflings",
+sans-serif !default;
+// colores
+$color-blanco: #ffffff;
+$color-rojo:#ff4040;
+$color-verde:#40ff89;
+$color-negro:#000000;
+// alto del dashboard
+$alto:100%;
+$alto-widget:170px;
+$opacidad-general: 0.8;
+$opacidad-labels: 0.8;
+$altoTiemposDeViaje: 136px;
+$altoTransito: 200px;    
+
+@keyframes dataScrollSmall {
+    0% {top: $altoTransito;}
+    1% {top: $altoTransito;}
+
+    10% {top: 0;} //dato 1
+    20% {top: 0;} //dato 1
+
+    40% {top: -$altoTransito * 1;} //dato 2
+    50% {top: -$altoTransito * 1;} //dato 2
+
+    70% {top: -$altoTransito * 2;} //dato 3
+    80% {top: -$altoTransito * 2;} //dato 3
+
+    100% {top: -$altoTransito * 3;} //dato 3
+ 
+}
+
+@keyframes dataScrollBig {
+    0% {top: $altoTiemposDeViaje;}
+    1% {top: $altoTiemposDeViaje;}
+
+    10% {top: 0;} //dato 1
+    20% {top: 0;} //dato 1
+
+    40% {top: -$altoTiemposDeViaje * 1;} //dato 2
+    50% {top: -$altoTiemposDeViaje * 1;} //dato 2
+
+    70% {top: -$altoTiemposDeViaje * 2;} //dato 3
+    80% {top: -$altoTiemposDeViaje * 2;} //dato 3
+
+    100% {top: -$altoTiemposDeViaje * 3;} //dato 3
+ 
+}
+
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background: url('/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: $color-blanco;
+    font-size: 1em;
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: $fontset-DIN-display;
+    line-height: 1;
+}
+
+#controles {
+    color: $color-negro;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 999;
+    opacity: 0.2;
+    div {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        cursor: pointer;
+    }
+    div:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .play {
+        background: url('/images/icons/play.svg') no-repeat center;
+    }
+    .pause {
+        background: url('/images/icons/pause.svg') no-repeat center;
+    }
+    .next {
+        background: url('/images/icons/next.svg') no-repeat center;
+    }
+}
+
+#dashboard {
+    opacity: $opacidad-general;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    .cajaAnimacion{
+        position: relative;
+        top: 10px;
+        overflow: hidden;
+    }
+
+    .animadoSmall{
+        -webkit-animation:dataScrollSmall 9s infinite ease-in-out;
+        animation:dataScrollSmall 9s infinite ease-in-out;
+        position: relative;
+    }
+
+    .animadoBig{
+        -webkit-animation:dataScrollBig 9s infinite ease-in-out;
+        animation:dataScrollBig 9s infinite ease-in-out;
+        position: relative;
+    }
+  
+
+    .dato{
+        font-family: $fontset-DIN-condensed;
+    }
+
+    .good, .green, .fluido {
+        color: $color-verde;
+    }
+    .bad, .lento, .demorado, .congestionado{
+        color: $color-rojo;
+    }
+
+     
+
+    .fila {
+        height: $alto-widget;
+        display: table;
+        border-spacing: 10px;
+    }
+    .caja {
+        display: table-cell;
+        padding-right: 30px;
+    }
+    .larga {
+        width: 300px;
+    }
+    .item {
+        width: 95vw;
+    }
+    #horalugar {
+        .hora {
+            font-size: 1.5em;
+            text-align: right;
+        }
+        .titulo {
+            font-family: $fontset-DIN-logo;
+            font-size: 8em;
+            padding: 5px;
+        }
+        .descripcion {
+            color: $color-negro;
+            background-color: $color-blanco;
+            font-size: 1em;
+            padding: 5px;
+        }
+    }
+    #climaExterno .dato{
+        padding-right: 30px;
+    }
+    #climaExterno,
+    #climaInterno,
+    #calidadAire {
+        max-height: $alto-widget - 50;
+        display: block;
+        overflow:hidden;
+
+        .etiqueta {
+            font-size: 1em;
+        }
+        .dato {
+            font-size: 7em;
+        }
+        .sup {
+            font-size: 0.3em;
+            position: relative;
+            top: -56px;
+        }
+        #icono {
+            text-align: center;
+            height: 70px;
+            width: 80px;
+        }
+        .arriba {
+            vertical-align: top;
+        }
+
+        #cielo{
+            text-align: center;;
+            font-size: 1.5em;
+        }
+
+        .diadespejado {
+            background: url('/images/icons/dia_despejado.svg') no-repeat center;
+            background-size: cover;
+        }
+        .nochedespejada {
+            background: url('/images/icons/noche_despejado.svg') no-repeat center;
+            background-size: cover;
+        }
+        .lluvia {
+            background: url('/images/icons/lluvia.svg') no-repeat center;
+            background-size: cover;
+        }
+        .nieve {
+            background: url('/images/icons/nieve.svg') no-repeat center;
+            background-size: cover;
+        }
+        .aguanieve {
+            background: url('/images/icons/aguanieve.svg') no-repeat center;
+            background-size: cover;
+        }
+        .viento {
+            background: url('/images/icons/viento.svg') no-repeat center;
+            background-size: cover;
+        }
+        .niebla {
+            background: url('/images/icons/niebla.svg') no-repeat center;
+            background-size: cover;
+        }
+        .nublado {
+            background: url('/images/icons/nublado.svg') no-repeat center;
+            background-size: cover;
+        }
+        .diaparcialmentenublado {
+            background: url('/images/icons/parcialmente_nublado.svg') no-repeat center;
+            background-size: cover;
+        }
+        .nocheparcialmentenublada {
+            background: url('/images/icons/parcialmente_nublado_noche.svg') no-repeat center;
+            background-size: cover;
+        }
+    }
+    #consumoenergetico {
+        .big {
+            float: left;
+        }
+        .small {
+            left: 40px;
+            float: left;
+        }
+        .etiquetaTipoDeDato {
+            opacity: $opacidad-labels;
+            font-size: 0.2em;
+            float: right;
+            color: $color-blanco;
+            text-align: center;
+            position: relative;
+            top: 10px;
+            .label {
+                color: $color-negro;
+                background-color: $color-blanco;
+            }
+        }
+        .datoGrande {
+            font-size: 8em;
+            padding-right: 30px;
+        }
+        .datoChico {
+            font-size: 3.7em;
+        }
+    }
+
+    #subtesChico{
+        max-height: $alto-widget - 20px ;
+        display: block;
+        overflow:hidden;
+        width: 440px;
+        .cajaSubte{
+            width: 180px;
+            display: flex;
+            max-height: 30px;
+        }
+        .cajaSubte:nth-child(n+5) {
+            position: relative;
+            top: -118px;
+            left: 180px;
+          }
+
+        .mensaje{
+            display: block;
+            margin-top: 10px;
+        }
+
+        .mensajeSubte{
+            display: inline-block;
+            font-size: 0.9em;    
+        }
+        .linea{
+            font-size: 1.7em;
+            width: 20px;
+        }
+        .estado{
+            display: table;
+            font-size: 0.8em;
+            position: relative;
+            left:10px;
+            width: 100%;
+            top: -3px;
+            height: 30px;
+        }
+    }
+
+    #estacionbici {
+
+        .etiqueta {
+            font-size: 1em;
+        }
+        .dato {
+            text-align: center;
+            font-size: 7em;
+        }
+        .estacion {
+            font-size: 0.8em;
+            text-align: center;
+        }
+        .referencia {
+            background-color: #fff;
+            bottom: 30px;
+            color: #000;
+            font-size: 0.2em;
+            opacity: 0.8;
+            position: relative;
+            text-align: center;
+        }
+    }
+    
+
+    #distancias {
+        max-height: $alto-widget - 20px ;
+        display: block;
+        overflow:hidden;
+        .etiqueta {
+            font-size: 1em;
+        }
+        .dato {
+            font-size: 7em;
+            padding-bottom: 20px;
+        }
+        .referencia {
+            background-color: #fff;
+            bottom: 30px;
+            color: #000;
+            font-size: 0.2em;
+            opacity: 0.8;
+            position: relative;
+            text-align: center;
+        }
+    }
+    #ausa,#trafico_avIndep{
+        max-height: $alto-widget - 20px ;
+        display: block;
+        overflow:hidden;
+        .cajaDato{
+            height: $alto-widget - 20px ;
+            overflow:hidden;
+            margin: 3em auto;            
+        }
+        .etiqueta {
+            font-size: 1em;
+        }
+        .dato {
+            background-color: #fff;
+            color: #000;
+            font-size: 1em;
+            opacity: 0.8;
+            text-align: center;
+        }
+        .referencia {
+            font-size: 1em;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+    }
+}

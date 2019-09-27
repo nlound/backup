@@ -1,0 +1,48 @@
+@import "../../scss/styles";
+.vzn-tbny {
+  .header {
+    padding: 0px 15px 0px 15px;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid $grey;
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 84px;
+      height: 18px;
+      img{
+        vertical-align: baseline;
+      }
+    }
+
+    .share-bar {
+      display: flex;
+      align-items: center;
+      flex: 1;
+      justify-content: flex-end;
+
+      #url-text-share{
+        opacity: 0;
+        text-align: right;
+      }
+      #url-share{
+        background:  url("../svg/link.svg") 50% 50% no-repeat;
+        width: 42px;
+        height: 42px;
+      }
+      #twitter-share{
+        background:  url("../svg/social-twitter.svg") 50% 50% no-repeat;
+        width: 42px;
+        height: 42px;
+
+      }
+      #facebook-share{
+        background:  url("../svg/social-facebook.svg") 50% 50% no-repeat;
+        width: 42px;
+        height: 42px;
+
+      }
+
+    }
+  }
+}

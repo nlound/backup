@@ -1,0 +1,541 @@
+/**********************************************************************************/
+/* CONTENEDOR */
+
+#contenedorApp{
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-family:Arial, Helvetica, sans-serif;
+	width: 950px;
+	height: 822px;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	border-spacing: 0; /* !ie*/ 	
+	border-collapse:collapse; /* ie*/
+}
+
+
+/**********************************************************************************/
+/* HEADER */
+
+#cabezal{
+	width: 950px;
+	height: 162px;
+}
+
+#titulo {
+    font-family: Georgia,serif;
+    font-size: 150%;
+    font-weight: lighter;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    top: 65px;
+    width: 381px;
+}
+
+.beta {
+    color: #E06153;
+    font-size: 10px;
+    font-weight: bold;
+    height: 16px;
+    left: 152px;
+    position: relative;
+    top: 56px;
+    width: 32px;
+}
+
+.betaCreditos{
+	font-family:Arial, Helvetica, sans-serif;
+    color: #E06153;
+    font-size: 10px;
+    font-weight: bold;
+    height: 16px;
+    left: -21px;
+    position: relative;
+    top: -21px;
+    width: 32px;
+}
+#diputadosBtn,
+#senadoresBtn {
+	height: 25px;
+	width: 175px;
+    cursor: pointer;
+    position: absolute;
+	border: 0px;
+	border-left: 1px solid #CECECE;
+  	cursor: pointer;
+    top: 120px;
+}
+
+#diputadosBtn{
+	background: url("../img/spriteDipSen.png") no-repeat 0 0px;
+    left: 2px;
+}
+
+#diputadosBtn:hover{
+	background: url("../img/spriteDipSen.png") no-repeat 0 -25px;
+}
+
+#diputadosBtn:disabled{
+	background: url("../img/spriteDipSen.png") no-repeat 0 -50px;
+  	cursor: default;
+}
+
+#senadoresBtn{
+	background: url("../img/spriteDipSen.png") no-repeat -175px -0px;
+    left: 180px;
+}
+
+#senadoresBtn:hover{
+	background: url("../img/spriteDipSen.png") no-repeat -175px -25px;
+}
+
+#senadoresBtn:disabled{
+	background: url("../img/spriteDipSen.png") no-repeat -175px -50px;
+  	cursor: default;
+}
+
+#contenedorApp #selectorMapa {
+	width: 35px;
+	height: 19px;
+	position: absolute;
+	top: 148px;
+	z-index: 100;
+}
+
+.selectDiputados{
+	background: url("../img/sprite.png") no-repeat scroll -28px 0px transparent;
+	left: 21px;	
+}
+
+.selectSenadores{
+	background: url("../img/sprite.png") no-repeat scroll -28px -19px transparent;
+	left: 193px;	
+}
+
+#referenciasGenerales,
+#referenciasVotos{
+    color: #949493;
+    font-size: 71.5%;
+    height: 66px;
+    left: 353px;
+    line-height: 130%;
+    position: absolute;
+    top: 80px;
+    width: 180px;
+}
+
+#referenciasVotos{ 
+	border-left: 1px solid #CECECE;
+	background: url('../img/circulos.png'); 
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: 95% 100%;			
+}
+
+
+#referenciasGenerales div, 
+#referenciasVotos div{
+    width: 130px;
+    position: relative;
+    left: 10px;
+    top: 7px;
+}	
+	
+#referenciasColores	{
+    border-left: 1px solid #CECECE;
+    border-right: 1px solid #CECECE;
+    height: 66px;
+    left: 534px;
+    padding-left: 11px;
+    position: absolute;
+    top: 81px;
+    width: 296px;
+}
+
+#referenciasColores table {
+    font-size: 71.5%;
+	width: 300px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#referenciasColores .colorCelda {
+	width: 25px;
+	height: 10px;
+}
+
+#referenciasColores .textoCeldaLargo {
+    height: 18px;
+    width: 120px;
+}
+
+#referenciasColores .textoCeldaCorto {
+    height: 18px;
+    width: 80px;
+}
+
+
+#shareView	{
+    z-index: 999;
+    height: 66px;
+    left: 860px;
+    position: absolute;
+    top: 81px;
+    width: 86px; 
+}	
+
+#shareTwitter{
+    background: url("../img/sprite.png") no-repeat scroll 2px -21px transparent;
+    border: 0px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+    top: 208px;
+    width: 25px;
+	cursor: pointer;
+}
+
+
+#shareFacebook{
+    background: url("../img/sprite.png") no-repeat scroll 2px 0px transparent;
+    border: 0px;
+    height: 25px;
+    position: absolute;
+    right: 15px;
+    top: 185px;
+    width: 25px;
+	cursor: pointer;
+}
+
+#shareTwitter:hover{
+    background: url("../img/sprite.png") no-repeat scroll 2px -21px transparent;
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+#shareFacebook:hover{
+    background: url("../img/sprite.png") no-repeat scroll 2px 0px transparent;
+    filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+
+#logoShare{
+	background: url("../img/sprite.png") no-repeat scroll 0px -46px transparent;
+	height: 18px;
+    width: 36px; 
+}
+
+#textoShare{
+    color: #E06153;
+    font-size: 80%;
+    line-height:110%;
+    margin-top:5px;
+}
+
+#arrowShare{
+    background: url("../img/sprite.png") no-repeat scroll -36px -46px transparent;
+    height: 31px;
+    float: right;
+    width: 19px;
+}
+
+#contenido{
+	width: 950px;
+	height: 600px;
+	border-top: 1px solid #CECECE;
+	border-bottom: 1px solid #CECECE;
+	display: block;	
+}
+
+/**********************************************************************************/
+/* La botonera izquierda */
+
+#botones{
+	float: left;
+	width: 130px;
+	height: 600px;
+}
+
+
+#botones button{
+	float: left;
+	width: 130px;
+	cursor: pointer;
+	border: 0px;
+	vertical-align: top;
+	margin-top: 0px;
+}
+
+#botones button:disabled{
+	width: 130px;
+	cursor: default;
+}
+
+/**********************************************************************************/
+/* ASIGNARLE LOS TAMAÑOS E IMAGENES CORRESPONDIENTES */
+
+
+#provBtn {
+	height: 165px;
+	background: url("../img/spriteBotones.png") 0 0 no-repeat;
+}
+
+#partBtn {
+	height: 165px;
+	background: url("../img/spriteBotones.png") 0 -165px no-repeat;
+} 
+
+#votoBtn {
+	height: 165px;
+	background: url("../img/spriteBotones.png") 0 -330px no-repeat;
+}
+
+#camaBtn {
+	height: 105px;
+	background: url("../img/spriteBotones.png") 0 -495px no-repeat;
+}
+
+#provBtn:hover {
+	background: url("../img/spriteBotones.png") -130px 0px no-repeat;
+}
+#partBtn:hover {
+	background: url("../img/spriteBotones.png") -130px -165px no-repeat;
+}
+#votoBtn:hover {
+	background: url("../img/spriteBotones.png") -130px -330px no-repeat;
+}
+#camaBtn:hover {
+	background: url("../img/spriteBotones.png") -130px -495px no-repeat;
+}
+
+#provBtn:disabled {
+	background: url("../img/spriteBotones.png") -260px 0px no-repeat;
+}
+#partBtn:disabled {
+	background: url("../img/spriteBotones.png") -260px -165px no-repeat;
+}
+#votoBtn:disabled {
+	background: url("../img/spriteBotones.png") -260px -330px no-repeat;
+}
+#camaBtn:disabled {
+	background: url("../img/spriteBotones.png") -260px -495px no-repeat;
+}
+
+
+/**********************************************************************************/
+/* Le mapa */
+
+#map_arg{
+	width: 529px;
+	height: 600px;
+	left: 130px;
+}
+
+/**********************************************************************************/
+/* Las barras */
+#lasCamaras	{
+    background-color: #FFFFFF;
+    border: 0 none;
+    height: 600px;
+    left: 131px;
+    position: absolute;
+    top: 163px;
+    width: 819px;
+}
+
+
+
+/**********************************************************************************/
+/* Las barras */
+
+#contenedorApp #contenido #barras{
+	float: right;
+	width: 290px;
+	height: 600px;
+	border-left: 1px solid #CECECE;
+
+}
+
+#referenciaBarras{
+	width: 290px;
+	height: 115px;
+    border-bottom: 1px solid #CECECE;
+}	
+
+#fondoReferencia{
+    background-color: #FFFFFF;
+    height: 95px;
+    left: 10px;
+    position: relative;
+    top: 7px;
+    width: 270px;
+}
+
+#referenciaTituloProvincia{
+    color: #000000;
+    font-size: 90%;
+    font-weight: bold;
+    left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+#referenciaTotal{
+    color: #939393;
+    display: block;
+    font-size: 80%;
+    left: 10px;
+    position: relative;
+    top: 12px;
+    width: 190px;
+	line-height:110%
+}
+
+#referenciaBarrasDetalle{
+    background: url("../img/spriteDipSen.png") no-repeat scroll 0 -73px #FFFFFF;
+    border-top: 1px solid #CECECE;
+    height: 37px;
+    left: -10px;
+    position: absolute;
+    top: 70px;
+    width: 290px;
+}
+
+#graficoBarras{
+	width: 290px;
+	height: 455px;
+	background-color: #FFFFFF;
+	overflow-x: hidden;
+    font-size: 10px;
+}
+
+#totalBarras{
+	border-top: 1px solid #CECECE;
+	width: 290px;
+	height: 30px;
+}
+
+#fondoTotalBarras{
+    background-color: #FFFFFF;
+    height: 15px;
+    left: 10px;
+    position: relative;
+    top: 7px;
+    width: 270px;
+	line-height: 15px;
+	text-align: center;	
+}
+
+#fondoTotalBarras span{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;   
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 59%;
+}
+
+#textoReferencial{
+    font-size: 80%;
+    color: #595959;
+    font-weight: normal;
+    width: 100px;
+}
+
+.textoTotales{
+    color: #000000;
+}
+
+.textoTotalesEscrutado{
+    color: #595959;
+}
+
+#mesas{
+    color: #990000;
+}
+
+#votos{
+    color: #990000;
+}
+
+
+
+/**********************************************************************************/
+/* Footer */
+
+#contenedorApp #footer{
+	padding-top:1.5%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 71.7%;
+	text-align: left;
+	color: black;
+	width: 950px;
+	height: 40px;
+	position:absolute;
+	top: 760px;
+	left: 0px;
+	border: 0px;	    
+}
+
+#contenedorApp #footer .creditos {
+	display:inline;
+}
+
+#contenedorApp #footer #creditos {
+	padding-right:1%;
+	/*border-right: 1px solid #808080;*/
+	font-weight: bold;
+}
+
+
+#contenedorApp #footer #creditos:hover {
+	color: #949493;
+	cursor: pointer;
+}
+
+#contenedorApp #footer #ppagrupados {
+	padding-left:1%;
+	font-weight: bold;
+}
+
+#contenedorApp #footer #ppagrupados:hover {
+	color: #949493;
+	cursor: pointer;
+}
+
+#contenedorApp #footer .creditos span {
+	color:#E06153;
+}
+
+#contenedorApp #footer #feedback a {
+	float:right;
+}
+
+#contenedorApp #footer #feedback a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color: #949493;
+}
+
+#contenedorApp #footer #feedback a:hover {
+	color: black;
+	cursor: pointer;
+}
+
+
+#camDis img{
+    position: relative;
+	top: 40%;
+}
+#camDis {
+	display: none;
+    background-color: #FFFFFF;
+    height: 600px;
+    left: 130px;
+    position: absolute;
+    top: 163px;
+    width: 820px;
+    z-index: 1;
+}

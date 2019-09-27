@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>llaves</title>
+		<meta name="viewport" content="width=device-width" />
+		<link href="css/estilos.css" type="text/css" rel="stylesheet">
+		<script src="js/d3.v3.min.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<div id="opciones">
+			<form id="formulario">
+
+				<span>Si Argentina sale</span>
+
+				<select id="selArgPos">
+					<option value="0" selected>primera</option>
+					<option value="1" >segunda</option>
+				</select>
+
+				<span> en su grupo y además </span>
+
+				<select id="selRivNom">
+					<option value="0615">Alemania</option>
+					<option value="1407">Bélgica</option>
+					<option value="0008" selected>Brasil</option>
+					<option value="0211">Colombia</option>
+					<option value="0801">España</option>
+					<option value="0413">Francia</option>
+					<option value="0801">Holanda</option>
+					<option value="1003">Inglaterra</option>
+					<option value="1003">Italia</option>
+					<option value="0615">Portugal</option>
+					<option value="1003">Uruguay</option>
+				</select>
+
+				<span>sale</span>
+
+				<select id="selRivPos">
+					<option value="0" selected>primera</option>
+					<option value="1" >segunda</option>
+				</select>
+				<br />
+				<span>se podrían cruzar en...</span>
+
+			</form>
+
+		</div>
+
+		<div id="llaves">
+
+
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="948px" height="560px" viewBox="0 0 948 560" enable-background="new 0 0 948 560" xml:space="preserve">
+<symbol  id="CL01" viewBox="-16.929 -38.52 33.858 77.038">
+    <path d="M16.929-38.52H9.083c-6.059,0-11.394,4.297-12.685,10.217l-9.999,45.821h-3.328v21h9.784
+        c6.059,0,11.394-4.297,12.685-10.217l9.999-45.821h1.39V-38.52z"/>
+</symbol>
+<symbol  id="CL02" viewBox="-17.222 -38.52 34.444 77.039">
+    <path d="M-8.909-38.52h-8.313v21h1.857l9.998,45.822C-4.07,34.227,1.265,38.52,7.318,38.52h9.904v-21h-3.448L3.776-28.304
+        C2.485-34.223-2.85-38.52-8.909-38.52z"/>
+</symbol>
+<symbol  id="CL03" viewBox="-16.929 -10.5 33.857 21">
+    <g>
+        <polygon points="16.929,-10.5 -16.929,-10.5 -16.929,10.5 16.929,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="CL04" viewBox="-16.945 -10.5 33.891 21">
+    <g>
+        <polygon points="16.945,-10.5 -16.945,-10.5 -16.945,10.5 16.945,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="CL05" viewBox="-16.946 -25.655 33.892 51.311">
+    <path d="M16.946-25.655H8.569c-6.118,0-11.573,4.536-12.689,10.553L-7.783,4.612l-9.163,0.043v21l15.948-0.074
+        c6.094-0.027,11.529-4.567,12.641-10.562l3.655-19.676h1.648V-25.655z"/>
+</symbol>
+<symbol  id="CL06" viewBox="-16.945 -25.655 33.891 51.312">
+    <path d="M-8.568-25.655h-8.377v21h1.647l3.656,19.68C-10.528,21.016-5.094,25.554,1,25.582l15.946,0.074v-21L7.783,4.612
+        L4.12-15.106C3.001-21.121-2.454-25.655-8.568-25.655z"/>
+</symbol>
+<symbol  id="CL07" viewBox="-16.946 -24.239 33.892 48.479">
+    <path d="M-16.946-24.239v21l9.814,0.045l3.013,16.816c1.083,6.052,6.538,10.617,12.688,10.617h8.377v-21h-1.591L12.35-13.538
+        c-1.079-6.03-6.514-10.599-12.642-10.626L-16.946-24.239z"/>
+</symbol>
+<symbol  id="CL08" viewBox="-16.946 -24.239 33.892 48.479">
+    <path d="M16.946-24.239L0.292-24.164c-6.124,0.027-11.559,4.594-12.641,10.623l-3.006,16.78h-1.591v21h8.377
+        c6.152,0,11.607-4.567,12.689-10.623L7.132-3.194l9.814-0.045V-24.239z"/>
+</symbol>
+<symbol  id="CL09" viewBox="-18.797 -56.542 37.595 113.083">
+    <path d="M18.797-56.542H8.678c-6.39,0-11.838,4.777-12.671,11.113l-10.671,80.97h-4.133v21h11.34
+        c6.39,0,11.838-4.777,12.671-11.113l10.671-80.97h2.913V-56.542z"/>
+</symbol>
+<symbol  id="CL10" viewBox="-16.993 -56.542 33.986 113.083">
+    <path d="M-7.949-56.542h-9.044v21h1.837L-4.485,45.43c0.84,6.337,6.287,11.111,12.672,11.111h8.806v-21h-1.599L4.723-45.431
+        C3.883-51.768-1.564-56.542-7.949-56.542z"/>
+</symbol>
+<symbol  id="CL11" viewBox="-17.531 -43.189 35.062 86.38">
+    <path d="M-6.268-43.189h-11.263v21h4.236l8.268,54.479C-4.084,38.503,1.368,43.19,7.655,43.19h9.876v-21h-2.85L6.414-32.287
+        C5.471-38.502,0.019-43.189-6.268-43.189z"/>
+</symbol>
+<symbol  id="CL12" viewBox="-16.993 -43.19 33.986 86.381">
+    <path d="M16.993-43.19H5.73c-6.286,0-11.738,4.688-12.681,10.902l-8.27,54.479h-1.772v21h8.8c6.286,0,11.738-4.688,12.681-10.902
+        l8.27-54.479h4.235V-43.19z"/>
+</symbol>
+<symbol  id="CV01" viewBox="-16.929 -24.238 33.857 48.477">
+    <path d="M16.929-24.238H8.551c-6.15,0-11.604,4.565-12.688,10.619L-7.148,3.194l-9.78,0.044v21l16.618-0.073
+        c6.128-0.027,11.563-4.596,12.643-10.627l3.005-16.776h1.591V-24.238z"/>
+</symbol>
+<symbol  id="CV02" viewBox="-17.333 -24.202 34.666 48.403">
+    <path d="M-8.488-24.202h-8.845v21h2.059l3.005,16.777c1.083,6.032,6.518,10.599,12.642,10.626h16.96V3.231H7.212L4.2-13.584
+        C3.119-19.635-2.336-24.202-8.488-24.202z"/>
+</symbol>
+<symbol  id="CV03" viewBox="-16.88 -24.902 33.761 49.805">
+    <path d="M-1.055-24.902c-0.013,0-0.025,0-0.039,0l-15.787,0.052v20.94l9.193-0.029l3.562,18.416
+        c1.178,6.041,6.5,10.426,12.653,10.426h8.353V3.962h-1.721l-3.567-18.304C10.434-20.289,5-24.902-1.055-24.902z"/>
+</symbol>
+<symbol  id="CV04" viewBox="-16.989 -24.947 33.978 49.894">
+    <path d="M1-24.947c-6.071,0-11.52,4.572-12.684,10.532l-3.579,18.361h-1.726v21h8.377c6.169,0,11.505-4.396,12.688-10.449
+        L7.649-3.947h9.34v-21H1.038C1.025-24.947,1.013-24.947,1-24.947z"/>
+</symbol>
+<symbol  id="CV05" viewBox="-16.946 -10.5 33.892 21">
+    <g>
+        <polygon points="16.946,-10.5 -16.946,-10.5 -16.946,10.5 16.946,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="CV06" viewBox="-16.945 -10.5 33.891 21">
+    <g>
+        <polygon points="16.945,-10.5 -16.945,-10.5 -16.945,10.5 16.945,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="CV07" viewBox="-16.945 -37.812 33.891 75.623">
+    <path d="M-7.127-37.812h-9.818v21h3.409l9.953,44.465c1.316,5.885,6.65,10.158,12.683,10.158h7.846v-21h-1.437L5.556-27.653
+        C4.24-33.538-1.096-37.812-7.127-37.812z"/>
+</symbol>
+<symbol  id="CV08" viewBox="-16.946 -37.812 33.892 75.622">
+    <path d="M16.946-37.812H7.128c-6.032,0-11.367,4.272-12.684,10.159l-9.954,44.463h-1.436v21H-9.1
+        c6.032,0,11.367-4.272,12.684-10.159l9.954-44.463h3.408V-37.812z"/>
+</symbol>
+<symbol  id="CV09" viewBox="-18.798 -43.19 37.597 86.381">
+    <path d="M18.798-43.19H8.922c-6.287,0-11.739,4.688-12.682,10.903l-8.268,54.478h-6.771v21h13.797
+        c6.287,0,11.739-4.688,12.682-10.903l8.268-54.478h2.85V-43.19z"/>
+</symbol>
+<symbol  id="CV10" viewBox="-16.993 -43.19 33.985 86.381">
+    <path d="M-8.192-43.19h-8.8v21h1.772l8.27,54.479c0.942,6.215,6.394,10.902,12.68,10.902h11.263v-21h-4.235l-8.27-54.479
+        C3.545-38.503-1.906-43.19-8.192-43.19z"/>
+</symbol>
+<symbol  id="CV11" viewBox="-17.53 -56.541 35.061 113.083">
+    <path d="M-8.725-56.541h-8.806v21h1.599l10.671,80.973c0.834,6.334,6.282,11.11,12.671,11.11h10.12v-21h-2.913L3.946-45.431
+        C3.112-51.765-2.334-56.541-8.725-56.541z"/>
+</symbol>
+<symbol  id="CV12" viewBox="-16.993 -56.541 33.986 113.083">
+    <path d="M16.992-56.541H8.187c-6.384,0-11.831,4.772-12.671,11.102l-10.672,80.981h-1.837v21h9.044
+        c6.384,0,11.831-4.772,12.671-11.102l10.672-80.981h1.599L16.992-56.541L16.992-56.541z"/>
+</symbol>
+<symbol  id="L01" viewBox="-55.561 -10.5 111.121 21">
+    <g>
+        <polygon points="55.561,-10.5 -55.561,-10.5 -55.561,10.5 55.561,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L02" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L03" viewBox="-55.561 -10.5 111.121 21">
+    <g>
+        <polygon points="55.561,-10.5 -55.561,-10.5 -55.561,10.5 55.561,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L04" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L05" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L06" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L07" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L08" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L09" viewBox="-54.233 -10.5 108.466 21">
+    <g>
+        <polygon points="54.233,-10.5 -54.233,-10.5 -54.233,10.5 54.233,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L10" viewBox="-55.267 -10.5 110.533 21">
+    <g>
+        <polygon points="55.267,-10.5 -55.267,-10.5 -55.267,10.5 55.267,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L11" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L12" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L13" viewBox="-54.962 -10.5 109.924 21">
+    <g>
+        <polygon points="54.962,-10.5 -54.962,-10.5 -54.962,10.5 54.962,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L14" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="L15" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V01" viewBox="-55.561 -10.5 111.121 21">
+    <g>
+        <polygon points="55.561,-10.5 -55.561,-10.5 -55.561,10.5 55.561,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V02" viewBox="-55.391 -10.522 110.781 21.045">
+    <g>
+        <polygon points="55.391,-10.478 -55.391,-10.522 -55.391,10.449 55.391,10.522        "/>
+    </g>
+</symbol>
+<symbol  id="V03" viewBox="-55.561 -10.5 111.121 21">
+    <g>
+        <polygon points="55.561,-10.5 -55.561,-10.5 -55.561,10.5 55.561,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V04" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V05" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V06" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V07" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V08" viewBox="-55.543 -10.5 111.086 21">
+    <g>
+        <polygon points="55.543,-10.5 -55.543,-10.5 -55.543,10.5 55.543,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V09" viewBox="-54.233 -10.5 108.466 21">
+    <g>
+        <polygon points="54.233,-10.5 -54.233,-10.5 -54.233,10.5 54.233,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V10" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V11" viewBox="-55.5 -10.549 111 21.099">
+    <g>
+        <polygon points="55.5,-10.549 -55.5,-10.45 -55.5,10.55 55.5,10.55       "/>
+    </g>
+</symbol>
+<symbol  id="V12" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V13" viewBox="-54.962 -10.5 109.924 21">
+    <g>
+        <polygon points="54.962,-10.5 -54.962,-10.5 -54.962,10.5 54.962,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V14" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<symbol  id="V15" viewBox="-55.5 -10.5 111 21">
+    <g>
+        <polygon points="55.5,-10.5 -55.5,-10.5 -55.5,10.5 55.5,10.5        "/>
+    </g>
+</symbol>
+<use xlink:href="#L13"  width="109.924" height="21" x="-54.962" y="-10.5" transform="matrix(1.0133 0 0 -1 345.2705 184.8943)" overflow="visible"/>
+<use xlink:href="#L15"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1 0 0 -1 463.2256 184.8943)" overflow="visible"/>
+<use xlink:href="#V15"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1 0 0 -1 463.2256 209.5173)" overflow="visible"/>
+<use xlink:href="#L09"  width="108.466" height="21" x="-54.233" y="-10.5" transform="matrix(1.0584 0 0 -1 196.3755 92.9089)" overflow="visible"/>
+<use xlink:href="#V01"  width="111.121" height="21" x="-55.561" y="-10.5" transform="matrix(1.036 0 0 -1 57.561 65.4324)" overflow="visible"/>
+<use xlink:href="#L01"  width="111.121" height="21" x="-55.561" y="-10.5" transform="matrix(1.036 0 0 -1 57.561 36.8699)" overflow="visible"/>
+<use xlink:href="#V09"  width="108.466" height="21" x="-54.233" y="-10.5" transform="matrix(1.0584 0 0 -1 196.3755 119.5144)" overflow="visible"/>
+<use xlink:href="#V03"  width="111.121" height="21" x="-55.561" y="-10.5" transform="matrix(1.036 0 0 -1 57.561 148.408)" overflow="visible"/>
+<use xlink:href="#L03"  width="111.121" height="21" x="-55.561" y="-10.5" transform="matrix(1.036 0 0 -1 57.561 119.5144)" overflow="visible"/>
+<use xlink:href="#V13"  width="109.924" height="21" x="-54.962" y="-10.5" transform="matrix(1.0133 0 0 -1 345.2705 210.8083)" overflow="visible"/>
+<use xlink:href="#V11"  width="111" height="21.099" x="-55.5" y="-10.549" transform="matrix(1.0584 0 0 -1 197.7168 302.8416)" overflow="visible"/>
+<use xlink:href="#L07"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 57.5425 330.2712)" overflow="visible"/>
+<use xlink:href="#V07"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 57.5425 357.4158)" overflow="visible"/>
+<use xlink:href="#L11"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1.0584 0 0 -1 197.7168 276.1882)" overflow="visible"/>
+<use xlink:href="#L05"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 57.5425 245.8777)" overflow="visible"/>
+<use xlink:href="#V05"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 57.5425 276.1794)" overflow="visible"/>
+<use xlink:href="#L14"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1.027 0 0 -1 583.1641 184.8943)" overflow="visible"/>
+<use xlink:href="#L10"  width="110.533" height="21" x="-55.267" y="-10.5" transform="matrix(1.045 0 0 -1 723.9043 92.9089)" overflow="visible"/>
+<use xlink:href="#V02"  width="110.781" height="21.045" x="-55.391" y="-10.522" transform="matrix(1.036 0 0 -1 869.7422 65.4548)" overflow="visible"/>
+<use xlink:href="#L02"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1.036 0 0 -1 869.6289 36.8699)" overflow="visible"/>
+<use xlink:href="#V10"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1.045 0 0 -1 724.1494 119.5144)" overflow="visible"/>
+<use xlink:href="#V04"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1.036 0 0 -1 869.6289 148.408)" overflow="visible"/>
+<use xlink:href="#L04"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 869.584 119.5144)" overflow="visible"/>
+<use xlink:href="#V14"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1.027 0 0 -1 583.1641 210.8083)" overflow="visible"/>
+<use xlink:href="#V12"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1.045 0 0 -1 724.1494 302.7927)" overflow="visible"/>
+<use xlink:href="#L08"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 869.584 330.2712)" overflow="visible"/>
+<use xlink:href="#V08"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 869.584 357.4158)" overflow="visible"/>
+<use xlink:href="#L12"  width="111" height="21" x="-55.5" y="-10.5" transform="matrix(1.045 0 0 -1 724.1494 276.1882)" overflow="visible"/>
+<use xlink:href="#L06"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 869.584 245.8777)" overflow="visible"/>
+<use xlink:href="#V06"  width="111.086" height="21" x="-55.543" y="-10.5" transform="matrix(1.036 0 0 -1 869.584 276.1794)" overflow="visible"/>
+<use xlink:href="#CL02"  width="34.444" height="77.039" x="-17.222" y="-38.52" transform="matrix(1 0 0 -1 798.9033 64.8904)" overflow="visible"/>
+<use xlink:href="#CV02"  width="34.666" height="48.403" x="-17.333" y="-24.202" transform="matrix(1 0 0 -1 799.0146 79.2087)" overflow="visible"/>
+<use xlink:href="#CV04"  width="33.978" height="49.894" x="-16.989" y="-24.947" transform="matrix(1 0 0 -1 799.1387 133.9617)" overflow="visible"/>
+<use xlink:href="#CV08"  width="33.892" height="75.622" x="-16.946" y="-37.812" transform="matrix(1 0 0 -1 799.0957 330.1052)" overflow="visible"/>
+<use xlink:href="#CL08"  width="33.892" height="48.479" x="-16.946" y="-24.239" transform="matrix(1 0 0 -1 799.0957 316.532)" overflow="visible"/>
+<use xlink:href="#CL06"  width="33.891" height="51.312" x="-16.945" y="-25.655" transform="matrix(1 0 0 -1 799.0957 261.032)" overflow="visible"/>
+<use xlink:href="#CL04"  width="33.891" height="21" x="-16.945" y="-10.5" transform="matrix(1 0 0 -1 799.0957 119.5144)" overflow="visible"/>
+<use xlink:href="#CV06"  width="33.891" height="21" x="-16.945" y="-10.5" transform="matrix(1 0 0 -1 799.0957 276.1882)" overflow="visible"/>
+<use xlink:href="#CV10"  width="33.985" height="86.381" x="-16.993" y="-43.19" transform="matrix(1 0 0 -1 654.1572 152.2048)" overflow="visible"/>
+<use xlink:href="#CL10"  width="33.986" height="113.083" x="-16.993" y="-56.542" transform="matrix(1 0 0 -1 654.1572 138.8542)" overflow="visible"/>
+<use xlink:href="#CL12"  width="33.986" height="86.381" x="-16.993" y="-43.19" transform="matrix(1 0 0 -1 654.1572 243.4978)" overflow="visible"/>
+<use xlink:href="#CV12"  width="33.986" height="113.083" x="-16.993" y="-56.541" transform="matrix(1 0 0 -1 654.1572 256.8494)" overflow="visible"/>
+<use xlink:href="#CV09"  width="37.597" height="86.381" x="-18.798" y="-43.19" transform="matrix(1 0 0 -1 272.2412 152.2048)" overflow="visible"/>
+<use xlink:href="#CL09"  width="37.595" height="113.083" x="-18.797" y="-56.542" transform="matrix(1 0 0 -1 272.2412 138.8542)" overflow="visible"/>
+<use xlink:href="#CL11"  width="35.062" height="86.38" x="-17.531" y="-43.189" transform="matrix(1 0 0 -1 273.5083 243.4978)" overflow="visible"/>
+<use xlink:href="#CV11"  width="35.061" height="113.083" x="-17.53" y="-56.541" transform="matrix(1 0 0 -1 273.5083 256.8494)" overflow="visible"/>
+<use xlink:href="#CL01"  width="33.858" height="77.038" x="-16.929" y="-38.52" transform="matrix(1 0 0 -1 128.0493 64.8904)" overflow="visible"/>
+<use xlink:href="#CV01"  width="33.857" height="48.477" x="-16.929" y="-24.238" transform="matrix(1 0 0 -1 128.0493 79.1707)" overflow="visible"/>
+<use xlink:href="#CV03"  width="33.761" height="49.805" x="-16.88" y="-24.902" transform="matrix(1 0 0 -1 128.0493 133.9167)" overflow="visible"/>
+<use xlink:href="#CV07"  width="33.891" height="75.623" x="-16.945" y="-37.812" transform="matrix(1 0 0 -1 128.0317 330.1052)" overflow="visible"/>
+<use xlink:href="#CL07"  width="33.892" height="48.479" x="-16.946" y="-24.239" transform="matrix(1 0 0 -1 128.0317 316.532)" overflow="visible"/>
+<use xlink:href="#CL05"  width="33.892" height="51.311" x="-16.946" y="-25.655" transform="matrix(1 0 0 -1 128.0317 261.033)" overflow="visible"/>
+<use xlink:href="#CL03"  width="33.857" height="21" x="-16.929" y="-10.5" transform="matrix(1 0 0 -1 128.0493 119.5144)" overflow="visible"/>
+<use xlink:href="#CV05"  width="33.892" height="21" x="-16.946" y="-10.5" transform="matrix(1 0 0 -1 128.0317 276.1882)" overflow="visible"/>				<text transform="matrix(1 0 0 1 299.3584 135.0522)" fill="#999999" font-family="'Arial'" font-size="12">SEMIFINALES</text>
+				<text transform="matrix(1 0 0 1 159.3789 46.8784)"><tspan x="0" y="0" fill="#999999" font-family="'Arial'" font-size="12">CUARTOS </tspan></text>
+				<text transform="matrix(1 0 0 1 2.8345 -10.3706)"><tspan x="0" y="0" fill="#999999" font-family="'Arial'" font-size="12">OCTAVOS</tspan></text>
+				<text transform="matrix(1 0 0 1 545.082 135.0527)" fill="#999999" font-family="'Arial'" font-size="12">SEMIFINALES</text>
+				<text transform="matrix(1 0 0 1 436.353 128.8525)"><tspan x="0" y="0" font-family="'Arial'" font-size="18">FINAL</tspan></text>
+				<text transform="matrix(1 0 0 1 680.8662 46.8789)"><tspan x="0" y="0" fill="#999999" font-family="'Arial'" font-size="12">CUARTOS </tspan></text>
+				<text transform="matrix(1 0 0 1 869.6406 -10.3706)"><tspan x="0" y="0" fill="#999999" font-family="'Arial'" font-size="12">OCTAVOS</tspan></text>
+				<text id="TL01" transform="matrix(1 0 0 1 7.0864 13.1621)" font-family="'Arial'" font-weight="bold" font-size="11">1ro. grupo A</text>
+				<text id="TL09"transform="matrix(1 0 0 1 160.0444 69.4395)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TV09"transform="matrix(1 0 0 1 160.0444 95.8716)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TL11"transform="matrix(1 0 0 1 160.0444 252.707)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TV11"transform="matrix(1 0 0 1 160.0444 279.1392)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TL13"transform="matrix(1 0 0 1 300.0444 160.896)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TV13"transform="matrix(1 0 0 1 300.0444 187.3281)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TL15"transform="matrix(1 0 0 1 419.3774 160.896)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TV15"transform="matrix(1 0 0 1 419.3774 187.3281)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TL14"transform="matrix(1 0 0 1 536.7109 160.896)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TV14"transform="matrix(1 0 0 1 536.7109 187.3281)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TL10"transform="matrix(1 0 0 1 681.3779 69.6855)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TV10"transform="matrix(1 0 0 1 681.3779 96.1177)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TL12"transform="matrix(1 0 0 1 681.3779 252.707)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TV12"transform="matrix(1 0 0 1 681.3779 279.1392)" font-family="'Arial'" font-weight="bold" font-size="11"></text>
+				<text id="TV01"transform="matrix(1 0 0 1 7.0864 41.6606)" font-family="'Arial'" font-weight="bold" font-size="11">2do. grupo B</text>
+				<text id="TL03"transform="matrix(1 0 0 1 7.0864 95.8716)" font-family="'Arial'" font-weight="bold" font-size="11">1ro. grupo C</text>
+				<text id="TV03"transform="matrix(1 0 0 1 7.0864 124.3701)" font-family="'Arial'" font-weight="bold" font-size="11">2do. grupo D</text>
+				<text id="TL05"transform="matrix(1 0 0 1 7.0864 222.2256)" font-family="'Arial'" font-weight="bold" font-size="11">1ro. grupo E</text>
+				<text id="TV05"transform="matrix(1 0 0 1 7.0864 252.1416)" font-family="'Arial'" font-weight="bold" font-size="11">2do. grupo F</text>
+				<text id="TL07"transform="matrix(1 0 0 1 7.0864 306.2959)" font-family="'Arial'" font-weight="bold" font-size="11">1ro. grupo G</text>
+				<text id="TV07"transform="matrix(1 0 0 1 7.0864 333.9443)" font-family="'Arial'" font-weight="bold" font-size="11">2do. grupo H</text>
+				<text id="TL02"transform="matrix(1 0 0 1 847.8242 13.1621)" font-family="'Arial'" font-weight="bold" font-size="11">1ro. grupo B</text>
+				<text id="TV02"transform="matrix(1 0 0 1 847.8242 41.6606)" font-family="'Arial'" font-weight="bold" font-size="11">2do. grupo A</text>
+				<text id="TL04"transform="matrix(1 0 0 1 847.8242 95.8716)" font-family="'Arial'" font-weight="bold" font-size="11">1ro. grupo D</text>
+				<text id="TV04"transform="matrix(1 0 0 1 847.8242 124.3701)" font-family="'Arial'" font-weight="bold" font-size="11">2do. grupo C</text>
+				<text id="TL06"transform="matrix(1 0 0 1 847.8242 222.2256)" font-family="'Arial'" font-weight="bold" font-size="11">1ro. grupo F</text>
+				<text id="TV06"transform="matrix(1 0 0 1 847.8242 252.1416)" font-family="'Arial'" font-weight="bold" font-size="11">2do. grupo E</text>
+				<text id="TL08"transform="matrix(1 0 0 1 847.8242 306.2959)" font-family="'Arial'" font-weight="bold" font-size="11">1ro. grupo H</text>
+				<text id="TV08"transform="matrix(1 0 0 1 847.8242 333.9443)" font-family="'Arial'" font-weight="bold" font-size="11">2do. grupo G</text>
+			</svg>
+		</div>
+
+		<div id="tablas">
+			<table id="t1" class="tablah">
+				<th class="tabla">GRUPO A</th>
+				<tr>
+					<td>Brasil</td>
+				</tr>
+				<tr>
+					<td>Croacia</td>
+				</tr>
+				<tr>
+					<td>México</td>
+				</tr>
+				<tr>
+					<td>Camerún</td>
+				</tr>
+			</table>
+			<table id="t2" class="tablah">
+				<th class="tabla">GRUPO B</th>
+				<tr>
+					<td>España</td>
+				</tr>
+				<tr>
+					<td>Holanda</td>
+				</tr>
+				<tr>
+					<td>Chile</td>
+				</tr>
+				<tr>
+					<td>Australia</td>
+				</tr>
+			</table>
+			<table id="t3" class="tablah">
+				<th class="tabla">GRUPO C</th>
+				<tr>
+					<td>Colombia</td>
+				</tr>
+				<tr>
+					<td>Grecia</td>
+				</tr>
+				<tr>
+					<td>Costa de Marfil</td>
+				</tr>
+				<tr>
+					<td>Japón</td>
+				</tr>
+			</table>
+			<table id="t4" class="tablah">
+				<th class="tabla">GRUPO D</th>
+				<tr>
+					<td>Uruguay</td>
+				</tr>
+				<tr>
+					<td>Costa Rica</td>
+				</tr>
+				<tr>
+					<td>Inglaterra</td>
+				</tr>
+				<tr>
+					<td>Italia</td>
+				</tr>
+			</table>
+			<table id="t5" class="tablah">
+				<th class="tabla">GRUPO E</th>
+				<tr>
+					<td>Suiza</td>
+				</tr>
+				<tr>
+					<td>Ecuador</td>
+				</tr>
+				<tr>
+					<td>Francia</td>
+				</tr>
+				<tr>
+					<td>Honduras</td>
+				</tr>
+			</table>
+			<table id="t6" class="tablah">
+				<th class="tabla">GRUPO F</th>
+				<tr>
+					<td>Argentina</td>
+				</tr>
+				<tr>
+					<td>Bosnia-Herzovina</td>
+				</tr>
+				<tr>
+					<td>Iran</td>
+				</tr>
+				<tr>
+					<td>Nigeria</td>
+				</tr>
+			</table>
+			<table id="t7" class="tablah">
+				<th class="tabla">GRUPO G</th>
+				<tr>
+					<td>Alemania</td>
+				</tr>
+				<tr>
+					<td>Portugal</td>
+				</tr>
+				<tr>
+					<td>Ghana</td>
+				</tr>
+				<tr>
+					<td>Estados Unidos</td>
+				</tr>
+			</table>
+			<table id="t8" class="tablah">
+				<th class="tabla">GRUPO H</th>
+				<tr>
+					<td>Bélgica</td>
+				</tr>
+				<tr>
+					<td>Algeria</td>
+				</tr>
+				<tr>
+					<td>Rusia</td>
+				</tr>
+				<tr>
+					<td>Rep. Corea</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="avisoSVG">
+			<a href="http://browsehappy.com/"><img src="img/alerta.png" border="0"></a>
+		</div>
+
+		<script src="js/llaves.js" type="text/javascript"></script>
+
+	</body>
+</html>

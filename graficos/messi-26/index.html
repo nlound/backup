@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head >
+    <meta charset="utf-8">
+    <title>Lionel Messi</title>
+	<script src="d3.v3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="messi.css">
+	<script src="messi.min.js"></script>
+</head>
+<body>
+
+	<div id="grafico">
+		<div class="avisoSVG"><a href="http://browsehappy.com/"><img src="alerta.png" border="0"></a></div>
+		<div id="fotos">
+			<div id="fotoIZ"> </div>
+			<div id="fotoDE" class="maradona"> </div>
+		</div>
+			
+		<div id="cabezal">
+			<div id="cabezalIZ"> </div>
+			<div id="cabezalDE"> </div>
+		</div>
+
+		<div id="graficos">
+			<div id="lineasI">
+				<div class="graficoIZ"> </div>
+			</div>
+			
+			<div id="lineasD">
+				<div class="graficoDE"> </div>
+			</div>
+				
+		</div>
+		
+		<div id="selector"> 
+			<form name="jugadorSeleccionado">
+			
+			<select name="combo" id="combo"  onchange="cambiar(combo.value)" >			
+				<option value="maradona" id="maradona" label="Diego Maradona" selected>Diego Maradona</option>
+				<option value="pele" id="pele" label="Pelé">Pelé</option>
+				<option value="distefano" id="distefano" label="Alfredo Di Stéfano">Alfredo Di Stéfano</option>
+			</select>
+			</form>
+			<script>
+				function cambiar(valor){
+					visualizarUpdate(valor);
+				}
+			</script>
+
+		</div>
+		<div id="tool"> </div>
+		<div id="nombreIZ">Lionel Messi</div>
+	</div>
+	<script>
+		d3.selectAll(".avisoSVG").remove();
+	</script>
+    
+		
+</body>
+
+</html>

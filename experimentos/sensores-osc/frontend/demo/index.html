@@ -1,0 +1,57 @@
+
+<html>
+	<head>
+		<title>Interactive Line Graph</title>
+		<script src="../libs/d3.v3.min.js"></script>
+		<script src="../libs/jquery-1.11.1.min.js"></script>
+		<script src="sample_data.js"></script>
+		<script src="line-graph.js"></script>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<style>
+			body {
+				font-family: "Helvetica Neue", Helvetica;
+			}
+					
+			p {
+				clear:both;
+				top: 20px;
+			}		
+					
+			div.aGraph {
+				margin-bottom: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		
+	<div id="graph1" class="aGraph" style="position:relative;width:100%;height:400px"></div>
+
+	<script>
+		 data["displayNames"] = ["Luz"];
+		 data["colors"] = ["darkred"];
+		 data["scale"] = "pow";
+		 
+		 // create graph now that we've added presentation config
+		var l1 = new LineGraph({containerId: 'graph1', data: data});
+		
+	setInterval(function() {
+		var newData = [];
+		data.values.forEach(function(dataSeries, index) {
+			var v = dataSeries.shift();
+			dataSeries.push(v);
+			newData[index] = [v];
+		})
+		
+		dataA.values = newData;
+		dataA.start = dataA.start + dataA.step;
+		dataA.end = dataA.end + dataA.step; 
+		l1.slideData(dataA);
+	}, 1000);
+
+		
+	</script>
+
+
+
+	</body>
+</html>

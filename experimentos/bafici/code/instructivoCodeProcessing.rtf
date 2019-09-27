@@ -1,0 +1,48 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Instructivo Processing BAFICI\
+\
+1. Utilizar Processing 2.0.3\
+2. Tener la librer\'eda OscP5 en Documents/Processing/libraries\
+3. Cargar en la placa Arduino el c\'f3digo vigente (
+\b senderSerialAr_1d
+\b0 )\
+4. Ejecutar el c\'f3digo de processing que escucha mensajes OSC (
+\b oscReceiver_1b
+\b0 )\
+5. Ejecutar el c\'f3digo que recibe los sensores de Arduino y los convierte a mensajes OSC (
+\i\b receiverSerialP5_2f
+\i0\b0 )\
+\
+
+\b Protocolo de comunicaci\'f3n\
+
+\b0 \
+
+\b Flags:\
+
+\b0 int de 0 a 1: \
+\'93/bSensor_0\'94\
+\'93/bSensor_1\'94\
+\'93/bSensor_2\'94\
+\'93/bSensor_3\'94\
+\'93/bSensor_4\'94\
+\'93/bSensor_5\'94\
+\
+
+\b Valores:\
+
+\b0 int de 1 a 50:\
+\'93/sensor_0\'94\
+\'93/sensor_1\'94\
+\'93/sensor_2\'94\
+\'93/sensor_3\'94\
+\'93/sensor_4\'94\
+\'93/sensor_5\'94\
+\
+\
+}

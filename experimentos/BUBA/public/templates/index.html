@@ -1,0 +1,124 @@
+<div ng-controller="IndexCtrl">
+    <div id="landing" class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- <div ng-controller="LogCtrl" class="content"> -->
+                <div class="content">
+                    <div class="seleccion">
+                        <img src="styles/img/ba-mundial.png" class="logoMundial">
+                        <img src="styles/img/intro.svg" class="intro">
+                        <h1>Tu selección es única</h1>
+                        <h2>Demostrá cuánto sabés de fútbol</h2>
+                        <h3>Elegí a los mejores y participá por una bici</h3>
+                    </div>
+                    <div add="log('votar', 'Empezar a votar')" class="ribbon">
+                        <div class="ribbon">
+                            <span>Empezar a votar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="tutorial">
+        <div class="container">
+            <h2 class="titulo">Cómo participar</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pasos">
+                        <div class="icon">
+                            <div class="eleccion">Votá a tus favoritos</div>
+                        </div>
+                        <h3 class="titulo">1. Votá a tus favoritos</h3>
+                        <p class="texto">Elegí la selección ganadora, el máximo goleador y el mejor jugador marcando con una cruz sólo una opción de cada categoría, o la opción de todo el país.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="pasos">
+                        <div class="icon">
+                            <div class="comparti">Compartí y ganá</div>
+                        </div>
+                        <h3 class="titulo">2. Compartí y ganá</h3>
+                        <p class="texto">Desafiá a tus amigos y participá en el sorteo por una bici.</p>
+                    </div>
+                </div>
+            </div>
+        <div class="continua" add="log('continua', 'Continuar')">
+                <span>Continuar</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="tabla">
+        <div class="container">
+            <div class="table-responsive equipos">
+                <table class="table" id="sticky-tabla">
+                    <thead>
+                        <tr>
+                            <th class="ba-mundial">BA Mundial</th>
+                            <th class="referencia">
+                                <h3>Selección Campeona</h3>
+                                <h4>¿Qué país se consagrará?</h4>
+                            </th>
+                            <th class="referencia">
+                                <h3>Mejor Jugador</h3>
+                                <h4>¿En qué equipo juega?</h4>
+                            </th>
+                            <th class="referencia">
+                                <h3>Máximo Goleador</h3>
+                                <h4>¿En qué equipo juega?</h4>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="info in range" class="simulador">
+                            <td class="{{info[3].iso}}">
+
+
+
+                                <div class="votar-todo ">
+                                    <input type="checkbox" ng-id="info" ng-value="all" ng-click="checkAll(info)" ng-model="info[4].checked" id="checkAll{{$index+1}}" />
+                                    <label for="checkAll{{$index+1}}"></label>
+                                    <p>Votar todo</p>
+                                </div>
+
+                                <span class="glyphicon glyphicon-chevron-right flechita"></span>
+
+                                <div class="pais">
+                                    {{info[0].equipo}}
+                                </div>
+
+                            </td>
+                            <td class="{{info[3].iso}}">
+                                <div class="checkbox">
+                                    <input type="checkbox" name="{{info[0].equipo}}" ng-click="uncheck(info)" ng-model="info[0].checked" id="campeon-{{info[3].iso}}" />
+                                    <label for="campeon-{{info[3].iso}}" class="checkbox-inline"></label>
+                                    <p>{{info[0].equipo}}</p>
+                                </div>
+                            </td>
+                            <td class="{{info[3].iso}}">
+                                <div class="checkbox">
+                                    <input type="checkbox" name="{{info[1].jugador}}" ng-click="uncheck(info)" ng-model="info[1].checked" id="jugador-{{info[3].iso}}" />
+                                    <label for="jugador-{{info[3].iso}}"></label>
+                                    <p>{{info[0].equipo}}</p>
+                                </div>
+                            </td>
+                            <td class="{{info[3].iso}}">
+                                <div class="checkbox">
+                                    <input type="checkbox" name="{{info[2].goleador}}" ng-click="uncheck(info)" ng-model="info[2].checked" id="goleador-{{info[3].iso}}" />
+                                    <label for="{{info[2].goleador}}-{{info[3].iso}}"></label>
+                                    <p>{{info[0].equipo}}</p>
+                                </div>
+                            </td>
+
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="body-content"></div>
+        </div>
+    </div>
+    <input type="button" ng-click="enviar()" value="Votar" class="btn btn-success btn-lg" id="enviarFlotante" />
+</div>

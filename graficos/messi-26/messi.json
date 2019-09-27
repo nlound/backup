@@ -1,0 +1,5102 @@
+[
+   {
+      "jugador":{
+         "edad":"16",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"7/3/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"1",
+               "rival":"Mataró",
+               "gRival":"0",
+               "torneo":"Segunda división B 03/04"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/3/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"0",
+               "rival":"Gimnástic",
+               "gRival":"0",
+               "torneo":"Segunda división B 03/04"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/3/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"1",
+               "rival":"Yeclano",
+               "gRival":"1",
+               "torneo":"Segunda división B 03/04"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/3/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"0",
+               "rival":"Girona",
+               "gRival":"1",
+               "torneo":"Segunda división B 03/04"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/4/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"1",
+               "rival":"Novelda",
+               "gRival":"2",
+               "torneo":"Segunda división B 03/04"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"17",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"29/6/2004",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"8",
+               "rival":"Paraguay",
+               "gRival":"0",
+               "torneo":"Amistosos 2004"
+            },
+            {
+               "cant":"2",
+               "fecha":"3/7/2004",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"2",
+               "rival":"Uruguay",
+               "gRival":"1",
+               "torneo":"Amistosos 2004"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/8/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"1",
+               "rival":"Benidorm",
+               "gRival":"1",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/9/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"1",
+               "rival":"Girona",
+               "gRival":"2",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/9/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"1",
+               "rival":"Castellón",
+               "gRival":"0",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/9/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"2",
+               "rival":"Espanyol B",
+               "gRival":"0",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/9/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"0",
+               "rival":"Zaragoza B",
+               "gRival":"3",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/10/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"1",
+               "rival":"Peña Sport",
+               "gRival":"0",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/10/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"3",
+               "rival":"Huesca",
+               "gRival":"4",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/10/2004",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Liga 2004-2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/10/2004",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 2004-2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/10/2004",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Gramenet",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2004-05"
+            },
+            {
+               "cant":"1",
+               "fecha":"31/10/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"1",
+               "rival":"Villajoyosa",
+               "gRival":"2",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/11/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"2",
+               "rival":"Badalona",
+               "gRival":"1",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/11/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"0",
+               "rival":"Sabadell",
+               "gRival":"0",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/11/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"2",
+               "rival":"M. Castelldefels",
+               "gRival":"2",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/12/2004",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Málaga",
+               "gRival":"0",
+               "torneo":"Liga 2004-2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/12/2004",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Shakhtar Donetsk",
+               "gRival":"2",
+               "torneo":"Champions 2004-05"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/12/2004",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Albacete",
+               "gRival":"1",
+               "torneo":"Liga 2004-2005"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/12/2004",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"2",
+               "rival":"Alcoyano",
+               "gRival":"0",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/12/2004",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Levante",
+               "gRival":"1",
+               "torneo":"Liga 2004-2005"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/1/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"3",
+               "rival":"Venezuela",
+               "gRival":"0",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"2",
+               "fecha":"15/1/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"4",
+               "rival":"Bolivia",
+               "gRival":"0",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/1/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"6",
+               "rival":"Perú",
+               "gRival":"0",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/1/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"1",
+               "rival":"Colombia",
+               "gRival":"1",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/1/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"1",
+               "rival":"Venezuela",
+               "gRival":"0",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/1/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"1",
+               "rival":"Chile",
+               "gRival":"1",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/1/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"0",
+               "rival":"Uruguay",
+               "gRival":"0",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/2/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"1",
+               "rival":"Colombia",
+               "gRival":"1",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/2/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"2",
+               "rival":"Brasil",
+               "gRival":"1",
+               "torneo":"Sudamericano 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/2/2005",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"0",
+               "rival":"Peña Sport",
+               "gRival":"0",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/3/2005",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"0",
+               "rival":"Gramenet",
+               "gRival":"0",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/4/2005",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"2",
+               "rival":"Peralta",
+               "gRival":"1",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/4/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Getafe",
+               "gRival":"0",
+               "torneo":"Liga 2004-2005"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/4/2005",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"2",
+               "rival":"M. Castelldefels",
+               "gRival":"2",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/5/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Albacete",
+               "gRival":"0",
+               "torneo":"Liga 2004-2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/5/2005",
+               "seleccion":"NO",
+               "club":"Barcelona B",
+               "gEquipo":"4",
+               "rival":"Osasuna B",
+               "gRival":"0",
+               "torneo":"Segunda división B 04/05"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/6/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"0",
+               "rival":"Estados Unidos",
+               "gRival":"1",
+               "torneo":"Mundial 2005"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/6/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"2",
+               "rival":"Egipto",
+               "gRival":"0",
+               "torneo":"Mundial 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/6/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"1",
+               "rival":"Alemania",
+               "gRival":"0",
+               "torneo":"Mundial 2005"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/6/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"2",
+               "rival":"Colombia",
+               "gRival":"1",
+               "torneo":"Mundial 2005"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"18",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"25/6/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"3",
+               "rival":"España",
+               "gRival":"1",
+               "torneo":"Mundial 2005"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/6/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"2",
+               "rival":"Brasil",
+               "gRival":"1",
+               "torneo":"Mundial 2005"
+            },
+            {
+               "cant":"2",
+               "fecha":"2/7/2005",
+               "seleccion":"SI",
+               "club":"Sub 20",
+               "gEquipo":"2",
+               "rival":"Nigeria",
+               "gRival":"1",
+               "torneo":"Mundial 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/8/2005",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Hungría",
+               "gRival":"1",
+               "torneo":"Amistosos 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/9/2005",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Paraguay",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/9/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Werder Bremen",
+               "gRival":"0",
+               "torneo":"Champions 2005-06"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/9/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Udinese",
+               "gRival":"1",
+               "torneo":"Champions 2005-06"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/10/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Zaragoza",
+               "gRival":"2",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/10/2005",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Perú",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/10/2005",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Uruguay",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/10/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Panathinaikos",
+               "gRival":"0",
+               "torneo":"Champions 2005-06"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/10/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/10/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Málaga",
+               "gRival":"0",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/11/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Panathinaikos",
+               "gRival":"0",
+               "torneo":"Champions 2005-06"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/11/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Getafe",
+               "gRival":"1",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/11/2005",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Qatar",
+               "gRival":"0",
+               "torneo":"Amistosos 2005"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/11/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Real Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/11/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Racing",
+               "gRival":"1",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/12/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Villarreal",
+               "gRival":"0",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/12/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Sevilla",
+               "gRival":"1",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/12/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Cádiz",
+               "gRival":"1",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/12/2005",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Celta",
+               "gRival":"0",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/1/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Espanyol",
+               "gRival":"1",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/1/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/1/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Alavés",
+               "gRival":"0",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/1/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Zaragoza",
+               "gRival":"4",
+               "torneo":"Copa del Rey 2005-06"
+            },
+            {
+               "cant":"2",
+               "fecha":"29/1/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Mallorca",
+               "gRival":"0",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/2/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2005-06"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/2/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"At. de Madrid",
+               "gRival":"3",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/2/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Betis",
+               "gRival":"1",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/2/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Chelsea",
+               "gRival":"1",
+               "torneo":"Champions 2005-06"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/2/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Zaragoza",
+               "gRival":"0",
+               "torneo":"Liga 2005-2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/3/2006",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Croacia",
+               "gRival":"3",
+               "torneo":"Amistosos 2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/3/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Chelsea",
+               "gRival":"1",
+               "torneo":"Champions 2005-06"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/5/2006",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Angola",
+               "gRival":"0",
+               "torneo":"Amistosos 2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/6/2006",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"6",
+               "rival":"Serbia y Montenegro",
+               "gRival":"0",
+               "torneo":"Mundial 2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/6/2006",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Holanda",
+               "gRival":"0",
+               "torneo":"Mundial 2006"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"19",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"24/6/2006",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"México",
+               "gRival":"1",
+               "torneo":"Mundial 2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/8/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Supercopa España 2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/8/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Supercopa España 2006"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/8/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Sevilla",
+               "gRival":"3",
+               "torneo":"Supercopa Europa 2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/8/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Celta",
+               "gRival":"2",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/9/2006",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Brasil",
+               "gRival":"3",
+               "torneo":"Amistosos 2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/9/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/9/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/9/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valencia",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/9/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Werder Bremen",
+               "gRival":"1",
+               "torneo":"Champions 2006-07"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/9/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/10/2006",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"España",
+               "gRival":"2",
+               "torneo":"Amistosos 2006"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/10/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Sevilla",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/10/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Chelsea",
+               "gRival":"1",
+               "torneo":"Champions 2006-07"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/10/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/10/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Chelsea",
+               "gRival":"2",
+               "torneo":"Champions 2006-07"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/11/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Dep. La Coruña",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/11/2006",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/2/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/2/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valencia",
+               "gRival":"2",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/2/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Liverpool",
+               "gRival":"2",
+               "torneo":"Champions 2006-07"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/2/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Ath. de Bilbao",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/2/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2006-07"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/3/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sevilla",
+               "gRival":"2",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/3/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Liverpool",
+               "gRival":"0",
+               "torneo":"Champions 2006-07"
+            },
+            {
+               "cant":"3",
+               "fecha":"10/3/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Real Madrid",
+               "gRival":"3",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/3/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Recreativo",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"1",
+               "fecha":"31/3/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Dep. La Coruña",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/4/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/4/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Mallorca",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/4/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Getafe",
+               "gRival":"2",
+               "torneo":"Copa del Rey 2006-07"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/4/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Villarreal",
+               "gRival":"2",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/4/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Levante",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/5/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Sociedad",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/5/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Betis",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"2",
+               "fecha":"20/5/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"At. de Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/5/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Getafe",
+               "gRival":"0",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/6/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Suiza",
+               "gRival":"1",
+               "torneo":"Amistosos 2007"
+            },
+            {
+               "cant":"2",
+               "fecha":"5/6/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Argelia",
+               "gRival":"3",
+               "torneo":"Amistosos 2007"
+            },
+            {
+               "cant":"2",
+               "fecha":"9/6/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Espanyol",
+               "gRival":"2",
+               "torneo":"Liga 2006-2007"
+            },
+            {
+               "cant":"2",
+               "fecha":"17/6/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Nástic",
+               "gRival":"1",
+               "torneo":"Liga 2006-2007"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"20",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"28/6/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Estados Unidos",
+               "gRival":"1",
+               "torneo":"Copa América 07"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/7/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Colombia",
+               "gRival":"2",
+               "torneo":"Copa América 07"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/7/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Paraguay",
+               "gRival":"0",
+               "torneo":"Copa América 07"
+            },
+            {
+               "cant":"1",
+               "fecha":"8/7/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Perú",
+               "gRival":"0",
+               "torneo":"Copa América 07"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/7/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"México",
+               "gRival":"0",
+               "torneo":"Copa América 07"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/7/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Brasil",
+               "gRival":"3",
+               "torneo":"Copa América 07"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/8/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Noruega",
+               "gRival":"2",
+               "torneo":"Amistosos 2007"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/8/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/9/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/9/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Australia",
+               "gRival":"0",
+               "torneo":"Amistosos 2007"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/9/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Lyon",
+               "gRival":"0",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"2",
+               "fecha":"23/9/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Sevilla",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"2",
+               "fecha":"26/9/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/9/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Levante",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/10/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Stuttgart",
+               "gRival":"0",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/10/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"At. de Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/10/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Chile",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/10/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Venezuela",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/10/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Villarreal",
+               "gRival":"3",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/10/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Rangers",
+               "gRival":"0",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/10/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Almería",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/11/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valladolid",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/11/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Betis",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/11/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Rangers",
+               "gRival":"0",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/11/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Getafe",
+               "gRival":"2",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/11/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Bolivia",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"20/11/2007",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Colombia",
+               "gRival":"2",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"24/11/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Recreativo",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/11/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Lyon",
+               "gRival":"2",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/12/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Espanyol",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/12/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Dep. La Coruña",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/12/2007",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/1/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/1/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Villarreal",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2007-08"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/1/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/1/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Villarreal",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2007-08"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/2/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/2/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sevilla",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/2/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"2",
+               "fecha":"20/2/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Celtic",
+               "gRival":"2",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"1",
+               "fecha":"24/2/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Levante",
+               "gRival":"1",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/2/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valencia",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2007-08"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/3/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"At. de Madrid",
+               "gRival":"4",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/3/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Celtic",
+               "gRival":"0",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/4/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Recreativo",
+               "gRival":"2",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/4/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/4/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Manchester Utd.",
+               "gRival":"0",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/4/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Manchester Utd.",
+               "gRival":"1",
+               "torneo":"Champions 2007-08"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/5/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/5/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"4",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/5/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Mallorca",
+               "gRival":"3",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/5/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Murcia",
+               "gRival":"3",
+               "torneo":"Liga 2007-2008"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/6/2008",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"México",
+               "gRival":"1",
+               "torneo":"Amistosos 2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/6/2008",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Estados Unidos",
+               "gRival":"0",
+               "torneo":"Amistosos 2008"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/6/2008",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Ecuador",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/6/2008",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Brasil",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2010"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"21",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"7/8/2008",
+               "seleccion":"SI",
+               "club":"Sub 23",
+               "gEquipo":"2",
+               "rival":"Costa de Marfil",
+               "gRival":"1",
+               "torneo":"Juegos Olímpicos"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/8/2008",
+               "seleccion":"SI",
+               "club":"Sub 23",
+               "gEquipo":"1",
+               "rival":"Australia",
+               "gRival":"0",
+               "torneo":"Juegos Olímpicos"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/8/2008",
+               "seleccion":"SI",
+               "club":"Sub 23",
+               "gEquipo":"2",
+               "rival":"Holanda",
+               "gRival":"1",
+               "torneo":"Juegos Olímpicos"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/8/2008",
+               "seleccion":"SI",
+               "club":"Sub 23",
+               "gEquipo":"3",
+               "rival":"Brasil",
+               "gRival":"0",
+               "torneo":"Juegos Olímpicos"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/8/2008",
+               "seleccion":"SI",
+               "club":"Sub 23",
+               "gEquipo":"1",
+               "rival":"Nigeria",
+               "gRival":"0",
+               "torneo":"Juegos Olímpicos"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/8/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Numancia",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/9/2008",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Paraguay",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/9/2008",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Perú",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/9/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Racing",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/9/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Sporting Lisboa",
+               "gRival":"1",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"2",
+               "fecha":"21/9/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"Sporting Gijón",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/9/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Betis",
+               "gRival":"2",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/9/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Espanyol",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"2",
+               "fecha":"1/10/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Shakhtar Donetsk",
+               "gRival":"1",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/10/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"At. de Madrid",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/10/2008",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Uruguay",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/10/2008",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Chile",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/10/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Basel",
+               "gRival":"0",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/10/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Almería",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/11/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Málaga",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/11/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Basel",
+               "gRival":"1",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/11/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"Valladolid",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/11/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Benidorm",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2008-09"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/11/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Recreativo",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/11/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Sporting Lisboa",
+               "gRival":"2",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"2",
+               "fecha":"29/11/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Sevilla",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/12/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/12/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/12/2008",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Villarreal",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"3",
+               "fecha":"6/1/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"At. de Madrid",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2008-09"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/1/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Osasuna",
+               "gRival":"2",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/1/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"At. de Madrid",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2008-09"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/1/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Dep. La Coruña",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/1/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2008-09"
+            },
+            {
+               "cant":"2",
+               "fecha":"24/1/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Numancia",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/1/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Espanyol",
+               "gRival":"2",
+               "torneo":"Copa del Rey 2008-09"
+            },
+            {
+               "cant":"2",
+               "fecha":"1/2/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Racing",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/2/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Mallorca",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2008-09"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/2/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Sporting Gijón",
+               "gRival":"1",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/2/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Francia",
+               "gRival":"0",
+               "torneo":"Amistosos 2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/2/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Betis",
+               "gRival":"2",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/2/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Espanyol",
+               "gRival":"2",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/2/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Lyon",
+               "gRival":"1",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/3/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"At. de Madrid",
+               "gRival":"4",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/3/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Mallorca",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2008-09"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/3/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Ath. de Bilbao",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/3/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Lyon",
+               "gRival":"2",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/3/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Almería",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/3/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"Málaga",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/3/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Venezuela",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/4/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Bolivia",
+               "gRival":"6",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/4/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valladolid",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"2",
+               "fecha":"8/4/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Bayern Munich",
+               "gRival":"0",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/4/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Recreativo",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/4/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Bayern Munich",
+               "gRival":"1",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"1",
+               "fecha":"18/4/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Getafe",
+               "gRival":"0",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/4/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Valencia",
+               "gRival":"2",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/4/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Chelsea",
+               "gRival":"0",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"2",
+               "fecha":"2/5/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/5/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Chelsea",
+               "gRival":"1",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/5/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Villarreal",
+               "gRival":"3",
+               "torneo":"Liga 2008-2009"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/5/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2008-09"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/5/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Manchester Utd.",
+               "gRival":"0",
+               "torneo":"Champions 2008-09"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/6/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Colombia",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/6/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Ecuador",
+               "gRival":"2",
+               "torneo":"Eliminatorias 2010"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"22",
+         "goles":[
+            {
+               "cant":"2",
+               "fecha":"23/8/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Ath. de Bilbao",
+               "gRival":"0",
+               "torneo":"Supercopa España 2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/8/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Shakhtar Donetsk",
+               "gRival":"0",
+               "torneo":"Supercopa Europa 2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/9/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Brasil",
+               "gRival":"3",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"9/9/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Paraguay",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/9/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Getafe",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/9/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Inter",
+               "gRival":"0",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"2",
+               "fecha":"19/9/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"At. de Madrid",
+               "gRival":"2",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"2",
+               "fecha":"22/9/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Racing",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/9/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Málaga",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/9/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Dinamo de Kiev",
+               "gRival":"0",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/10/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Almería",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/10/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Perú",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/10/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Uruguay",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/10/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/10/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Rubin Kazan",
+               "gRival":"2",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/10/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/10/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Osasuna",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/11/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Rubin Kazan",
+               "gRival":"0",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/11/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Mallorca",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/11/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Cultural Leonesa",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2009-10"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/11/2009",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"España",
+               "gRival":"2",
+               "torneo":"Amistosos 2009"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/11/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/11/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/12/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Xerez",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"2",
+               "fecha":"5/12/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Dep. La Coruña",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/12/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Dinamo de Kiev",
+               "gRival":"1",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/12/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Atlante",
+               "gRival":"1",
+               "torneo":"Mundial de clubes 09"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/12/2009",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Estudiantes",
+               "gRival":"1",
+               "torneo":"Mundial de clubes 09"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/1/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sevilla",
+               "gRival":"2",
+               "torneo":"Copa del Rey 2009-10"
+            },
+            {
+               "cant":"3",
+               "fecha":"10/1/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Tenerife",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/1/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sevilla",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2009-10"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/1/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Sevilla",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/1/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Valladolid",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/1/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sporting Gijón",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/2/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Getafe",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/2/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"At. de Madrid",
+               "gRival":"2",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/2/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/2/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Stuttgart",
+               "gRival":"1",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/2/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Málaga",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/3/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Alemania",
+               "gRival":"0",
+               "torneo":"Amistosos 2010"
+            },
+            {
+               "cant":"2",
+               "fecha":"6/3/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Almería",
+               "gRival":"2",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"3",
+               "fecha":"14/3/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"2",
+               "fecha":"17/3/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Stuttgart",
+               "gRival":"0",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"3",
+               "fecha":"21/3/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Zaragoza",
+               "gRival":"2",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/3/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"27/3/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Mallorca",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"31/3/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Arsenal",
+               "gRival":"2",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"1",
+               "fecha":"3/4/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"4",
+               "fecha":"6/4/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Arsenal",
+               "gRival":"1",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/4/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/4/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Dep. La Coruña",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/4/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/4/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Inter",
+               "gRival":"3",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"0",
+               "fecha":"24/4/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Xerez",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/4/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Inter",
+               "gRival":"0",
+               "torneo":"Champions 2009-10"
+            },
+            {
+               "cant":"2",
+               "fecha":"1/5/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Villarreal",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"2",
+               "fecha":"4/5/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Tenerife",
+               "gRival":"1",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"8/5/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Sevilla",
+               "gRival":"2",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/5/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Valladolid",
+               "gRival":"0",
+               "torneo":"Liga 2009-2010"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/6/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"NIGERIA",
+               "gRival":"0",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/6/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"COREA DEL SUR",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/6/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"GRECIA",
+               "gRival":"0",
+               "torneo":"Mundial"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"23",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"27/6/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Mexico",
+               "gRival":"1",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/7/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Alemania",
+               "gRival":"4",
+               "torneo":"Mundial"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/8/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Irlanda",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/8/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sevilla",
+               "gRival":"3",
+               "torneo":"Supercopa España 2010"
+            },
+            {
+               "cant":"3",
+               "fecha":"21/8/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Sevilla",
+               "gRival":"0",
+               "torneo":"Supercopa España 2010"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/8/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/9/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"España",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/9/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Hércules",
+               "gRival":"2",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"14/9/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Panathinaikos",
+               "gRival":"1",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/9/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"At. de Madrid",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"29/9/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Rubin Kazan",
+               "gRival":"1",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"3/10/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Mallorca",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/10/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Japon",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/10/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Valencia",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/10/2010",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Brasil",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"2",
+               "fecha":"20/10/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"FC Copenhague",
+               "gRival":"0",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"2",
+               "fecha":"24/10/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Zaragoza",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"30/10/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Sevilla",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/11/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"FC Copenhague",
+               "gRival":"1",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/11/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Getafe",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"11/11/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Ceuta",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2010-11"
+            },
+            {
+               "cant":"2",
+               "fecha":"14/11/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Villarreal",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"3",
+               "fecha":"20/11/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"8",
+               "rival":"Almería",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"24/11/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Panathinaikos",
+               "gRival":"0",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/11/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Real Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"4/12/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/12/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Rubin Kazan",
+               "gRival":"0",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"2",
+               "fecha":"12/12/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Real Sociedad",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/12/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Espanyol",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/12/2010",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Ath. de Bilbao",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2010-11"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/1/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/1/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Dep. La Coruña",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"3",
+               "fecha":"12/1/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Betis",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2010-11"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/1/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Málaga",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/1/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Betis",
+               "gRival":"3",
+               "torneo":"Copa del Rey 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/1/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"26/1/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Almería",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2010-11"
+            },
+            {
+               "cant":"2",
+               "fecha":"29/1/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Hércules",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"3",
+               "fecha":"5/2/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"At. de Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/2/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Portugal",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/2/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sporting Gijón",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/2/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Arsenal",
+               "gRival":"2",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"20/2/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Ath. de Bilbao",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/2/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Mallorca",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/3/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/3/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Zaragoza",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"8/3/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Arsenal",
+               "gRival":"1",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/3/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sevilla",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"19/3/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Getafe",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/3/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"ESTADOS UNIDOS",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Villarreal",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Shakhtar Donetsk",
+               "gRival":"1",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"2",
+               "fecha":"9/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Almería",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"12/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Shakhtar Donetsk",
+               "gRival":"0",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"27/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"0",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/4/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Sociedad",
+               "gRival":"2",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"3/5/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/5/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/5/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Levante",
+               "gRival":"1",
+               "torneo":"Liga 2010-2011"
+            },
+            {
+               "cant":"1",
+               "fecha":"28/5/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Manchester Utd.",
+               "gRival":"1",
+               "torneo":"Champions 2010-11"
+            },
+            {
+               "cant":"1",
+               "fecha":"20/6/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"ALBANIA",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"24",
+         "goles":[
+            {
+               "cant":"0",
+               "fecha":"1/7/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Bolivia",
+               "gRival":"1",
+               "torneo":"AMERICA"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/7/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Colombia",
+               "gRival":"0",
+               "torneo":"AMERICA"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/7/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"COSTA RICA",
+               "gRival":"0",
+               "torneo":"AMERICA"
+            },
+            {
+               "cant":"0",
+               "fecha":"16/7/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Uruguay",
+               "gRival":"1",
+               "torneo":"AMERICA"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/8/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Supercopa España 20011"
+            },
+            {
+               "cant":"2",
+               "fecha":"17/8/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Supercopa España 20011"
+            },
+            {
+               "cant":"1",
+               "fecha":"26/8/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Porto",
+               "gRival":"0",
+               "torneo":"Supercopa Europa 2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"29/8/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Villarreal",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/9/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Venezuela",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/9/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"NIGERIA",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/9/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Sociedad",
+               "gRival":"2",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"13/9/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Milan",
+               "gRival":"2",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"3",
+               "fecha":"17/9/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"8",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/9/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Valencia",
+               "gRival":"2",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"3",
+               "fecha":"24/9/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"At. de Madrid",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"2",
+               "fecha":"28/9/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Bate Borisov",
+               "gRival":"0",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/10/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Chile",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/10/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Sp.Gijón",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/10/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Venezuela",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"2",
+               "fecha":"14/10/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"17/10/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Viktoria",
+               "gRival":"0",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"0",
+               "fecha":"22/10/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Sevilla",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/10/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Granada",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"3",
+               "fecha":"29/10/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Mallorca",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"3",
+               "fecha":"1/11/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Viktoria",
+               "gRival":"0",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"1",
+               "fecha":"5/11/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Ath. de Bilbao",
+               "gRival":"2",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/11/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Bolivia",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"1",
+               "fecha":"15/11/2011",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Colombia",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/11/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Zaragoza",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/11/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Milan",
+               "gRival":"2",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/11/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Getafe",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/11/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Rayo Vallecano",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"3/12/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Levante",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/12/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"15/12/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Toluca",
+               "gRival":"0",
+               "torneo":"Mundial de clubes 2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/12/2011",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Santos",
+               "gRival":"0",
+               "torneo":"Mundial de clubes 2011"
+            },
+            {
+               "cant":"2",
+               "fecha":"4/1/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Osasuna",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2011-12"
+            },
+            {
+               "cant":"0",
+               "fecha":"7/1/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Espanyol",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/1/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Osasuna",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2011-12"
+            },
+            {
+               "cant":"2",
+               "fecha":"14/1/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Betis",
+               "gRival":"2",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/1/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2011-12"
+            },
+            {
+               "cant":"3",
+               "fecha":"22/1/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Málaga",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"25/1/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Copa del Rey 2011-12"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/1/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Villarreal",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"1/2/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valencia",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2011-12"
+            },
+            {
+               "cant":"1",
+               "fecha":"4/2/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Sociedad",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"8/2/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2011-12"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/2/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Osasuna",
+               "gRival":"3",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"14/2/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Bayer Leverkusen",
+               "gRival":"1",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"4",
+               "fecha":"19/2/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Valencia",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/2/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Atl. De Madrid",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"3",
+               "fecha":"29/2/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"SUIZA",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"5",
+               "fecha":"7/3/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"7",
+               "rival":"Bayer Leverkusen",
+               "gRival":"1",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"2",
+               "fecha":"11/3/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Racing",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/3/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Sevilla",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"3",
+               "fecha":"20/3/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Granada",
+               "gRival":"3",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"24/3/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Mallorca",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/3/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Milan",
+               "gRival":"0",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"1",
+               "fecha":"1/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Ath. de Bilbao",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"2",
+               "fecha":"3/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Milan",
+               "gRival":"1",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"2",
+               "fecha":"8/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Getafe",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"2",
+               "fecha":"14/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Levante",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"18/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Chelsea",
+               "gRival":"1",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"0",
+               "fecha":"21/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"28/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Chelsea",
+               "gRival":"2",
+               "torneo":"Champions 2011-12"
+            },
+            {
+               "cant":"2",
+               "fecha":"28/4/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"7",
+               "rival":"Rayo Vallecano",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"3",
+               "fecha":"2/5/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Málaga",
+               "gRival":"1",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"4",
+               "fecha":"5/5/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"0",
+               "fecha":"12/5/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Betis",
+               "gRival":"2",
+               "torneo":"Liga 2011-2012"
+            },
+            {
+               "cant":"1",
+               "fecha":"25/5/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Ath. de Bilbao",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2011-12"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/6/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Ecuador",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"3",
+               "fecha":"9/6/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"4",
+               "rival":"Brasil",
+               "gRival":"3",
+               "torneo":"Amistoso"
+            }
+         ]
+      }
+   },
+   {
+      "jugador":{
+         "edad":"25",
+         "goles":[
+            {
+               "cant":"1",
+               "fecha":"15/8/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Alemania",
+               "gRival":"1",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"2",
+               "fecha":"19/8/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Real Sociedad",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/8/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Supercopa España 2011-12"
+            },
+            {
+               "cant":"2",
+               "fecha":"26/8/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Osasuna",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"29/8/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Supercopa España 2011-12"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/9/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valencia",
+               "gRival":"0",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/9/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Paraguay",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"0",
+               "fecha":"11/9/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Perú",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/9/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Getafe",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"19/9/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Spartak",
+               "gRival":"2",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/9/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Granada",
+               "gRival":"0",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/9/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Sevilla",
+               "gRival":"2",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"2/10/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Benfica",
+               "gRival":"0",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"7/10/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"12/10/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Uruguay",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"1",
+               "fecha":"16/10/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"2",
+               "rival":"Chile",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"3",
+               "fecha":"21/10/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Dep. La Coruña",
+               "gRival":"4",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/10/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Celtic",
+               "gRival":"1",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"28/10/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Rayo Vallecano",
+               "gRival":"0",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"4/11/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Celta",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"7/11/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Celtic",
+               "gRival":"2",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"11/11/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Mallorca",
+               "gRival":"2",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"14/11/2012",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"ARABIA SAUDITA",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"2",
+               "fecha":"18/11/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Zaragoza",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"20/11/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Spartak",
+               "gRival":"0",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"25/11/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Levante",
+               "gRival":"0",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"1/12/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Ath. de Bilbao",
+               "gRival":"0",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"5/12/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Benfica",
+               "gRival":"0",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"9/12/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Betis",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"12/12/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Córdoba",
+               "gRival":"0",
+               "torneo":"Copa del Rey 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/12/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Atl. De Madrid",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/12/2012",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Valladolid",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"6/1/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Espanyol",
+               "gRival":"0",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"13/1/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Málaga",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"17/1/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Málaga",
+               "gRival":"2",
+               "torneo":"Copa del Rey 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"19/1/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Real Sociedad",
+               "gRival":"3",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"24/1/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Málaga",
+               "gRival":"2",
+               "torneo":"Copa del Rey 2012-13"
+            },
+            {
+               "cant":"4",
+               "fecha":"27/1/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"5",
+               "rival":"Osasuna",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"30/1/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"1",
+               "torneo":"Copa del Rey 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"3/2/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Valencia",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"6/2/2013",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Suecia",
+               "gRival":"2",
+               "torneo":"Amistoso"
+            },
+            {
+               "cant":"1",
+               "fecha":"10/2/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"6",
+               "rival":"Getafe",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"16/2/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Granada",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"20/2/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Milan",
+               "gRival":"2",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"22/2/2013",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"3",
+               "rival":"Venezuela",
+               "gRival":"0",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"1",
+               "fecha":"23/2/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Sevilla",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/2/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"3",
+               "torneo":"Copa del Rey 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/3/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Real Madrid",
+               "gRival":"2",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"9/3/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Dep. La Coruña",
+               "gRival":"0",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"12/3/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Milan",
+               "gRival":"0",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"17/3/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"3",
+               "rival":"Rayo Vallecano",
+               "gRival":"1",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"26/3/2013",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"1",
+               "rival":"Bolivia",
+               "gRival":"1",
+               "torneo":"Eliminatorias 2014"
+            },
+            {
+               "cant":"1",
+               "fecha":"30/3/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Celta",
+               "gRival":"2",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"2/4/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Paris Saint Germain",
+               "gRival":"2",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"10/4/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"1",
+               "rival":"Paris Saint Germain",
+               "gRival":"1",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"0",
+               "fecha":"23/4/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"0",
+               "rival":"Bayer Munich",
+               "gRival":"4",
+               "torneo":"Champions 2012-13"
+            },
+            {
+               "cant":"1",
+               "fecha":"27/4/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"2",
+               "rival":"Ath. de Bilbao",
+               "gRival":"2",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"2",
+               "fecha":"5/5/2013",
+               "seleccion":"NO",
+               "club":"Barcelona",
+               "gEquipo":"4",
+               "rival":"Betis",
+               "gRival":"2",
+               "torneo":"Liga 2012-13"
+            },
+            {
+               "cant":"3",
+               "fecha":"14/6/2013",
+               "seleccion":"SI",
+               "club":"Selección",
+               "gEquipo":"0",
+               "rival":"Guatemala",
+               "gRival":"0",
+               "torneo":"Amistoso"
+            }
+         ]
+      }
+   }
+]

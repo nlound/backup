@@ -1,0 +1,128 @@
+<krpano version="1.16">
+	<memory maxmem="512"/>
+	<network downloadqueues="auto" decodequeues="auto" caching="true" cachesize="7" retrycount="4"/>
+	<progress showload="bar(center,200,10,0,0,shaded, 0x111111,0xffffff,0x000000,0x000000,0,none,0)" showwait="none"/>
+
+	<!-- Buttons -->
+	<include url="skin/defaultskin.xml" />
+	
+	<!-- Default view -->
+	<view hlookat="0" vlookat="0" maxpixelzoom="1.0" fovmax="100" limitview="auto" />
+
+	<!-- Preview, mobile and panorama image paths -->	
+	<preview url="tiles/preview.jpg" />
+	<image type="CUBE" multires="true" tilesize="512" progressive="false">
+		<level tiledimagewidth="1714" tiledimageheight="1714">
+			<cube url="tiles/mres_%s/l2/%v/l2_%s_%v_%h.jpg" />
+		</level>
+		<level tiledimagewidth="857" tiledimageheight="857">
+			<cube url="tiles/mres_%s/l1/%v/l1_%s_%v_%h.jpg" />
+		</level>
+		<mobile>
+			<cube url="tiles/mobile_%s.jpg" />
+		</mobile>
+	</image>
+
+	<!-- Juventus logo -->
+	<layer name="logo" type="image"	handcursor="false"	alpha="1" align="lefttop" zorder="100"
+		url="menu/logo.png"	/>
+
+	<!-- Left Menu -->
+	<layer name="autores" type="image" handcursor="true" alpha="0.7" align="lefttop" y="111" zorder="100"
+		url="menu/autores.png"
+		onclick="selected('autores')" 
+		onover="overMenu('autores')"
+		onout="outMenu('autores')" 		
+
+	/>
+
+	<layer name="cantantes" type="image" handcursor="true" alpha="0.7" align="lefttop" y="145" zorder="100"
+		url="menu/cantantes.png"
+		onclick="selected('cantantes')" 
+		onover="overMenu('cantantes')"
+		onout="outMenu('cantantes')"
+	/>
+
+	<layer name="orquesta" type="image" handcursor="true" alpha="0.7" align="lefttop" y="179" zorder="100"
+		url="menu/orquesta.png"
+		onclick="selected('orquesta')" 
+		onover="overMenu('orquesta')"
+		onout="outMenu('orquesta')"
+	/>
+
+	<layer name="escena" type="image" handcursor="true" alpha="0.7" align="lefttop" y="213" zorder="100"
+		url="menu/escena.png" 
+		onclick="selected('escena')" 
+		onover="overMenu('escena')"
+		onout="outMenu('escena')"
+	/>
+
+	<layer name="elteatro" type="image" handcursor="true" alpha="0.7" align="lefttop" y="247" zorder="100"
+		url="menu/elteatro.png" 
+		onclick="selected('elteatro')" 
+		onover="overMenu('elteatro')"
+		onout="outMenu('elteatro')"
+	/>
+
+<!-- plugin menu -->
+	<plugin name="compositor" type="image" handcursor="true" alpha="0.7" align="lefttop" x="-200" y="111" zorder="1"
+		url="menu/compositor.gif" 
+		onover="overMenu('compositor')"
+		onout="outMenu('compositor')"
+		onclick="js(ocultoSpan()); selected('compositor'); js(muestroSpan(compositor));" 
+	/>		
+
+	<plugin name="libretista" type="image" handcursor="true" alpha="0.7" align="lefttop" x="-200" y="111" zorder="1"
+		url="menu/libretista.gif" 
+		onover="overMenu('libretista')"
+		onout="outMenu('libretista')"
+		onclick="js(ocultoSpan()); selected('libretista'); js(muestroSpan(libretista));" 
+	/>
+
+
+	<!-- Actions for left menu -->
+	<action name="overMenu">
+		set(layer[%1].alpha,1);
+	</action>
+	
+	
+	<action name="outMenu">
+		set(layer[%1].alpha,0.7);
+	</action>
+
+	<action name="selected">
+		clear();
+		if (%1 == 'autores',
+			tween(plugin[compositor].x,167,0.3);
+			tween(plugin[libretista].x,272,0.3);
+		);
+		
+		if (%1 == 'compositor',
+			lookto(80,-10,50,tween(easeInOutQuint,0.5));
+		);
+
+		if (%1 == 'libretista',
+			lookto(85,-10,50,tween(easeInOutQuint,0.5));
+		);
+		
+
+	</action>	
+
+	<action name="clear">
+		set(plugin['compositor'].x, -200);
+		set(plugin['libretista'].x, -200);
+	</action>
+
+
+	<hotspot name="hs1" url="tags/tenor.png" ath="-0.2" atv="7.6" distorted="true" rx="0" ry="0" rz="0.00" width="49" height="100" scale="0.80"/>
+	<hotspot name="hs2" url="tags/soprano.png" ath="3.3" atv="-19.4" distorted="true" rx="0" ry="0" rz="0" width="72" height="100" scale="0.70"/>
+	<hotspot name="hs3" url="tags/baritono.png" ath="11.9" atv="6.8" distorted="true" rx="0" ry="0" rz="0" width="68" height="101" scale="0.80"/>	<hotspot name="hs4" url="tags/soprano.png" ath="-10.7" atv="-18.0" distorted="true" rx="0" ry="0" rz="0" width="72" height="100" scale="0.70"/>	<hotspot name="hs5" url="tags/bajo.png" ath="-15.4" atv="7.2" distorted="true" rx="0" ry="0" rz="0" width="42" height="77" scale="0.80"/>
+	<hotspot name="hs6" url="tags/coro.png" ath="25.4" atv="-18.3" distorted="true" rx="0" ry="0" rz="0" width="44" height="29" scale="0.70"/>
+	<hotspot name="hs7" url="tags/coro.png" ath="-25.4" atv="-18.3" distorted="true" rx="0" ry="0" rz="0" width="44" height="29" scale="0.70"/>
+	<hotspot name="hs8" url="tags/utileros.png"	ath="-45.3" atv="-10.6" distorted="true" rx="0" ry="0" rz="0" width="64" height="28" scale="0.60"/>
+	<hotspot name="hs9" url="tags/coordinador.png" ath="-52.4" atv="-13.5" distorted="true" rx="0" ry="0" rz="0" width="188" height="91" scale="0.22"/>
+	<hotspot name="hs10" url="tags/telonero.png" ath="51.5" atv="-11.4" distorted="true" rx="0" ry="0" rz="0" width="135" height="57" scale="0.25"/>
+	<hotspot name="hs11" url="tags/vestidoras.png" ath="42.7" atv="-10.9" distorted="true" rx="0" ry="0" rz="0" width="159" height="57" scale="0.25"/>
+	<hotspot name="hs12" url="tags/apuntadora.png" ath="46.8" atv="3.8" distorted="true" rx="0" ry="0" rz="0" width="173" height="143" scale="0.26"/>
+	<hotspot name="hs13" url="tags/musiEsc.png" ath="38.6" atv="4.5" distorted="true" rx="0" ry="0" rz="0" width="152" height="175" scale="0.28"/>
+</krpano>

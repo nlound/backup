@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<title>Mapa Legislativo 2013</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="description" content="Mapa interactivo de las elecciones Primarias Legislativas 2013" />
+		<meta name="author" content="Clarin.com" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<link rel="stylesheet" type="text/css" href="css/estilos.css?version=1">		
+
+		<script type="text/javascript" src="js/d3.v3.min.js"></script>
+		<script type="text/javascript" src="js/d3.geo.projection.v0.min.js"></script>
+		<script type="text/javascript" src="js/topojson.v1.min.js"></script>
+		<script type="text/javascript" src="js/utils.js?version=1"></script>
+		<script type="text/javascript" src="js/clnmap.js?version=1"></script>
+		<script id="twitter-wjs" src="http://platform.twitter.com/widgets.js"></script>
+
+	</head>
+
+	<body>	
+
+		<!-- App gral -->
+		<div id="contenedorApp">
+			<div id="cabezal">
+				<div id="titulo">Mapa legislativo</div>
+				<div class="beta">(BETA)</div>
+				<button id="diputadosBtn" onclick="updateBotones(this.id); " disabled> </button>
+				<button id="senadoresBtn" onclick="updateBotones(this.id); "> </button>
+				<div id="referenciasGenerales"> </div>
+				<div id="referenciasVotos" class="descOculto"><div>REFERENCIAS<br />El tamaño de los círculos representa los votos del candidato ganador.</div></div>
+				<div id="referenciasColores">
+					<table>
+						<tr>
+							<td class="colorCelda"><div class="fp_K colorCelda"> </div></td>
+							<td class="textoCeldaLargo">Kirchneristas y aliados</td>
+							
+							<td class="colorCelda"><div class="fp_PRO colorCelda"> </div></td>
+							<td class="textoCeldaCorto">PRO y aliados</td>							
+						</tr>
+
+						<tr>
+							<td class="colorCelda"><div class="fp_PJ colorCelda"> </div></td>
+							<td class="textoCeldaLargo">Peronistas opositores</td>
+ 
+							<td class="colorCelda"><div class="fp_IZ colorCelda"> </div></td>
+							<td class="textoCeldaCorto">Izquierda</td>
+						</tr>
+
+						<tr>
+							<td class="colorCelda"><div class="fp_FP colorCelda"> </div></td>
+							<td class="textoCeldaLargo">UCR, Socialistas y aliados</td>
+
+							<td class="colorCelda"><div class="fp_OT colorCelda"> </div></td>
+							<td class="textoCeldaCorto">Otros</td>
+						</tr>
+					</table>
+					
+				</div>
+				<div id="shareView">
+					<div id="logoShare"> </div>
+					<div id="textoShare">Compart&iacute; los resultados de tu localidad</div>
+					<div id="arrowShare"> </div> 
+				</div>
+			</div>
+
+			
+			<div id="contenido">
+
+				<div id="map_arg">
+					<!-- Loader -->
+					<div id="preloader">Cargando...</div>
+				</div>
+
+				<div id="botones" class="slashback">
+				 	<button id="provBtn" onclick="updateBotones(this.id);">  </button>
+				 	<button id="partBtn" onclick="updateBotones(this.id);"> </button>
+					<button id="votoBtn" onclick="updateBotones(this.id);"> </button>
+					<button id="camaBtn" onclick="updateBotones(this.id)";> </button>
+				</div>
+
+				<div id="barras" class="slashback"> 
+					<div id="referenciaBarras">
+
+						<div id="fondoReferencia">
+							<div id="referenciaTituloProvincia" class="descMuestro"> RESULTADO GENERAL 2013</div><br>
+							<div id="referenciaTotal" class="descMuestro"> Es la suma de los votos obtenidos en todas las provincias, agupados según la orientación política del voto.</div><br>
+							<div id="referenciaNombreLocalidad" class="descOculto"> </div>
+							<div id="referenciaBarrasDetalle" class="descOculto"> </div>
+ 						</div>
+							<a id="shareTwitter" href=""> </a>
+							<a id="shareFacebook" href=""> </a>
+
+					</div>	
+
+					<div id="graficoBarras"> </div>	
+
+					<div id="totalBarras">
+						<div id="fondoTotalBarras"> 
+							<span class="textoTotalesEscrutado">ESCRUTADO</span>
+							<span class="textoTotales">| Votos: </span>
+							<span id="votos"> </span>
+
+							<span class="textoTotales">| Mesas: </span>
+							<span id="mesas"> </span>						
+						</div>
+					</div>	
+				</div>
+
+			</div>
+			
+			<div id="footer">
+				<div class="creditos" id="creditos" onclick="abrirCreditos()"><span>»</span> Especificaciones y créditos</div>
+			<!--<div class="creditos" id="ppagrupados"><span>&#187;</span> Cómo se agruparon los partidos políticos </div>-->
+				<div class="creditos" id="feedback"><a href="mailto:infografia@clarin.com"><img src="img/sobre.png" width="16" height="11" alt="sobre" border="0">&nbsp; Escribinos</a></div>
+			</div>
+
+			<div id="selectorMapa" class="selectDiputados"> </div>
+
+ 		</div>
+		
+
+		<!-- Tooltip -->		
+		<div id="tooltip">
+			<div class="toolHeader slashback">
+				<div id="tooltip_title" class="toolTitulo"> </div>
+				<div id="tooltip_info" class="toolBarrios"> </div>
+			</div>	
+				
+			<table id="toolTable" class="toolTable">
+				<tr id="toolRow_1">
+					<td id="toolFuerza_1" class="toolFuerza"> </td>
+					<td id="toolPartido_1" class="toolPartido">Partido uno</td>
+					<td id="toolPorcentaje_1" class="toolPorcentaje">00,00%</td>
+				</tr>
+				
+				<tr id="toolRow_2">
+					<td id="toolFuerza_2" class="toolFuerza"> </td>
+					<td id="toolPartido_2" class="toolPartido">Partido dos</td>
+					<td id="toolPorcentaje_2" class="toolPorcentaje">00,00%</td>
+				</tr>
+					
+				<tr id="toolRow_3">
+					<td id="toolFuerza_3" class="toolFuerza"> </td>
+					<td id="toolPartido_3" class="toolPartido">Partido tres</td>
+					<td id="toolPorcentaje_3" class="toolPorcentaje">00,00%</td>
+					</tr>
+				</table>
+				
+			<div id="toolFooter" class="toolFooter">
+				Click en el mapa para ampliar la informacion de la derecha.
+			</div>
+		</div>
+		
+		<div id="camDis" align="center" style="display:none"><img src="img/noDataBancas.png" border="0"></div>
+		
+		<!-- Modal de Créditos -->		
+		<div id="modal" style="display: none;">
+			<div id="creditosModal">
+				<img id="btn_cerrar" src="img/cerrar.png" alt="cerrar" width="20" height="20" onclick="cerrarCreditos()">
+				<h3 id="tituloModal">Mapa Legislativo<span class="betaCreditos">(BETA)</span></h3>
+				<h4 class="subtitulo"><span>Fuentes</span></h4>
+				<p class="textoModal">Datos electorales: <span>INDRA para Ministerio del Interior.</span></p>
+				<hr class="separadorModal">
+				<!--<p class="subtitulo2">DATOS GEOGRAFICOS</p>-->
+				<p class="textoModal">Datos geográficos: <span>INDEC (Instituto Nacional de Estadística y Censos).<a class="linkModal" href="http://www.opex.sig.indec.gov.ar/codgeo/" target="_blank">Link &gt;</a></span></p>
+				<!--<hr class="separadorModal">-->
+				<!--<p class="textoModal">Departamentos: <span>Global Administrative Areas.<a class="linkModal" href="http://www.gadm.org/country?q=argentina" target="_blank">Link &gt;</a></span></p>-->
+				<!--<hr class="separadorModal">-->
+				<!-- <p class="textoModal">Comunas Capital Federal: <span>Buenos Aires Data, GCBA.<a class="linkModal" href="http://data.buenosaires.gob.ar/dataset/comunas" target="_blank">Link &gt;</a></span></p> -->				<h4 class="subtitulo"><span>Especificaciones</span></h4>
+				<p class="textoModal">Proyección del mapa: <span>Gauss-Krüger, faja 3.</span><span class="subtitulo2"> / proyección oficial argentina /</span></p>
+				<hr class="separadorModal">
+				<p class="subtitulo2">LIBRERIAS DE JAVASCRIPT</p>
+				<p class="textoModal"><span>TopoJSON<a class="linkModal" href="https://github.com/mbostock/topojson" target="_blank">Link &gt;</a></span></p>
+				<hr class="separadorModal">
+				<p class="textoModal"><span>Data-Driven Document (d3js).<a class="linkModal" href="http://d3js.org" target="_blank">Link &gt;</a></span></p>
+				<h4 class="subtitulo"><span>Créditos</span></h4>
+				<p class="textoModal">Dirección del proyecto: <span>Pablo Loscri y Juan Pablo Kutianski.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Coordinación: <span>Ariel González Mouls, Vanesa Caballero.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Frontend: <span>Juan Pablo Kutianski, Nicolás Lound, Maximiliano Sosa.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Backend: <span>Fernando Melo, Nahuel Mingori, Santiago López Denazis, Facundo Pultera.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Diseño de la aplicación: <span>Pablo Loscri.</span></p>
+				<hr class="separadorModal">
+				<p class="textoModal">Landing: <span> Tea Alberti, Cecilia Tombesi y Georgina Campenni.</span></p>
+				<p class="copyright">© Clarín 2013</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/interface.js?version=1"></script>
+		<script type="text/javascript" src="js/graficos.js?version=1"></script>
+		<script type="text/javascript" src="js/elecciones.js?version=3"></script>
+
+	<!-- DAX tag -->
+	<script src="http://b.scorecardresearch.com/c2/6906409/ct.js"> </script>
+		<!-- Begin comScore Inline Tag 1.1111.15 -->
+	<script type="text/javascript">
+		// <![CDATA[
+		function udm_(a){var b="comScore=",c=document,d=c.cookie,e="",f="indexOf",g="substring",h="length",i=2048,j,k="&ns_",l="&",m,n,o,p,q=window,r=q.encodeURIComponent||escape;if(d[f](b)+1)for(o=0,n=d.split(";"),p=n[h];o<p;o++)m=n[o][f](b),m+1&&(e=l+unescape(n[o][g](m+b[h])));a+=k+"_t="+ +(new Date)+k+"c="+(c.characterSet||c.defaultCharset||"")+"&c8="+r(c.title)+e+"&c7="+r(c.URL)+"&c9="+r(c.referrer),a[h]>i&&a[f](l)>0&&(j=a[g](0,i-8).lastIndexOf(l),a=(a[g](0,j)+k+"cut="+r(a[g](j+1)))[g](0,i)),c.images?(m=new Image,q.ns_p||(ns_p=m),m.src=a):c.write("<","p","><",'img src="',a,'" height="1" width="1" alt="*"',"><","/p",">")}
+		udm_('http'+(document.location.href.charAt(4)=='s'?'s://sb':'://b')+'.scorecardresearch.com/b?c1=2&c2=6906409&ns_site=clarin&name=elecciones-2013.mapa');
+		// ]]>
+	</script>
+	<noscript><p><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6906409&amp;ns_site=clarin&amp;name=elecciones-2013.mapa" height="1" width="1" alt="*"></p></noscript>
+		<!-- End comScore Inline Tag -->	
+	<!-- /DAX tag -->
+	<!-- Google Analytics tag -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-4436008-9']);
+		_gaq.push(['_setAllowAnchor', true]);
+		_gaq.push(['_trackPageview']);
+		_gaq.push(['_trackPageLoadTime']);
+		(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+	<!-- /Google Analytics tag -->
+
+</body>
+	
+</html>
