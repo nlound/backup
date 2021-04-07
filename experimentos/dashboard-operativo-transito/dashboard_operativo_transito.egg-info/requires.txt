@@ -1,4 +1,4 @@
-bottle==0.12.8
+bottle==0.12.19
 gevent==1.1b1
 gevent-socketio==0.3.5
 requests==2.20.0
